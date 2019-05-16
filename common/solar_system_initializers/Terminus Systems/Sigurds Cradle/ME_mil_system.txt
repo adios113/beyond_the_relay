@@ -1,0 +1,71 @@
+mil_system = {
+	name = "Mil"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "mil_hyperlane"
+    }
+
+    flags = {
+        mil_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 130
+    }
+
+    planet = {
+		name = "Mil"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Akraia"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 45
+		size = 9
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Lisir"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = 90
+		size = 14
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Chalkhos"
+		class = "pc_arid"
+		orbit_distance = 40
+		orbit_angle = 180
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Selvos"
+		class = "pc_tropical"
+		orbit_distance = 0
+		orbit_angle = -10
+		size = 18
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Terapso"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = -90
+		size = 26
+		has_ring = no
+	}	
+}

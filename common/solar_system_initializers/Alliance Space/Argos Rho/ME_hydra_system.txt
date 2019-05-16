@@ -1,0 +1,66 @@
+hydra_system = {
+	name = "Hydra"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "hydra_hyperlane"
+    }
+
+    flags = {
+        hydra_system
+    }
+
+    planet = {
+		name = "Hydra"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Varmalus"
+		class = "pc_arid"
+		orbit_distance = 60
+		orbit_angle = 200
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Metgos"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = -120
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Theyar"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 32
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Canrum"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = 30
+		size = 12
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Syba"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -100
+		size = 30
+		has_ring = no
+	}
+}

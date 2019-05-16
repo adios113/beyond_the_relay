@@ -1,0 +1,67 @@
+strenuus_system = {
+	name = "Strenuus"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "strenuus_hyperlane"
+    }
+
+    flags = {
+        strenuus_system
+    }
+
+    planet = {
+		name = "Strenuus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Yunthori"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 20
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Anitarra"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 160
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Trelyn"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 50
+		size = 24
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Xawin"
+		class = "pc_barren_cold"
+		orbit_distance = 10
+		orbit_angle = 100
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Thesalgon"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = -80
+		size = 30
+		has_ring = no
+	}
+	
+}

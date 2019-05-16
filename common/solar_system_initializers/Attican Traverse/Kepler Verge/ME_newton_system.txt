@@ -1,0 +1,56 @@
+newton_system = {
+	name = "Newton"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "newton_relay_system"
+    }
+
+    flags = {
+        newton_system
+    }
+
+    planet = {
+		name = "Newton"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 32
+		has_ring = no
+	}
+
+	planet = {
+		name = "Ontarom"
+		class = "pc_savannah"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+	}
+	planet = {
+		name = "Klencory"
+		class = "pc_frozen"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 21
+		has_ring = no
+	}
+	planet = {
+		name = "Juncro"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 33
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Sesmose"
+		class = "pc_frozen"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 9
+		has_ring = no
+	}
+
+}

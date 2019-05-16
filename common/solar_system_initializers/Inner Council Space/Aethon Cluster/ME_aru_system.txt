@@ -1,0 +1,71 @@
+aru_system = {
+	name = "Aru"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "aru_relay_system"
+    }
+
+    flags = {
+        aru_system
+    }
+    
+    asteroid_belt = { 
+            type = rocky_asteroid_belt
+            radius = 150 
+    	}
+
+	planet = {
+		name = "Aru"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 28
+		has_ring = no
+	}
+
+	planet = {
+		name = "Jak Ser"
+		class = "pc_barren"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+	}
+	planet = {
+		name = "Irune"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 26
+		has_ring = no
+	}
+	planet = {
+		name = "Locil"
+		class = "pc_gas_giant"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 32
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Cherk Sab"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 29
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Doldit"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

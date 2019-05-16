@@ -1,0 +1,72 @@
+ialessa_system = {
+	name = "Ialessa"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "ialessa_hyperlane"
+    }
+
+    flags = {
+        ialessa_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 70
+    }
+
+    planet = {
+		name = "Ialessa"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Ilmnos"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = -120
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Sanves"
+		class = "pc_continental"
+		orbit_distance = 30
+		orbit_angle = 130
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Zylium"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 110
+		size = 26
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Trikalon"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -90
+		size = 9
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Nossia"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 20
+		has_ring = no
+	}
+
+}

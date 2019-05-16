@@ -1,0 +1,51 @@
+maskim_system = {
+	name = "Maskim Xul"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "maskim_relay_system"
+    }
+
+    flags = {
+        maskim_system
+    }
+
+    planet = {
+		name = "Maskim Xul"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Suen"
+		class = "pc_arid"
+		orbit_distance = 30
+		orbit_angle = -150
+		size = 10
+		has_ring = no
+		
+		flags = { planet_suen }
+		
+	}	
+	
+	planet = {
+		name =  "Kashshaptu"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = -170
+		size = 10
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Damkianna"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -100
+		size = 24
+		has_ring = no
+	}	
+}

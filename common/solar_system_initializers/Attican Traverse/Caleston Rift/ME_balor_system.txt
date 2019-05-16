@@ -1,0 +1,67 @@
+balor_system = {
+	name = "Balor"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "balor_relay_system"
+    }
+
+    flags = {
+        balor_system
+    }
+
+    planet = {
+		name = "Balor"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+
+	planet = {
+		name =  "Cernunnos"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+		
+		moon = {
+			name = "Caleston"
+			class = "pc_molten"
+			size = 16
+			orbit_distance = 12
+			orbit_angle = 90
+			has_ring = no
+			entity = "molten_planet"
+		}
+	}
+		
+	planet = {
+		name =  "Bres"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 240
+		size = 10
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Elatha"
+		class = "pc_barren_cold"
+		orbit_distance = 27
+		orbit_angle = 140
+		size = 14
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Partholon"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 47
+		size = 14
+		has_ring = no
+	}	
+}

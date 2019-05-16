@@ -1,0 +1,66 @@
+esori_system = {
+	name = "Esori"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "esori_hyperlane"
+    }
+
+    flags = {
+        esori_system
+    }
+
+    planet = {
+		name = "Esori"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+
+    planet = {
+		name = "Mola"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = { min = 1 max = 350 }
+		size = 14
+		has_ring = no
+    }
+
+    planet = {
+		name = "Atos Irn"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = { min = 1 max = 350 }
+		size = 15
+		has_ring = no
+    }
+
+    planet = {
+		name = "Yan Tao"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 22
+		has_ring = no
+    }
+
+    planet = {
+		name = "Kailo"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = { min = 1 max = 350 }
+		size = 22
+		has_ring = no
+    }
+
+    planet = {
+		name = "Solu Paolis"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 28
+		has_ring = no
+    }
+}

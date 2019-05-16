@@ -1,0 +1,78 @@
+aralakh_system = {
+	name = "Aralakh"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "aralakh_relay_system"
+    }
+
+    flags = {
+        aralakh_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 220 
+    }
+
+    planet = {
+		name = "Aralakh"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 32
+		has_ring = no
+	}
+
+	planet = {
+		name = "Durak"
+		class = "pc_molten"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+	}
+	planet = {
+		name = "Kanin"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+	}
+	planet = {
+		name = "Kruban"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+	}
+	planet = {
+		name = "Tuchanka"
+		class = "pc_nuked"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Ruam"
+		class = "pc_gas_giant"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 35
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Vaul"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 39
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

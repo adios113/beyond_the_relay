@@ -1,0 +1,58 @@
+hercules_system = {
+	name = "Hercules"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "hercules_relay_system"
+    }
+
+    flags = {
+        hercules_system
+    }
+
+    planet = {
+		name = "Hercules"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Xathorron"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = -20
+		size = 11
+		has_ring = no
+	}
+		
+	planet = {
+		name =  "Syided"
+		class = "pc_molten"
+		orbit_distance = 35
+		orbit_angle = 160
+		size = 10
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Eletania"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 60
+		size = 27
+		has_ring = yes
+	}
+		
+	planet = {
+		name =  "Zatorus"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 30
+		size = 24
+		has_ring = no
+	}	
+
+}

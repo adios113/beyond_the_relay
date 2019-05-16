@@ -1,0 +1,66 @@
+kriseroi_system = {
+	name = "Kriseroi"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "kriseroi_hyperlane"
+    }
+
+    flags = {
+        kriseroi_system
+    }
+
+    planet = {
+		name = "Kriseroi"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Neidus"
+		class = "pc_tundra"
+		orbit_distance = 20
+		orbit_angle = -170
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Theonax"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = -135
+		size = 15
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Uzin"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -90
+		size = 26
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Geus"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = -100
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Tenoth"
+		class = "pc_barren_cold"
+		orbit_distance = 70
+		orbit_angle = 20
+		size = 8
+		has_ring = no
+	}
+}	

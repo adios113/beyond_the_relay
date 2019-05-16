@@ -1,0 +1,66 @@
+hong_system = {
+	name = "Hong"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "hong_hyperlane"
+    }
+
+    flags = {
+        hong_system
+    }
+
+    planet = {
+		name = "Hong"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+
+    planet = {
+		name = "Pomal"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 19
+		has_ring = no
+    }
+
+    planet = {
+		name = "Casbin"
+		class = "pc_continental"
+		orbit_distance = 50
+		orbit_angle = { min = 1 max = 350 }
+		size = 18
+		has_ring = no
+    }
+
+    planet = {
+		name = "Matar"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 12
+		has_ring = no
+    }
+
+    planet = {
+		name = "Theshaca"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 36
+		has_ring = no
+    }
+
+    planet = {
+		name = "Treagir"
+		class = "pc_frozen"
+		orbit_distance = 20
+		orbit_angle = { min = 1 max = 350 }
+		size = 5
+		has_ring = no
+    }
+}

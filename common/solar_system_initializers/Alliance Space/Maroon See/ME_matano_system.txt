@@ -1,0 +1,76 @@
+matano_system = {
+	name = "Matano"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "matano_hyperlane"
+    }
+
+    flags = {
+        matano_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 80
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 150
+    }
+
+    planet = {
+		name = "Matano"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Inti"
+		class = "pc_molten"
+		orbit_distance = 60
+		orbit_angle = 180
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Chasca"
+		class = "pc_barren"
+		orbit_distance = 10
+		orbit_angle = -110
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Apo"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = 40
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ilapa"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -110
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Supay"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -120
+		size = 11
+		has_ring = no
+	}
+}

@@ -1,0 +1,40 @@
+caestus_system = {
+	name = "Caestus"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "caestus_hyperlane"
+    }
+
+    flags = {
+        caestus_system
+    }
+
+    planet = {
+		name = "Caestus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 29
+		has_ring = no
+    }
+
+    planet = {
+		name = "Invictus"
+		class = "pc_savannah"
+		orbit_distance = 10
+		orbit_angle = { min = 1 max = 350 }
+		size = 15
+		has_ring = no
+    }
+
+
+    planet = {
+		name = "Temerarus"
+		class = "pc_toxic"
+		orbit_distance = 10
+		orbit_angle = { min = 1 max = 350 }
+		size = 7
+		has_ring = no
+    }
+}

@@ -1,0 +1,62 @@
+arcturus_system = {
+	name = "Arcturus"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "arcturus_relay_system"
+    }
+
+    flags = {
+        arcturus_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 60
+    }
+
+    planet = {
+		name = "Arcturus"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 22
+		has_ring = no
+	}
+
+	planet = {
+		name = "Alcyoneus"
+		class = "pc_asteroid"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 6
+		has_ring = no
+	}
+	planet = {
+		name = "Themis"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = { min = 90 max = 270 }
+		size = 36
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Eirene"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 33
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Eunomia"
+		class = "pc_frozen"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+	}
+
+}

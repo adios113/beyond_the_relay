@@ -1,0 +1,20 @@
+raheel_system = {
+	name = "Raheel-Leyya"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "raheel_relay_system"
+    }
+
+    flags = {
+        raheel_system
+    }
+    planet = {
+		name = "Raheel"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 60
+		has_ring = no
+	}
+}

@@ -1,0 +1,44 @@
+loropi_system = {
+	name = "Loropi"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "loropi_hyperlane"
+    }
+
+    flags = {
+        loropi_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 150
+    }
+
+    planet = {
+		name = "Loropi"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 60
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Paphos"
+		class = "pc_gas_giant"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 36
+		change_orbit = 8
+		has_ring = yes
+	}
+	planet = {
+		name = "Yasilium"
+		class = "pc_barren_cold"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 6
+		has_ring = no
+	}
+}

@@ -1,0 +1,38 @@
+decoris_system = {
+	name = "Decoris"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "decoris_hyperlane"
+    }
+
+    flags = {
+        decoris_system
+    }
+
+    planet = {
+		name = "Decoris"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Laena"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 45
+		size = 16
+		has_ring = no
+	}	
+	planet = {
+		name =  "Sanctum"
+		class = "pc_barren_cold"
+		orbit_distance = 60
+		orbit_angle = 180
+		size = 17
+		has_ring = no
+	}	
+}

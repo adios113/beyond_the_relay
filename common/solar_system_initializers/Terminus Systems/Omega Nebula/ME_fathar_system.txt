@@ -1,0 +1,48 @@
+fathar_system = {
+	name = "Fathar"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "fathar_hyperlane"
+    }
+
+    flags = {
+        fathar_system
+    }
+
+    planet = {
+		name = "Fathar"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Lorek"
+		class = "pc_desert"
+		orbit_distance = 30
+		orbit_angle = 130
+		size = 16
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Korar"
+		class = "pc_barren"
+		orbit_distance = 10
+		orbit_angle = -100
+		size = 6
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Dorgal"
+		class = "pc_barren_cold"
+		orbit_distance = 60
+		orbit_angle = -100
+		size = 14
+		has_ring = no	
+	}
+}

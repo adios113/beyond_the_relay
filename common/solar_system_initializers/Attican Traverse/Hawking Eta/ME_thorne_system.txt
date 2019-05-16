@@ -1,0 +1,47 @@
+##BINARY STAR SYSTEM!!!
+
+thorne_system = {
+	name = "Thorne"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "thorne_hyperlane"
+    }
+
+    flags = {
+        thorne_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 20
+    }
+
+    planet = {
+		name =  "Thorne"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 26
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Mnemosyne"
+		class = "pc_m_star"
+		orbit_distance = 40
+		orbit_angle = -70
+		size = 10
+		has_ring = no
+
+		moon = {
+			name =  "Lethe"
+			class = "pc_barren"
+			orbit_distance = 12
+			orbit_angle = 90
+			size = 6
+			has_ring = no
+
+		}
+	}
+}

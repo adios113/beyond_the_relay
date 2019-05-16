@@ -1,0 +1,30 @@
+qertassi_system = {
+	name = "Qertassi"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "qertassi_hyperlane"
+    }
+
+    flags = {
+        qertassi_system
+    }
+
+    planet = {
+		name = "Qertassi"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 50
+		has_ring = no
+    }
+
+    planet = {
+		name = "Norehsa"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = { min = 1 max = 350 }
+		size = 32
+		has_ring = no
+    }
+}

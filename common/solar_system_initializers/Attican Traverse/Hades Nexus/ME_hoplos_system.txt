@@ -1,0 +1,64 @@
+hoplos_system = {
+	name = "Hoplos"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "hoplos_hyperlane"
+    }
+
+    flags = {
+        hoplos_system
+    }
+
+    planet = {
+		name = "Hoplos"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Talaria"
+		class = "pc_toxic"
+		orbit_distance = 10
+		orbit_angle = { min = 1 max = 350 }
+		size = 7
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Makhaira"
+		class = "pc_toxic"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 12
+        has_ring = no
+        moon = {
+			name = "Kopis"
+			class = "pc_barren"
+			orbit_distance = 6
+			orbit_angle = { min = 1 max = 350 }
+			size = 8
+		}
+    }
+    
+    planet = {
+		name = "Trident"
+		class = "pc_ocean"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 18
+		has_ring = no
+    }
+
+    planet = {
+		name = "Trident"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 26
+		has_ring = yes
+    }
+}

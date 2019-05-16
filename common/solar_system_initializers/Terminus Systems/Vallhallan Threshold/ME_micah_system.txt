@@ -1,0 +1,49 @@
+micah_system = {
+	name = "Micah"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "micah_hyperlane"
+    }
+
+    flags = {
+        micah_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 120
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 140
+    }
+
+    planet = {
+		name = "Micah"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Elohi"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 80
+		size = 20
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Dumah"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 100
+		size = 22
+		has_ring = no
+	}	
+}

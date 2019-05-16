@@ -1,0 +1,67 @@
+thal_system = {
+	name = "Thal"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "thal_hyperlane"
+    }
+
+    flags = {
+        thal_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 140
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 220
+    }
+
+    planet = {
+		name = "Thal"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Garan"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 45
+		size = 19
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Sarait"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = -135
+		size = 19
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Altakiril"
+		class = "pc_arctic"
+		orbit_distance = 50
+		orbit_angle = -135
+		size = 12
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Xerceo"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = 75
+		size = 28
+		has_ring = yes	
+	}
+}

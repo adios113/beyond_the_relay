@@ -1,0 +1,57 @@
+orisoni_system = {
+	name = "Orisoni"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "orisoni_hyperlane"
+    }
+
+    flags = {
+        orisoni_system
+    }
+
+    planet = {
+		name = "Orisoni"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Thissoni"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = -80
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Niacal"
+		class = "pc_tropical"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 23
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Kralla"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -60
+		size = 13
+		has_ring = no
+	}
+	planet = {
+		name =  "Egalic"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 160
+		size = 30
+		has_ring = yes
+	}
+
+}

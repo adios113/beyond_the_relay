@@ -1,0 +1,56 @@
+zaherin_system = {
+	name = "Zaherin"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "zaherin_hyperlane"
+    }
+
+    flags = {
+        zaherin_system
+    }
+    planet = {
+		name = "Zaherin"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Ehstag"
+		class = "pc_molten"
+		orbit_distance = 25
+		orbit_angle = 140
+		size = 17
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Namakli"
+		class = "pc_arid"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 22
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Azrahas"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = 140
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Rotesk"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 110
+		size = 22
+		has_ring = yes
+	}	
+}

@@ -1,0 +1,77 @@
+sparta_system = {
+	name = "Sparta"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "sparta_hyperlane"
+    }
+
+    flags = {
+        euler_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 50
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 140
+    }
+
+    planet = {
+		name = "Sparta"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Tremanre"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = -60
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Edolus"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = -120
+		size = 22
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Altaaya"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = -140
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ontamalca"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 150
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Alsages"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = 90
+		size = 12
+		has_ring = no
+	}
+
+}

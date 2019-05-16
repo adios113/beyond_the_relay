@@ -1,0 +1,48 @@
+urla_rast_system = {
+	name = "Urla Rast"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "urla_rast_hyperlane"
+    }
+
+    flags = {
+        urla_rast_system
+    }
+
+    planet = {
+		name = "Urla Rast"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Bovis Tor"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 17
+		has_ring = no	
+	}
+
+	planet = {
+		name =  "Sarait"
+		class = "pc_toxic"
+		orbit_distance = 50
+		orbit_angle = 110
+		size = 19
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Altakiril"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 50
+		size = 24
+		has_ring = no	
+	}
+}

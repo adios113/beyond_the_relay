@@ -1,0 +1,48 @@
+kairamavori_system = {
+	name = "Kairavamori"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "kairavamori_hyperlane"
+    }
+
+    flags = {
+        kairavamori_system
+    }
+
+    planet = {
+		name = "Kairavamori"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Sehtor"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = -180
+		size = 14
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Vatar"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 30
+		size = 16
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Uwan Oche"
+		class = "pc_barren_cold"
+		orbit_distance = 80
+		orbit_angle = 170
+		size = 17
+		has_ring = no	
+	}
+}

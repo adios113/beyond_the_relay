@@ -1,0 +1,8 @@
+# Triggers when the game starts
+on_game_start = {
+	events = {
+        me_hyperlane.1 ## remove all/random hyperlanes
+        me_hyperlane.2 ## mass relays hyperlanes
+        me_hyperlane.3 ## local hyperlanes
+	}
+}

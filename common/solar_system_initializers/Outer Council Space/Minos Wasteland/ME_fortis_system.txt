@@ -1,0 +1,47 @@
+fortis_system = {
+	name = "Fortis"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "fortis_relay_system"
+    }
+
+    flags = {
+        fortis_system
+    }
+
+    planet = {
+		name = "Fortis"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Vir"
+		class = "pc_barren"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+	}
+	planet = {
+		name = "Pietas"
+		class = "pc_savannah"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+	}
+	planet = {
+		name = "Aequitas"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 21
+		has_ring = no
+	}
+
+}

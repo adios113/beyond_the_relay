@@ -1,0 +1,57 @@
+vamshi_system = {
+	name = "Vamshi A"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "vamshi_hyperlane"
+    }
+
+    flags = {
+        vamshi_system
+    }
+
+    planet = {
+		name = "Vamshi A"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 10
+		has_ring = no
+    }
+
+    planet = {
+		name = "Vamshi B"
+		class = "pc_m_star"
+		orbit_distance = 20
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+
+    planet = {
+		name = "Maji"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = { min = 1 max = 350 }
+		size = 16
+		has_ring = no
+    }
+
+    planet = {
+		name = "Pregel"
+		class = "pc_toxic"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 20
+		has_ring = no
+    }
+
+    planet = {
+		name = "Almos"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = { min = 1 max = 350 }
+		size = 40
+		has_ring = no
+    }
+}

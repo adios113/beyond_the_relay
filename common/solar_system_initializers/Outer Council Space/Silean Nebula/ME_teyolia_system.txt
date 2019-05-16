@@ -1,0 +1,75 @@
+teyolia_system = {
+	name = "Teyolia"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "teyolia_hyperlane"
+    }
+
+    flags = {
+        teyolia_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 150
+    }
+
+    planet = {
+		name = "Teyolia"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 32
+		has_ring = no
+	}
+
+	planet = {
+		name = "Loxia"
+		class = "pc_savannah"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 6
+		has_ring = no
+	}
+	planet = {
+		name = "Nevos"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+		moon = {
+			name = "Basal"
+			class = "pc_barren_cold"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 4
+		}
+		moon = {
+			name = "Gorlin"
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+			size = 3
+		}
+	}
+	planet = {
+		name = "Quirezia"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 34
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Atebolos"
+		class = "pc_barren_cold"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+	}
+
+}

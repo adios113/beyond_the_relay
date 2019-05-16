@@ -1,0 +1,48 @@
+verr_system = {
+	name = "Verr"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "verr_hyperlane"
+    }
+
+    flags = {
+        verr_system
+    }
+    
+    planet = {
+		name =  "Verr"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Corang"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 11
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Allusah"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 140
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Serao"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 80
+		size = 25
+		has_ring = no
+	}
+}

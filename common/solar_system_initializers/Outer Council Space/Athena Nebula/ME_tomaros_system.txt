@@ -1,0 +1,57 @@
+tomaros_system = {
+	name = "Tomaros"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "tomaros_hyperlane"
+    }
+
+    flags = {
+        tomaros_system
+    }
+
+    planet = {
+		name = "Tomaros"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	planet = {
+		name =  "Lusia"
+		class = "pc_continental"
+		orbit_distance = 40
+		orbit_angle = 70
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Niagolon"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 140
+		size = 24
+		has_ring = yes
+	}
+	
+	planet = {
+		name =  "Pronoia"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 170
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Beness"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 100
+		size = 23
+		has_ring = no
+	}
+
+}

@@ -1,0 +1,72 @@
+vetus_system = {
+	name = "Vetus"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "vetus_relay_system"
+    }
+
+    flags = {
+        vetus_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 130
+    }
+
+    planet = {
+		name = "Vetus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 24
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Tyre"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 80
+		size = 9
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Elysium"
+		class = "pc_tundra"
+		orbit_distance = 20
+		orbit_angle = -140
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Sidon"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -170
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Joppa"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 90
+		size = 25
+		has_ring = yes
+	}
+	
+	planet = {
+		name = "Gilead"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 110
+		size = 7
+		has_ring = no
+	}
+
+}

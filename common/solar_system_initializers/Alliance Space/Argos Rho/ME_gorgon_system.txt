@@ -1,0 +1,65 @@
+gorgon_system = {
+	name = "Gorgon"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "gorgon_relay_system"
+    }
+
+    flags = {
+        gorgon_system
+    }
+    planet = {
+		name = "Gorgon"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Wuo"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = -80
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Vectra"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 140
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Camaron"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 50
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Sharblu"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 140
+		size = 22
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Slekon"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 130
+		size = 35
+		has_ring = yes
+	}
+}

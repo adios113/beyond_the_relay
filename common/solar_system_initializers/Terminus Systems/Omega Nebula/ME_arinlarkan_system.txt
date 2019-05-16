@@ -1,0 +1,35 @@
+arinlarkan_system = {
+	name = "Arinlarkan"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "arinlarkan_hyperlane"
+    }
+
+    flags = {
+        arinlarkan_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 20
+    }
+
+    planet = {
+		name = "Arinlarkan"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Utha"
+		class = "pc_ocean"
+		orbit_distance = 100
+		orbit_angle = 40
+		size = 19
+		has_ring = no	
+	}
+}

@@ -1,0 +1,110 @@
+aysur_system = {
+	name = "Aysur"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "aysur_hyperlane"
+    }
+
+    flags = {
+        aysur_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 110
+    }
+
+    planet = {
+		name = "Aysur"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Agnin"
+		class = "pc_toxic"
+		orbit_distance = 40
+		orbit_angle = 180
+		size = 9
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Shasu"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 100
+		size = 9
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Dranen"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 80
+		size = 20
+		has_ring = no
+		
+		moon = {
+			name = "Arvuna"
+			class = "pc_ocean"
+			size = 10
+			orbit_distance = 12
+			orbit_angle = 90
+			has_ring = no
+		}
+		
+		moon = {
+			name = "Alahya"
+			class = "pc_barren"
+			size = 9
+			orbit_distance = 4
+			orbit_angle = 70
+			has_ring = no
+
+		}
+	}
+	
+	planet = {
+		name = "Mahavid"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -110
+		size = 5
+		has_ring = no
+	}
+	
+	
+	planet = {
+		name = "Alformus"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 34
+		size = 23
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Shir"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -80
+		size = 12
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Tamgauta"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 96
+		size = 10
+		has_ring = no
+	}
+	
+}

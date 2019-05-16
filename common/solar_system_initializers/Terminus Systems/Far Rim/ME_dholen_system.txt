@@ -1,0 +1,69 @@
+dholen_system = {
+	name = "Dholen"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "dholen_relay_system"
+    }
+
+    flags = {
+        dholen_system
+    }
+
+    planet = {
+		name = "Dholen"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 45
+		has_ring = no
+	}
+
+	planet = {
+		name = "Gotha"
+		class = "pc_molten"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 8
+		has_ring = no
+	}
+	planet = {
+		name = "Charoum"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 28
+		change_orbit = 5
+		has_ring = no
+		moon = {
+			name = "Charoum II"
+			class = "pc_barren"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 5
+		}
+		moon = {
+			name = "Charoum IX"
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+			size = 5
+		}
+		moon = {
+			name = "Charoum XIX"
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+			size = 6
+		}
+	}
+	planet = {
+		name = "Haestrom"
+		class = "pc_savannah"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+	}
+
+}

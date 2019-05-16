@@ -1,0 +1,32 @@
+widow_system = {
+	name = "Widow"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "widow_relay_system"
+    }
+
+    flags = {
+        widow_system
+        citadel_system
+    }
+    
+    planet = {
+		name = "Widow"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+
+	planet = {
+		name = "Citadel"
+		class = "pc_asteroid"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 5
+		has_ring = no
+	}
+
+}

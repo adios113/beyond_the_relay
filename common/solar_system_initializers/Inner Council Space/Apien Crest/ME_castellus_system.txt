@@ -1,0 +1,76 @@
+castellus_system = {
+	name = "Castellus"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "castellus_hyperlane"
+    }
+
+    flags = {
+        castellus_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 170
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 210
+    }
+
+    planet = {
+		name = "Castellus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Carborix"
+		class = "pc_molten"
+		orbit_distance = 40
+		size = 10
+		has_ring = no
+		orbit_angle = 110
+	}
+	
+	planet = {
+		name = "Nios"
+		class = "pc_molten"
+		orbit_distance = 30
+		size = 10
+		has_ring = no
+		orbit_angle = -130
+	}
+	
+	planet = {
+		name = "Digeris"
+		class = "pc_tropical"
+		orbit_distance = 40
+		size = 12
+		has_ring = no
+		orbit_angle = -90
+	}
+	
+	planet = {
+		name = "Flax"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		size = 17
+		has_ring = no
+		orbit_angle = 120
+	}
+	
+	planet = {
+		name = "Iritum"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		size = 17
+		has_ring = yes
+		orbit_angle = 110
+	}
+}

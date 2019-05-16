@@ -1,0 +1,5 @@
+music = {
+	name = "maintheme4"
+	file = "me1_theme.ogg"
+	volume = 0.82
+}

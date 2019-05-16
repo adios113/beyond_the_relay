@@ -1,0 +1,48 @@
+psi_tophet_system = {
+	name = "Psi Tophet"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "psi_tophet_hyperlane"
+    }
+
+    flags = {
+        psi_tophet_system
+    }
+
+    planet = {
+		name = "Psi Tophet"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "2181 Despoina"
+		class = "pc_ocean"
+		orbit_distance = 50
+		orbit_angle = 135
+		size = 18
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "2181 Arion"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = 45
+		size = 14
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "2181 Eubolos"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 129
+		size = 28
+		has_ring = yes
+	}	
+}

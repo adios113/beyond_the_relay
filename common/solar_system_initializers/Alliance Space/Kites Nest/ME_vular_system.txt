@@ -1,0 +1,63 @@
+vular_system = {
+	name = "Vular"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "vular_hyperlane"
+    }
+
+    flags = {
+        vular_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 40
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 80
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 140
+    }
+
+    planet = {
+		name = "Vular"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Erszbat"
+		class = "pc_tropical"
+		orbit_distance = 20
+		orbit_angle = 170
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Azimir"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -110
+		size = 26
+		has_ring = yes
+	}
+	
+	planet = {
+		name = "Vana"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -90
+		size = 13
+		has_ring = no
+	}
+}

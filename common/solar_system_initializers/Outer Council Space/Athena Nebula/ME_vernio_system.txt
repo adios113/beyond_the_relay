@@ -1,0 +1,72 @@
+vernio_system = {
+	name = "Vernio"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "vernio_hyperlane"
+    }
+
+    flags = {
+        vernio_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 70
+    }
+
+    planet = {
+		name = "Vernio"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Nauti"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Promavess"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = -80
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Sotera"
+		class = "pc_molten"
+		orbit_distance = 0
+		orbit_angle = -50
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Tritogenith"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = -100
+		size = 26
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Polissa"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -130
+		size = 26
+		has_ring = yes
+	}
+
+}

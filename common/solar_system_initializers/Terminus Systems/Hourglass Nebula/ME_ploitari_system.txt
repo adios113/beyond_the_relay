@@ -1,0 +1,57 @@
+ploitari_system = {
+	name = "Ploitari"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "ploitari_hyperlane"
+    }
+
+    flags = {
+        ploitari_system
+    }
+    
+    planet = {
+		name = "Plotari"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Aigela"
+		class = "pc_molten"
+		orbit_distance = 50
+		orbit_angle = 180
+		size = 7
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Zanethu"
+		class = "pc_continental"
+		orbit_distance = 60
+		orbit_angle = 45
+		size = 18
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Synalus"
+		class = "pc_barren"
+		orbit_distance = 10
+		orbit_angle = 45
+		size = 15
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Thegan"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 135
+		size = 12
+		has_ring = no
+	}	
+}

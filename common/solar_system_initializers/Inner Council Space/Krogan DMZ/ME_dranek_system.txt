@@ -1,0 +1,57 @@
+dranek_system = {
+	name = "Dranek"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "dranek_hyperlane"
+    }
+
+    flags = {
+        dranek_system
+    }
+
+    planet = {
+		name = "Dranek"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 23
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Kelim"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 150
+		size = 13
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Dor"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 26
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Sazgoth"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = -150
+		size = 11
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Rothla"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = -70
+		size = 14
+		has_ring = no	
+	}
+}

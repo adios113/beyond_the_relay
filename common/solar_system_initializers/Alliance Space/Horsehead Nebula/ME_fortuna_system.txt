@@ -1,0 +1,59 @@
+fortuna_system = {
+	name = "Fortuna"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "fortuna_hyperlane"
+    }
+
+    flags = {
+        fortuna_system
+    }
+
+    planet = {
+		name = "Fortuna"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Maganlis"
+		class = "pc_toxic"
+		orbit_distance = 50
+		size = 13
+		has_ring = no
+		orbit_angle = -80
+	}
+	
+	planet = {
+		name = "Therumlon"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		size = 13
+		has_ring = no
+		orbit_angle = 130
+	}
+	
+	planet = {
+		name = "Amaranthine"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		size = 16
+		has_ring = no
+		orbit_angle = 170
+	}
+	
+	planet = {
+		name = "Wentania"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		size = 13
+		has_ring = no
+		orbit_angle = 100
+	}
+
+}
+

@@ -1,0 +1,54 @@
+ming_system = {
+	name = "Ming"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "ming_hyperlane"
+    }
+
+    flags = {
+        ming_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 170
+    }
+
+    planet = {
+		name = "Ming"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Antioprus"
+		class = "pc_molten"
+		orbit_distance = 70
+		orbit_angle = -40
+		size = 12
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Parag"
+		class = "pc_gas_giant"
+		orbit_distance = 80
+		orbit_angle = -100
+		size = 28
+		has_ring = yes
+	}	
+	
+	
+	planet = {
+		name =  "Altanorch"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 40
+		size = 10
+		has_ring = no
+    }
+}

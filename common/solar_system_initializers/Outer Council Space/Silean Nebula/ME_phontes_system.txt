@@ -1,0 +1,75 @@
+phontes_system = {
+	name = "Phontes"
+	class = "sc_a"
+	max_instances = 1
+	usage = custom_empire
+    init_effect = {
+		save_global_event_target_as = "phontes_hyperlane"
+		generate_home_system_resources = yes
+    }
+
+    flags = {
+        phontes_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 185
+    }
+
+    planet = {
+		name = "Phontes"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Lenuamund"
+		class = "pc_molten"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Dekuuna"
+		class = "pc_tropical"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		starting_planet = yes
+		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			generate_empire_home_planet = yes
+		}
+		moon = {
+			name = "Oltan"
+			class = "pc_barren_cold"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 4
+		}
+	}
+	planet = {
+		name = "Telluune"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Sangel"
+		class = "pc_gas_giant"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 38
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

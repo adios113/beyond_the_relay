@@ -1,0 +1,21 @@
+gemmae_system = {
+	name = "Gemmae"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "gemmae_hyperlane"
+    }
+
+    flags = {
+        gemmae_system
+    }
+
+    planet = {
+		name = "Gemmae"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 100
+		has_ring = no
+	}
+}

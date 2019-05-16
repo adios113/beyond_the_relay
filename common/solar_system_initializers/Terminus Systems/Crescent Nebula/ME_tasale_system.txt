@@ -1,0 +1,78 @@
+tasale_system = {
+	name = "Tasale"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "tasale_relay_system"
+    }
+
+    flags = {
+        tasale_system
+    }
+
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 220
+    }
+
+    planet = {
+		name = "Tasale"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Beregale"
+		class = "pc_toxic"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Illium"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Ponolus"
+		class = "pc_molten"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+	}
+	planet = {
+		name = "Teukria"
+		class = "pc_asteroid"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 10
+		has_ring = no
+	}
+	planet = {
+		name = "Thail"
+		class = "pc_gas_giant"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 36
+		change_orbit = 8
+	}
+	planet = {
+		name = "Naxell"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

@@ -1,0 +1,441 @@
+### Mass Effect Milky Way Galaxy project by Adriano steamuser/adiospl93
+static_galaxy_scenario = {
+	name = "Mass Effect: Milky Way"
+	colonizable_planet_odds = 1.0
+	priority = 0
+    num_empires = { min = 1 max = 3 }
+    num_empire_default = 1
+	num_hyperlanes = { min = 5 max = 5 }
+	num_hyperlanes_default = 5
+	advanced_empire_default = 0
+	core_radius = 0
+	fallen_empire_default = 0
+	fallen_empire_max = 0
+	random_hyperlanes = yes
+	
+
+	##TERMINUS SYSTEMS
+
+		##GALACTIC CORE
+		system = { id = "0" name = "Tartarus Debris Field" position = { x = { min = 0 max = 0 } y =  { min = 0 max = 0 } } initializer = tartarus_core }
+		
+		
+		##OMEGA NEBULA
+		system = { id = "1" name = "Sahrabarik" position = { x = { min =  13 max =  13 } y =  { min = -264 max = -264 } } initializer = sahrabarik_system }
+			system = { id = "49" name = "Batalla" position = { x = { min =  25 max =  25 } y =  { min = -260 max = -260 } } initializer = batalla_system }
+			system = { id = "50" name = "Fathar" position = { x = { min =  15 max =  15 } y =  { min = -274 max = -274 } } initializer = fathar_system }
+			system = { id = "51" name = "Kairamavori" position = { x = { min =  2 max =  2 } y =  { min = -257 max = -257 } } initializer = kairamavori_system }
+			system = { id = "52" name = "Arinlarkan" position = { x = { min =  4 max =  4 } y =  { min = -259 max = -259 } } initializer = arinlarkan_system }
+			system = { id = "53" name = "Amada" position = { x = { min =  12 max =  12 } y =  { min = -251 max = -251 } } initializer = amada_system }
+
+		##SIGURD'S CRADLE
+		system = { id = "2" name = "Skepsis" position = { x = { min = 0 max = 0 } y =  { min = -365 max = -365 } } initializer = skepsis_system }
+			system = { id = "54" name = "Decoris" position = { x = { min = -10 max = -10 } y =  { min = -376 max = -376 } } initializer = decoris_system }
+			system = { id = "55" name = "Lenal" position = { x = { min = -9 max = -9 } y =  { min = -363 max = -363 } } initializer = lenal_system }
+			system = { id = "56" name = "Mil" position = { x = { min = 9 max = 9 } y =  { min = -370 max = -370 } } initializer = mil_system }
+			system = { id = "57" name = "Psi Tophet" position = { x = { min = 3 max = 3 } y =  { min = -356 max = -356 } } initializer = psi_tophet_system }
+
+
+		##ROSETTA NEBULA
+		system = { id = "3" name = "Enoch" position = { x = { min = -144 max = -144 } y =  { min = -453 max = -453 } } initializer = enoch_system }
+			system = { id = "58" name = "Alpha Draconis" position = { x = { min = -154 max = -154 } y =  { min = -459 max = -459 } } initializer = alpha_draconis_system }
+			system = { id = "59" name = "Phi Clio" position = { x = { min = -144 max = -144 } y =  { min = -466 max = -466 } } initializer = phi_clio_system }
+		
+		##TITAN NEBULA
+		system = { id = "4" name = "Haskins" position = { x = { min =  60 max =  60 } y =  { min = -462 max = -462 } } initializer = haskins_system  spawn_weight = { base = 0 modifier = { add = 100000 } } }
+		
+		##FAR RIM
+		system = { id = "5" name = "Dholen" position = { x = { min = -418 max = -418 } y =  { min = -311 max = -311 } } initializer = dholen_system }
+			system = { id = "60" name = "Ma-at" position = { x = { min = -426 max = -426 } y =  { min = -301 max = -301 } } initializer = maat_system }
+	
+		##VALLHALLAN THRESHOLD
+		system = { id = "6" name = "Raheel-Leyya" position = { x = { min =  236 max =  236 } y =  { min = -426 max = -426 } } initializer = raheel_system }
+			system = { id = "61" name = "Micah" position = { x = { min =  221 max =  221 } y =  { min = -432 max = -432 } } initializer = micah_system }
+			system = { id = "62" name = "Paz" position = { x = { min =  230 max =  230 } y =  { min = -428 max = -428 } } initializer = paz_system }
+
+		##HOURGLASS NEBULA
+		system = { id = "7" name = "Osun" position = { x = { min =  230 max =  230 } y =  { min = -282 max = -282 } } initializer = osun_system }
+			system = { id = "63" name = "Faryar" position = { x = { min =  229 max =  229 } y =  { min = -291 max = -291 } } initializer = faryar_system }
+			system = { id = "64" name = "Ploitari" position = { x = { min =  240 max =  240 } y =  { min = -286 max = -286 } } initializer = ploitari_system }
+			system = { id = "65" name = "Sowilo" position = { x = { min =  234 max =  234 } y =  { min = -299 max = -299 } } initializer = sowilo_system }
+
+		##THE SHRIKE ABYSSAL
+		system = { id = "8" name = "Xe Cha" position = { x = { min =  384 max =  384 } y =  { min = -330 max = -330 } } initializer = xecha_system }
+			system = { id = "66" name = "Kyzil" position = { x = { min =  372 max =  372 } y =  { min = -324 max = -324 } } initializer = kyzil_system }
+			system = { id = "67" name = "Thal" position = { x = { min =  392 max =  392 } y =  { min = -319 max = -319 } } initializer = thal_system }
+			system = { id = "68" name = "Urla Rast" position = { x = { min =  394 max =  394 } y =  { min = -332 max = -332 } } initializer = urla_rast_system }
+
+		##CRESCENT NEBULA	
+		system = { id = "9" name = "Tasale" position = { x = { min =  363 max =  363 } y =  { min = -139 max = -139 } } initializer = tasale_system }
+			system = { id = "69" name = "Lusarn" position = { x = { min =  371 max =  371 } y =  { min = -144 max = -144 } } initializer = lusarn_system }
+			system = { id = "70" name = "Ondeste" position = { x = { min =  377 max =  377 } y =  { min = -149 max = -149 } } initializer = ondeste_system }
+			system = { id = "71" name = "Zelene" position = { x = { min =  366 max =  366 } y =  { min = -131 max = -131 } } initializer = zelene_system }
+
+		
+		##PERSEUS VEIL
+		system = { id = "10" name = "Tikkun" position = { x = { min = -452 max = -452 } y =  { min = -260 max = -260 } } initializer = tikkun spawn_weight = { base = 0 modifier = { add = 100000 } } }
+		
+		##PHOENIX MASSING
+		system = { id = "11" name = "Tassrah" position = { x = { min = -290 max = -290 } y =  { min = -202 max = -202 } } initializer = tassrah_system }
+			system = { id = "72" name = "Chomos" position = { x = { min = -303 max = -303 } y =  { min = -199 max = -199 } } initializer = chomos_system }
+			system = { id = "73" name = "Salahiel" position = { x = { min = -295 max = -295 } y =  { min = -209 max = -209 } } initializer = salahiel_system }
+			system = { id = "74" name = "Sea of Storms" position = { x = { min = -284 max = -284 } y =  { min = -208 max = -208 } } initializer = sea_storms_system }
+			system = { id = "75" name = "Typhon" position = { x = { min = -291 max = -291 } y =  { min = -216 max = -216 } } initializer = typhon_system }
+
+
+	##Outer Council Space
+		
+		##MINOS WASTELAND
+		system = { id = "12" name = "Fortis" position = { x = { min =  432 max =  432 } y =  { min =  56 max =  56 } } initializer = fortis_system }
+			system = { id = "76" name = "Arrae" position = { x = { min =  439 max =  439 } y =  { min =  50 max =  50 } } initializer = arrae_system }
+			system = { id = "77" name = "Caestus" position = { x = { min =  435 max =  435 } y =  { min =  65 max =  65 } } initializer = caestus_system }
+
+		##NIMBUS CLUSTER
+		system = { id = "13" name = "Pelion" position = { x = { min =  455 max =  455 } y =  { min =  144 max =  144 } } initializer = pelion_system }
+			system = { id = "78" name = "Agaiou" position = { x = { min =  464 max =  464 } y =  { min =  143 max =  143 } } initializer = agaiou_system }
+			system = { id = "79" name = "Kallini" position = { x = { min =  449 max =  449 } y =  { min =  135 max =  135 } } initializer = kallini_system }
+			system = { id = "80" name = "Mesana" position = { x = { min =  462 max =  462 } y =  { min =  134 max =  134 } } initializer = mesana_system }
+
+		##ATHENA NEBULA
+		system = { id = "14" name = "Parnitha" position = { x = { min =  369 max =  369 } y =  { min =  157 max =  157 } } initializer = parnitha_system }
+			system = { id = "81" name = "Ialessa" position = { x = { min =  364 max =  364 } y =  { min =  148 max =  148 } } initializer = ialessa_system }
+			system = { id = "82" name = "Orisoni" position = { x = { min =  378 max =  378 } y =  { min =  153 max =  153 } } initializer = orisoni_system }
+			system = { id = "83" name = "Tomaros" position = { x = { min =  377 max =  377 } y =  { min =  166 max =  166 } } initializer = tomaros_system }
+			system = { id = "84" name = "Vernio" position = { x = { min =  360 max =  360 } y =  { min =  155 max =  155 } } initializer = vernio_system }
+
+		##SERPENT NEBULA
+		system = { id = "15" name = "Widow" position = { x = { min =  237 max =  237 } y =  { min =  149 max =  149 } } initializer = widow_system }
+			system = { id = "85" name = "Boltzmann" position = { x = { min =  225 max =  225 } y =  { min =  158 max =  158 } } initializer = boltzmann_system }
+
+		
+		##SILEAN NEBULA
+		system = { id = "16" name = "Kypladon" position = { x = { min =  363 max =  363 } y =  { min =  230 max =  230 } } initializer = kypladon_system }
+			system = { id = "86" name = "Loropi" position = { x = { min =  373 max =  373 } y =  { min =  229 max =  229 } } initializer = loropi_system }
+			system = { id = "87" name = "Nahuala" position = { x = { min =  373 max =  373 } y =  { min =  221 max =  221 } } initializer = nahuala_system }
+			system = { id = "88" name = "Phontes" position = { x = { min =  366 max =  366 } y =  { min =  219 max =  219 } } initializer = phontes_system }
+			system = { id = "89" name = "Teyolia" position = { x = { min =  354 max =  354 } y =  { min =  218 max =  218 } } initializer = teyolia_system }
+
+	
+	
+	##Inner Council Space
+		
+		##KROGAN DMZ
+		system = { id = "17" name = "Aralakh" position = { x = { min =  212 max =  212 } y =  { min =  226 max =  226 } } initializer = aralakh_system }
+			system = { id = "90" name = "Dranek" position = { x = { min =  217 max =  217 } y =  { min =  220 max =  220 } } initializer = dranek_system }
+			system = { id = "91" name = "Nith" position = { x = { min =  228 max =  228 } y =  { min =  227 max =  227 } } initializer = nith_system }
+
+		##ANNOS BASIN
+		system = { id = "18" name = "Pranas" position = { x = { min =  92 max =  92 } y =  { min =  212 max =  212 } } initializer = pranas_system }
+		
+		##APIEN CREST
+		system = { id = "19" name = "Trebia" position = { x = { min =  243 max =  243 } y =  { min =  357 max =  357 } } initializer = trebia_system }
+			system = { id = "92" name = "Castellus" position = { x = { min =  254 max =  254 } y =  { min =  355 max =  355 } } initializer = castellus_system }
+			system = { id = "93" name = "Gemmae" position = { x = { min =  239 max =  239 } y =  { min =  365 max =  365 } } initializer = gemmae_system }
+
+		##AETHON CLUSTER
+		system = { id = "20" name = "Aru" position = { x = { min =  152 max =  152 } y =  { min =  398 max =  398 } } initializer = aru_system }
+			system = { id = "94" name = "Esori" position = { x = { min =  160 max =  160 } y =  { min =  405 max =  405 } } initializer = esori_system }
+			system = { id = "95" name = "Nura" position = { x = { min =  140 max =  140 } y =  { min =  404 max =  404 } } initializer = nura_system }
+			system = { id = "96" name = "Satu Arrd" position = { x = { min =  164 max =  164 } y =  { min =  415 max =  415 } } initializer = satu_arrd_system }
+
+	##Earth Alliance Space	
+		
+		##Local Cluster
+		system = { id = "21" name = "Sol" position = { x = { min =  40 max =  40 } y =  { min =  334 max =  334 } } initializer = sol_system }
+		
+		##ARCTURUS STREAM
+		system = { id = "22" name = "Arcturus" position = { x = { min = 0 max = 0 } y =  { min =  343 max =  343 } } initializer = arcturus_system }
+			system = { id = "97" name = "Euler" position = { x = { min = 11 max = 11 } y =  { min =  341 max =  341 } } initializer = euler_system }
+
+		##HORSE HEAD NEBULA
+		system = { id = "23" name = "Pax" position = { x = { min = -40 max = -40 } y =  { min =  223 max =  223 } } initializer = pax_system }
+			system = { id = "98" name = "Anadius" position = { x = { min = -48 max = -48 } y =  { min =  230 max =  230 } } initializer = anadius_system }
+			system = { id = "99" name = "Fortuna" position = { x = { min = -26 max = -26 } y =  { min =  216 max =  216 } } initializer = fortuna_system }
+			system = { id = "100" name = "Strenuus" position = { x = { min = -39 max = -39 } y =  { min =  213 max =  213 } } initializer = strenuus_system }
+
+		
+		##EXODUS CLUSTER
+		system = { id = "24" name = "Utopia" position = { x = { min = -61 max = -61 } y =  { min =  306 max =  306 } } initializer = utopia_system spawn_weight = { base = 0 modifier = { add = 100000 } } }
+			system = { id = "101" name = "Asgard" position = { x = { min = -73 max = -73 } y =  { min =  306 max =  306 } } initializer = asgard }
+
+		##PETRA NEBULA
+		system = { id = "25" name = "Vetus" position = { x = { min = -86 max = -86 } y =  { min =  377 max =  377 } } initializer = vetus_system }
+		
+		##VIPER NEBULA
+		system = { id = "26" name = "Bahak" position = { x = { min = -124 max = -124 } y =  { min =  462 max =  462 } } initializer = bahak_system }
+		
+		##KITE'S NEST
+		system = { id = "27" name = "Harsa" position = { x = { min = -192 max = -192 } y =  { min =  402 max =  402 } } initializer = harsa_system }
+			system = { id = "102" name = "Indris" position = { x = { min = -199 max = -199 } y =  { min =  395 max =  395 } } initializer = indris_system }
+			system = { id = "103" name = "Untrel" position = { x = { min = -198 max = -198 } y =  { min =  405 max =  405 } } initializer = untrel_system }
+			system = { id = "104" name = "Vular" position = { x = { min = -180 max = -180 } y =  { min =  408 max =  408 } } initializer = vular_system }
+
+		##ARTEMIS TAU
+		system = { id = "28" name = "Knossos" position = { x = { min = -283 max = -283 } y =  { min =  332 max =  332 } } initializer = knossos_system }
+			system = { id = "105" name = "Athens" position = { x = { min = -274 max = -274 } y =  { min =  331 max =  331 } } initializer = athens_system }
+			system = { id = "106" name = "Macedon" position = { x = { min = -273 max = -273 } y =  { min =  339 max =  339 } } initializer = macedon_system }
+			system = { id = "107" name = "Sparta" position = { x = { min = -284 max = -284 } y =  { min =  339 max =  339 } } initializer = sparta_system }
+
+		
+		##HADES GAMMA
+		system = { id = "29" name = "Antaeus" position = { x = { min = -325 max = -325 } y =  { min =  257 max =  257 } } initializer = antaeus_system }
+			system = { id = "108" name = "Cacus" position = { x = { min = -332 max = -332 } y =  { min =  251 max =  251 } } initializer = cacus_system }
+			system = { id = "109" name = "Dis" position = { x = { min = -315 max = -315 } y =  { min =  245 max =  245 } } initializer = dis_system }
+			system = { id = "110" name = "Farinata" position = { x = { min = -329 max = -329 } y =  { min =  243 max =  243 } } initializer = farinata_system }
+			system = { id = "111" name = "Plutus" position = { x = { min = -320 max = -320 } y =  { min =  252 max =  252 } } initializer = plutus_system }
+
+		##VOYAGER CLUSTER
+		system = { id = "30" name = "Amazon" position = { x = { min = -418 max = -418 } y =  { min =  215 max =  215 } } initializer = amazon_system }
+			system = { id = "112" name = "Columbia" position = { x = { min = -427 max = -427 } y =  { min =  228 max =  228 } } initializer = columbia_system }
+			system = { id = "113" name = "Yangtze" position = { x = { min = -428 max = -428 } y =  { min =  214 max =  214 } } initializer = yangtze_system }
+		
+		##GEMINI SIGMA
+		system = { id = "31" name = "Han" position = { x = { min = -230 max = -230 } y =  { min =  216 max =  216 } } initializer = han_system }
+			system = { id = "114" name = "Ming" position = { x = { min = -238 max = -238 } y =  { min =  207 max =  207 } } initializer = ming_system }
+
+		##ATTICAN BETA
+		system = { id = "32" name = "Hercules" position = { x = { min = -320 max = -320 } y =  { min =  162 max =  162 } } initializer = hercules_system }
+			system = { id = "115" name = "Theseus" position = { x = { min = -310 max = -310 } y =  { min =  154 max =  154 } } initializer = theseus_system }
+
+		##MAROON SEA
+		system = { id = "33" name = "Caspian" position = { x = { min = -226 max = -226 } y =  { min =  136 max =  136 } } initializer = caspian_system spawn_weight = { base = 0 modifier = { add = 100000 } } }
+			system = { id = "116" name = "Matano" position = { x = { min = -216 max = -216 } y =  { min =  142 max =  142 } } initializer = matano_system }
+			system = { id = "117" name = "Vostok" position = { x = { min = -220 max = -220 } y =  { min =  132 max =  132 } } initializer = vostok_system }
+
+		##ARGOS RHO
+		system = { id = "34" name = "Gorgon" position = { x = { min = -164 max = -164 } y =  { min =  179 max =  179 } } initializer = gorgon_system }
+			system = { id = "118" name = "Hydra" position = { x = { min = -169 max = -169 } y =  { min =  170 max =  170 } } initializer = hydra_system }
+			system = { id = "119" name = "Phoenix" position = { x = { min = -160 max = -160 } y =  { min =  166 max =  166 } } initializer = phoenix_system }
+
+
+
+	##Attican Traverse
+		
+	
+		##ARMSTRONG NEBULA
+		system = { id = "35" name = "Gagarin" position = { x = { min = -412 max = -412 } y =  { min =  121 max =  121 } } initializer = gagarin_system }
+			system = { id = "120" name = "Grissom" position = { x = { min = -419 max = -419 } y =  { min =  119 max =  119 } } initializer = grissom_system }
+			system = { id = "121" name = "Hong" position = { x = { min = -421 max = -421 } y =  { min =  110 max =  110 } } initializer = hong_system }
+			system = { id = "122" name = "Tereshkova" position = { x = { min = -412 max = -412 } y =  { min =  113 max =  113 } } initializer = tereshkova_system }
+			system = { id = "123" name = "Vamshi" position = { x = { min = -428 max = -428 } y =  { min =  108 max =  108 } } initializer = vamshi_system }
+				
+		##NUBIAN EXPANSE
+		system = { id = "36" name = "Dakka" position = { x = { min = -423 max = -423 } y =  { min =  34 max =  34 } } initializer = dakka_system }
+			system = { id = "124" name = "Kalabsha" position = { x = { min = -424 max = -424 } y =  { min =  25 max =  25 } } initializer = kalabsha_system }
+			system = { id = "125" name = "Qertassi" position = { x = { min = -430 max = -430 } y =  { min =  30 max =  30 } } initializer = qertassi_system }
+				
+		##KEPLER VERGE
+		system = { id = "37" name = "Newton" position = { x = { min = -290 max = -290 } y =  { min = -2 max = -2 } } initializer = newton_system }
+			system = { id = "126" name = "Herschel" position = { x = { min = -284 max = -284 } y =  { min = 10 max = 10 } } initializer = herschel_system }
+		
+		##SHADOW SEA
+		system = { id = "38" name = "Iera" position = { x = { min = -189 max = -189 } y =  { min =  60 max =  60 } } initializer = iera_system }
+		
+		##STYX THETA
+		system = { id = "39" name = "Acheron" position = { x = { min = -178 max = -178 } y =  { min =  1 max =  1 } } initializer = acheron_system }
+			system = { id = "127" name = "Erebus" position = { x = { min = -170 max = -170 } y =  { min =  -2 max =  -2 } } initializer = erebus_system }
+
+		##NINMAH CLUSTER
+		system = { id = "40" name = "Maskim Xul" position = { x = { min = -172 max = -172 } y =  { min = -54 max = -54 } } initializer = maskim_system }
+			system = { id = "128" name = "Mulla Xul" position = { x = { min = -180 max = -180 } y =  { min = -50 max = -50 } } initializer = mulla_xul_system }
+		
+		##SENTRY OMEGA
+		system = { id = "41" name = "Hoc" position = { x = { min = -363 max = -363 } y =  { min = -100 max = -100 } } initializer = hoc_system }
+		
+		##HADES NEXUS
+		system = { id = "42" name = "Hekate" position = { x = { min = -462 max = -462 } y =  { min = -134 max = -134 } } initializer = hekate_system }
+			system = { id = "129" name = "Hoplos" position = { x = { min = -468 max = -468 } y =  { min = -140 max = -140 } } initializer = hoplos_system }
+			system = { id = "130" name = "Pamyat" position = { x = { min = -457 max = -457 } y =  { min = -140 max = -140 } } initializer = pamyat_system }
+			system = { id = "131" name = "Sheol" position = { x = { min = -453 max = -453 } y =  { min = -135 max = -135 } } initializer = sheol_system }
+
+		##CALESTON RIFT
+		system = { id = "43" name = "Balor" position = { x = { min = -227 max = -227 } y =  { min = -119 max = -119 } } initializer = balor_system }
+			system = { id = "132" name = "Aysur" position = { x = { min = -237 max = -237 } y =  { min = -120 max = -120 } } initializer = aysur_system }
+			system = { id = "133" name = "Solveig" position = { x = { min = -229 max = -229 } y =  { min = -126 max = -126 } } initializer = solveig_system }
+			system = { id = "134" name = "Talava" position = { x = { min = -220 max = -220 } y =  { min = -123 max = -123 } } initializer = talava_system }
+			system = { id = "135" name = "Yakawa" position = { x = { min = -234 max = -234 } y =  { min = -128 max = -128 } } initializer = yakawa_system }
+
+		##HAWKING ETA
+		system = { id = "44" name = "Chandrasekhar" position = { x = { min = -123 max = -123 } y =  { min = -102 max = -102 } } initializer = chandrasekhar_system }
+			system = { id = "136" name = "Century" position = { x = { min = -128 max = -128 } y =  { min = -106 max = -106 } } initializer = century_system }
+			system = { id = "137" name = "Schwarzschild" position = { x = { min = -120 max = -120 } y =  { min = -95 max = -95 } } initializer = schwarzschild_system }
+			system = { id = "138" name = "Thorne" position = { x = { min = -135 max = -135 } y =  { min = -96 max = -96 } } initializer = thorne_system }
+			system = { id = "139" name = "Verr" position = { x = { min = -137 max = -137 } y =  { min = -105 max = -105 } } initializer = verr_system }
+
+		##PYLOS NEBULA		
+		system = { id = "45" name = "Nariph" position = { x = { min = -148 max = -148 } y =  { min = -257 max = -257 } } initializer = nariph_system }
+			system = { id = "140" name = "Dirada" position = { x = { min = -142 max = -142 } y =  { min = -260 max = -260 } } initializer = dirada_system }
+			system = { id = "141" name = "Kriseroi" position = { x = { min = -160 max = -160 } y =  { min = -261 max = -261 } } initializer = kriseroi_system }
+			system = { id = "142" name = "Satent" position = { x = { min = -151 max = -151 } y =  { min = -263 max = -263 } } initializer = satent_system }
+			system = { id = "143" name = "Zaherin" position = { x = { min = -143 max = -143 } y =  { min = -252 max = -252 } } initializer = zaherin_system }
+
+		##PANGEA EXPANSE	
+		system = { id = "46" name = "Refuge" position = { x = { min = -97 max = -97 } y =  { min = -217 max = -217 } } initializer = refuge_system }
+		
+		##EAGLE NEBULA
+		system = { id = "47" name = "Imir" position = { x = { min =  280 max =  280 } y =  { min = -29 max = -29 } } initializer = imir_system }
+			system = { id = "144" name = "Amun" position = { x = { min =  278 max =  278 } y =  { min = -37 max = -37 } } initializer = amun_system }
+			system = { id = "145" name = "Malgus" position = { x = { min =  285 max =  285 } y =  { min = -33 max = -33 } } initializer = malgus_system }
+			system = { id = "146" name = "Relic" position = { x = { min =  275 max =  275 } y =  { min = -32 max = -32 } } initializer = relic_system }
+			system = { id = "147" name = "Strabo" position = { x = { min =  287 max =  287 } y =  { min = -23 max = -23 } } initializer = strabo_system }
+
+		##ISMAR FRONTIER
+		system = { id = "48" name = "Aquila" position = { x = { min =  489 max =  489 } y =  { min = -52 max = -52 } } initializer = aquila_system }
+			system = { id = "148" name = "Elysta" position = { x = { min =  481 max =  481 } y =  { min = -59 max = -59 } } initializer = elysta_system }
+			system = { id = "149" name = "Faia" position = { x = { min =  492 max =  492 } y =  { min = -62 max = -62 } } initializer = faia_system }
+
+	
+	
+	add_hyperlane = { from = "0" to = "1" } ##Tartarus -> Omega Nebula add_hyperlane = { from = event_target:tartarus_relay_system to = event_target:omega_relay_system }
+
+	add_hyperlane = { from = "1" to = "43" } ##Omega Nebula -> Caleston Rift 
+	add_hyperlane = { from = "1" to = "9" } ##Omega Nebula -> Crescent Nebula
+	add_hyperlane = { from = "1" to = "47" } ##Omega Nebula -> Eagle Nebula
+	add_hyperlane = { from = "1" to = "44" } ##Omega Nebula -> Hawking Eta
+	add_hyperlane = { from = "1" to = "7" } ##Omega Nebula -> Hourglass Nebula
+	add_hyperlane = { from = "1" to = "48" } ##Omega Nebula -> Ismar Frontier
+	add_hyperlane = { from = "1" to = "45" } ##Omega Nebula -> Pylos Nebula
+	add_hyperlane = { from = "1" to = "3" } ##Omega Nebula -> Rosetta Nebula
+	add_hyperlane = { from = "1" to = "38" } ##Omega Nebula -> Shadow Sea
+	add_hyperlane = { from = "1" to = "2" } ##Omega Nebula -> Sigurd's Cradle
+	add_hyperlane = { from = "1" to = "11" } ##Omega Nebula -> The Phoenix Massing
+	add_hyperlane = { from = "1" to = "4" } ##Omega Nebula -> Titan Nebula
+	add_hyperlane = { from = "1" to = "6" } ##Omega Nebula -> Valhallan Threshold
+
+	add_hyperlane = { from = "2" to = "3" } ##Sigurd's Cradle -> Rosetta Nebula
+	add_hyperlane = { from = "2" to = "6" } ##Sigurd's Cradle -> Rosetta Nebula
+
+	add_hyperlane = { from = "7" to = "6" } ##Hourglass Nebula -> Vallhalan Threshold
+	add_hyperlane = { from = "7" to = "8" } ##Hourglass Nebula -> Shrike Abyssal
+	add_hyperlane = { from = "7" to = "9" } ##Hourglass Nebula -> Crescent Nebula
+
+	add_hyperlane = { from = "8" to = "9" } ##Shrike Abyssal -> Crescent Nebula
+	add_hyperlane = { from = "8" to = "47" } ##Shrike Abyssal -> Eagle Nebula
+	add_hyperlane = { from = "8" to = "48" } ##Shrike Abyssal -> Ismar Frontier
+
+	add_hyperlane = { from = "9" to = "47" } ##Crescent Nebula -> Eagle Nebula
+	add_hyperlane = { from = "9" to = "12" } ##Crescent Nebula -> Minos Wasteland
+	add_hyperlane = { from = "9" to = "48" } ##Crescent Nebula -> Ismar Frontier
+
+	add_hyperlane = { from = "48" to = "47" } ##Ismar Frontier -> Eagle Nebula
+	add_hyperlane = { from = "48" to = "15" } ##Ismar Frontier -> Serpent Nebula
+	add_hyperlane = { from = "48" to = "12" } ##Ismar Frontier -> Minos Wasteland
+
+	add_hyperlane = { from = "47" to = "12" } ##Eagle Nebula -> Minos Wasteland
+
+	add_hyperlane = { from = "15" to = "47" } ##Serpent Nebula -> Eagle Nebula
+	add_hyperlane = { from = "15" to = "12" } ##Serpent Nebula -> Minos Wasteland
+	add_hyperlane = { from = "15" to = "14" } ##Serpent Nebula -> Athena Nebula
+	add_hyperlane = { from = "15" to = "16" } ##Serpent Nebula -> Silean Nebula
+	add_hyperlane = { from = "15" to = "19" } ##Serpent Nebula -> Apien Crest
+	add_hyperlane = { from = "15" to = "17" } ##Serpent Nebula -> Krogan DMZ
+	add_hyperlane = { from = "15" to = "21" } ##Serpent Nebula -> Local Cluster
+	add_hyperlane = { from = "15" to = "24" } ##Serpent Nebula -> Exodus Cluster
+	add_hyperlane = { from = "15" to = "18" } ##Serpent Nebula -> Annos Basin
+	add_hyperlane = { from = "15" to = "23" } ##Serpent Nebula -> Horse Head Nebula
+
+	add_hyperlane = { from = "14" to = "13" } ##Athena Nebula -> Nimbus Cluster
+
+	add_hyperlane = { from = "19" to = "20" } ##Apien Crest -> Aethon Cluster
+
+	add_hyperlane = { from = "18" to = "23" } ##Annos Basin -> Horse Head Nebula
+
+	add_hyperlane = { from = "21" to = "26" } ##Local Cluster -> Viper Nebula
+	add_hyperlane = { from = "21" to = "22" } ##Local Cluster -> Arcturus Stream
+	add_hyperlane = { from = "21" to = "38" } ##Local Cluster -> Shadow Sea
+	add_hyperlane = { from = "21" to = "43" } ##Local Cluster -> Caleston Rift
+	add_hyperlane = { from = "21" to = "24" } ##Local Cluster -> Exodus Cluster
+
+	add_hyperlane = { from = "22" to = "24" } ##Arcturus Stream -> Exodus Cluster
+
+	add_hyperlane = { from = "24" to = "25" } ##Exodus Cluster -> Petra Nebula
+	add_hyperlane = { from = "24" to = "27" } ##Exodus Cluster -> Kite's Nest
+	add_hyperlane = { from = "24" to = "29" } ##Exodus Cluster -> Hades Gama
+	add_hyperlane = { from = "24" to = "23" } ##Exodus Cluster -> Horse Head Nebula
+	add_hyperlane = { from = "24" to = "18" } ##Exodus Cluster -> Annos Basin
+
+	add_hyperlane = { from = "23" to = "18" } ##Horse Head Nebula -> Annos Basin
+	add_hyperlane = { from = "23" to = "34" } ##Horse Head Nebula -> Argos Rho
+	add_hyperlane = { from = "23" to = "39" } ##Horse Head Nebula -> Styx Theta
+	add_hyperlane = { from = "23" to = "44" } ##Horse Head Nebula -> Hawkins Eta
+
+	add_hyperlane = { from = "29" to = "28" } ##Hades Gamma -> Artemis Tau
+	add_hyperlane = { from = "29" to = "30" } ##Hades Gamma -> Voyager Cluster
+	add_hyperlane = { from = "29" to = "32" } ##Hades Gamma -> Attican Beta
+	add_hyperlane = { from = "29" to = "31" } ##Hades Gamma -> Gemini Sigma
+
+	add_hyperlane = { from = "32" to = "33" } ##Attican Beta -> Maroon Sea
+	add_hyperlane = { from = "32" to = "35" } ##Attican Beta -> Armstrong Nebula
+	add_hyperlane = { from = "32" to = "36" } ##Attican Beta -> Nubian Expanse
+	add_hyperlane = { from = "32" to = "41" } ##Attican Beta -> Sentry Omega
+	add_hyperlane = { from = "32" to = "37" } ##Attican Beta -> Kepler Verge
+
+	add_hyperlane = { from = "36" to = "42" } ##Nubian Expanse -> Hades Nexus
+	add_hyperlane = { from = "36" to = "5" } ##Nubian Expanse -> Far Rim
+	add_hyperlane = { from = "36" to = "43" } ##Nubian Expanse -> Caleston Rift
+	add_hyperlane = { from = "36" to = "37" } ##Nubian Expanse -> Kepler Verge
+	add_hyperlane = { from = "36" to = "38" } ##Nubian Expanse -> Shadow Sea
+
+	add_hyperlane = { from = "38" to = "34" } ##Shadow Sea -> Argos Rho
+	add_hyperlane = { from = "38" to = "37" } ##Shadow Sea -> Kepler Verge
+	add_hyperlane = { from = "38" to = "5" } ##Shadow Sea -> Far Rim
+	add_hyperlane = { from = "38" to = "43" } ##Shadow Sea -> Caleston Rift
+	add_hyperlane = { from = "38" to = "44" } ##Shadow Sea -> Hawkins Eta
+
+	add_hyperlane = { from = "43" to = "42" } ##Caleston Rift -> Hades Nexus
+	add_hyperlane = { from = "43" to = "5" } ##Caleston Rift -> Far Rim
+	add_hyperlane = { from = "43" to = "11" } ##Caleston Rift -> Phoenix Massing
+	add_hyperlane = { from = "43" to = "45" } ##Caleston Rift -> Pylos Nebula
+	add_hyperlane = { from = "43" to = "44" } ##Caleston Rift -> Hawkins Eta
+	
+	add_hyperlane = { from = "43" to = "40" } ##Hawkins Eta -> Ninmah Cluster
+	add_hyperlane = { from = "43" to = "46" } ##Hawkins Eta -> Pangea Expanse
+
+	add_hyperlane = { from = "36" to = "37" } ##Kepler Verge -> Nubian Expanse
+
+	add_hyperlane = { from = "10" to = "5" } ##Perseus Veil -> Far Rim
+
+	add_hyperlane = { from = "5" to = "42" } ##Far Rim -> Hades Nexus
+	add_hyperlane = { from = "5" to = "11" } ##Far Rim -> Phoenix Massing
+	add_hyperlane = { from = "5" to = "45" } ##Far Rim -> Pylos Nebula
+
+	add_hyperlane = { from = "11" to = "42" } ##Phoenix Massing -> Hades Nexus
+	add_hyperlane = { from = "11" to = "45" } ##Phoenix Massing -> Pylos Nebula
+
+
+	##NEBULAS
+
+	##ALLIANCE SPACE
+	#nebula = { name = "Horsehead Nebula" position = { x = -40 y = 223 } radius = 15 }
+	#nebula = { name = "Petra Nebula" position = { x = -86 y = 377 } radius = 15 }
+	#nebula = { name = "Viper Nebula" position = { x = -124 y = 462 } radius = 15 }
+
+	##ATTICAN TRAVERSE
+	#nebula = { name = "Armstrong Nebula" position = { x = -412 y = 121 } radius = 15 }
+	#nebula = { name = "Eagle Nebula" position = { x = 280 y = -29 } radius = 15 }
+	#nebula = { name = "Pylos Nebula" position = { x = -148 y = -257 } radius = 15 }
+
+	##INNER COUNCIL SPACE
+
+	##OUTER COUNCIL SPACE
+	#nebula = { name = "Athena Nebula" position = { x = 369 y = 157 } radius = 15 }
+	#nebula = { name = "Serpent Nebula" position = { x = 237 y = 149 } radius = 15 }
+	#nebula = { name = "Silean Nebula" position = { x = 363 y = 230 } radius = 15 }
+
+	##TERMINUS SYSTEMS
+	#nebula = { name = "Crescent Nebula" position = { x = 363 y = -139 } radius = 15 }
+	#nebula = { name = "Hourglass Nebula" position = { x = 230 y = -282 } radius = 15 }
+	#nebula = { name = "Omega Nebula" position = { x = 13 y = -264 } radius = 15 }
+	#nebula = { name = "Rosetta Nebula" position = { x = -144 y = -453 } radius = 15 }
+	#nebula = { name = "Titan Nebula" position = { x = 60 y = -462 } radius = 15 }
+
+
+
+
+
+
+	
+
+	
+
+}

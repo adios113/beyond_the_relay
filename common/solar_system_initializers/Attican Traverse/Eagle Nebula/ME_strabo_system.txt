@@ -1,0 +1,44 @@
+strabo_system = {
+	name = "Strabo"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "strabo_hyperlane"
+    }
+
+    flags = {
+        strabo_system
+    }
+
+    planet = {
+		name = "Strabo"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+
+    planet = {
+		name = "Antigar"
+		class = "pc_gas_giant"
+		orbit_distance = 0
+		orbit_angle = { min = 1 max = 350 }
+		size = 30
+        has_ring = no
+        moon = {
+			name = "Antigar IV"
+			class = "pc_barren_cold"
+			orbit_distance = 2
+			orbit_angle = { min = 90 max = 270 }
+			size = 2
+        }
+        moon = {
+			name = "Antigar XI"
+			class = "pc_barren_cold"
+			orbit_distance = 3
+			orbit_angle = { min = 90 max = 270 }
+			size = 3
+        }
+    }
+}

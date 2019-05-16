@@ -1,0 +1,57 @@
+typhon_system = {
+	name = "Typhon"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "typhon_hyperlane"
+    }
+
+    flags = {
+        typhon_system
+    }
+
+    planet = {
+		name = "Typhon"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Echidna"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 28
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Aite"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = -170
+		size = 28
+		has_ring = yes
+	}
+	
+	planet = {
+		name =  "Moros"
+		class = "pc_barren_cold"
+		orbit_distance = 60
+		orbit_angle = 220
+		size = 12
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Ponos"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 70
+		size = 28
+		has_ring = no	
+	}
+}

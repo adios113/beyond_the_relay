@@ -1,0 +1,50 @@
+solveig_system = {
+	name = "Solveig"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "solveig_hyperlane"
+    }
+
+    flags = {
+        solveig_system
+    }
+
+    planet = {
+		name = "Solveig"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Surtur"
+		class = "pc_barren"
+		orbit_distance = 50
+		orbit_angle = 180
+		size = 12
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Thrivaldi"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 98
+		size = 25
+		has_ring = no
+		
+		moon = {
+			name = "Tormund"
+			class = "pc_barren"
+			size = 4
+			orbit_distance = 12
+			orbit_angle = 70
+			has_ring = no
+
+		}
+	}
+}
+    

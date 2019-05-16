@@ -1,0 +1,62 @@
+schwarzschild_system = {
+	name = "Schwarzschild"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "schwarzschild_hyperlane"
+    }
+
+    flags = {
+        schwarzschild_system
+    }
+    
+    planet = {
+		name =  "Schwarzschild"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Atahil"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = -70
+		size = 20
+		has_ring = no
+
+	}
+
+		planet = {
+		name =  "Etamis"
+		class = "pc_nuked"
+		orbit_distance = 20
+		orbit_angle = -70
+		size = 20
+		has_ring = no
+
+	}
+	
+		planet = {
+		name =  "Linossa"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = -78
+		size = 28
+		has_ring = yes
+
+	}
+	
+		planet = {
+		name =  "Rihali"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 130
+		size = 28
+		has_ring = yes
+
+	}
+}
+    

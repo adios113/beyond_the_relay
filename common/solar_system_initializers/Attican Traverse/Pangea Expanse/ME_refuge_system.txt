@@ -1,0 +1,48 @@
+refuge_system = {
+	name = "Refuge"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "refuge_relay_system"
+    }
+
+    flags = {
+        refuge_system
+    }
+
+    planet = {
+		name = "Refuge"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Agetoton"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = -40
+		size = 18
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Ilos"
+		class = "pc_tropical"
+		orbit_distance = 50
+		orbit_angle = -100
+		size = 23
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Zafe"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -150
+		size = 22
+		has_ring = no
+	}	
+}

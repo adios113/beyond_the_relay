@@ -1,0 +1,87 @@
+trebia_system = {
+	name = "Trebia"
+	class = "sc_k"
+	max_instances = 1
+	usage = custom_empire
+    init_effect = {
+        save_global_event_target_as = "trebia_relay_system"
+    }
+
+    flags = {
+        trebia_system
+    }
+    
+    planet = {
+		name = "Trebia"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+
+	planet = {
+		name = "Aventen"
+		class = "pc_barren_cold"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 14
+		has_ring = no
+	}
+	planet = {
+		name = "Caelax"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+	}
+	planet = {
+		name = "Palaven"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 21
+		has_ring = no
+		moon = {
+			name = "Menae"
+			class = "pc_barren_cold"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 8
+		}
+		moon = {
+			name = "Nanus"
+			class = "pc_barren_cold"
+			orbit_distance = 6
+			orbit_angle = { min = 90 max = 270 }
+			size = 6
+		}
+	}
+	planet = {
+		name = "Impera"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 6
+		has_ring = no
+	}
+	planet = {
+		name = "Essenus"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 35
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Datriux"
+		class = "pc_barren_cold"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+	}
+
+}

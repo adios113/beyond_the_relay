@@ -1,0 +1,47 @@
+tassrah_system = {
+	name = "Tassrah"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "tassrah_relay_system"
+    }
+
+    flags = {
+        tassrah_system
+    }
+    planet = {
+		name = "Tassrah"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 32
+		has_ring = no
+	}
+
+	planet = {
+		name = "Pahhur"
+		class = "pc_barren"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		has_ring = no
+	}
+	planet = {
+		name = "Sarapai"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+	}
+	planet = {
+		name = "Ishassara"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

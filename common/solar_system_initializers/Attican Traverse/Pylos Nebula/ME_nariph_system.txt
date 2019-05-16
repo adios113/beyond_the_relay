@@ -1,0 +1,40 @@
+nariph_system = {
+	name = "Nariph"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "nariph_relay_system"
+    }
+
+    flags = {
+        nariph_system
+    }
+
+    planet = {
+		name = "Nariph"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+
+	planet = {
+		name = "Isale"
+		class = "pc_gas_giant"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 32
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Jonus"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 10
+		change_orbit = 5
+		has_ring = no
+	}
+}

@@ -1,0 +1,81 @@
+###########################
+##CANON MASS EFFECT EMPIRES
+###########################
+#
+#
+#
+#
+#
+##TURIAN HIERARCHY
+TurianHierarchy = {
+	name = "TurianHierarchy"
+	spawn_enabled = always 
+	
+	name_list = "HUMAN1"
+	ship_prefix = "PRESCRIPTED_ship_prefix_TurianHierarchy"
+	
+	species_name = "PRESCRIPTED_species_name_TurianHierarchy"
+	species_plural = "PRESCRIPTED_species_plural_TurianHierarchy"
+	species_adjective = "PRESCRIPTED_species_adjective_TurianHierarchy"
+	species_class = "HUM"
+	species_bio = ""
+	portrait = "human"
+	adjective = "PRESCRIPTED_adjective_TurianHierarchy"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_idealistic_foundation"
+	}
+	government = "gov_representative_democracy"
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_egalitarian"
+	trait = "trait_adaptive"
+	trait = "trait_nomadic"
+	trait = "trait_wasteful"
+	
+	flags={ 
+		turian_hierarchy
+	}
+
+	planet_name = "Palaven"
+	initializer = "trebia_system"
+	planet_class = "pc_continental"
+	system_name = "Trebia"
+	
+	room = "personality_federation_builders_room"
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag={
+		icon={
+			category="me_flags"
+			file="me_flag_turian.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_TurianHierarchy"
+		gender = male
+		portrait = "human_male_01"
+		texture = 0
+		hair = 0
+		clothes = 2
+	}
+}
+
+
+
+
+

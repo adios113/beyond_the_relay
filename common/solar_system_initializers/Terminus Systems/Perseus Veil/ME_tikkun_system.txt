@@ -1,0 +1,65 @@
+tikkun_system = {
+    name = "Tikkun"						
+    class = sc_m
+    max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "tikkun_relay_system"
+    }
+
+    flags = {
+        tikkun_system
+    }
+
+    asteroid_belt = {
+        type = rocky_asteroid_belt
+        radius = 60
+    }
+
+
+
+planet = {
+		name = "Tikkun"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Rannoch"
+		class = "pc_arid"
+		orbit_distance = 30
+		orbit_angle = -110
+		size = 20
+		has_ring = no
+	}	
+	
+	
+	planet = {
+		name =  "Adas"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = 140
+		size = 14
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Kaddi"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 35
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Haza"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -80
+		size = 22
+		has_ring = no
+	}	
+}

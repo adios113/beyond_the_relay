@@ -1,0 +1,49 @@
+malgus_system = {
+	name = "Malgus"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "malgus_hyperlane"
+    }
+
+    flags = {
+        malgus_system
+    }
+
+    planet = {
+		name = "Malgus"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Uzin"
+		class = "pc_gas_giant"
+		orbit_distance = 10
+		orbit_angle = { min = 1 max = 350 }
+		size = 34
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Wrill"
+		class = "pc_toxic"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 18
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Flett"
+		class = "pc_toxic"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 15
+		has_ring = no
+    }
+}
+

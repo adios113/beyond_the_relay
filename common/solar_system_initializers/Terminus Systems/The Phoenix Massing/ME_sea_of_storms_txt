@@ -1,0 +1,21 @@
+sea_of_storms_system = {
+	name = "Sea of Storms"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "sea_of_storms_hyperlane"
+    }
+
+    flags = {
+        sea_of_storms_system
+    }
+
+    planet = {
+		name = "Sea of Storms"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 0
+		has_ring = no
+	}
+}

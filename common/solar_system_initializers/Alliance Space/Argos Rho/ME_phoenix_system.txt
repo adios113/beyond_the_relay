@@ -1,0 +1,89 @@
+phoenix_system = {
+	name = "Phoenix"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "phoenix_hyperlane"
+    }
+
+    flags = {
+        phoenix_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 50
+    }
+
+    planet = {
+		name = "Phoenix"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Patashi"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 200
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Kador"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = -120
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Jakos"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -140
+		size = 5
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Sylsalto"
+		class = "pc_gas_giant"
+		orbit_distance = 10
+		orbit_angle = 60
+		size = 26
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Intai'sei"
+		class = "pc_desert"
+		orbit_distance = 40
+		orbit_angle = 156
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Tuntau"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 14
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Vebinok"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 10
+		has_ring = no
+	}
+}

@@ -1,0 +1,27 @@
+anadius_system = {
+	name = "Anadius"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "anadius_hyperlane"
+    }
+
+    flags = {
+        anadius_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 110
+    }
+
+    planet = {
+		name = "Anadius"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 70
+		has_ring = no
+	}
+
+}

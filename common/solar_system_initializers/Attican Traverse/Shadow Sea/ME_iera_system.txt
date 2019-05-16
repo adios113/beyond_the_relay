@@ -1,0 +1,57 @@
+iera_system = {
+	name = "Iera"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "iera_relay_system"
+    }
+
+    flags = {
+        iera_system
+    }
+
+    planet = {
+		name = "Iera"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name =  "Venture"
+		class = "pc_toxic"
+		orbit_distance = 30
+		orbit_angle = 56
+		size = 13
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Prospect"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 120
+		size = 20
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Horizon"
+		class = "pc_continental"
+		orbit_distance = 40
+		orbit_angle = 280
+		size = 16
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Watchman"
+		class = "pc_barren_cold"
+		orbit_distance = 60
+		orbit_angle = -130
+		size = 11
+		has_ring = no	
+	}
+}

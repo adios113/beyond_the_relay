@@ -1,0 +1,88 @@
+amun_system = {
+	name = "Amun"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "amun_hyperlane"
+    }
+
+    flags = {
+        amun_system
+    }
+
+    planet = {
+		name = "Amun"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 29
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Sekhmet"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 20
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Sobek"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 34
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Anhur"
+		class = "pc_tundra"
+		orbit_distance = 80
+		orbit_angle = { min = 1 max = 350 }
+		size = 18
+		has_ring = no
+    }
+
+    planet = {
+		name = "Neith"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 21
+        has_ring = no
+        moon = {
+			name = "Tefnut"
+			class = "pc_barren_cold"
+			orbit_distance = 3
+			orbit_angle = { min = 90 max = 270 }
+			size = 5
+        }
+        moon = {
+			name = "Szu"
+			class = "pc_barren_cold"
+			orbit_distance = 5
+			orbit_angle = { min = 90 max = 270 }
+			size = 5
+		}
+    }
+    
+    planet = {
+		name = "Bast"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 18
+        has_ring = no
+        moon = {
+			name = "Maahes"
+			class = "pc_barren_cold"
+			orbit_distance = 5
+			orbit_angle = { min = 90 max = 270 }
+			size = 5
+        }
+	}
+}
+

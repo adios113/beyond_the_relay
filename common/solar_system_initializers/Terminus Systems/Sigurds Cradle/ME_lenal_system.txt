@@ -1,0 +1,57 @@
+lenal_system = {
+	name = "Lenal"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "lenal_hyperlane"
+    }
+
+    flags = {
+        lenal_system
+    }
+
+    planet = {
+		name = "Lenal"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Laconix"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = -45
+		size = 19
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Triginta Petra"
+		class = "pc_desert"
+		orbit_distance = 40
+		orbit_angle = -135
+		size = 20
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Choitadix"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Nutus"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = -80
+		size = 27
+		has_ring = yes
+	}	
+}

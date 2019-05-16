@@ -1,0 +1,66 @@
+yangtze_system = {
+	name = "Yangtze"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "yangtze_hyperlane"
+    }
+
+    flags = {
+        yangtze_system
+    }
+    
+    planet = {
+		name = "Yangtze"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Renshato"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 90
+		size = 20
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Binthu"
+		class = "pc_toxic"
+		orbit_distance = 40
+		orbit_angle = 30
+		size = 10
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Dregir"
+		class = "pc_barren_cold"
+		orbit_distance = 60
+		orbit_angle = 20
+		size = 9
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Alrumter"
+		class = "pc_barren_cold"
+		orbit_distance = 15
+		orbit_angle = 180
+		size = 13
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Patajiri"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = 150
+		size = 16
+		has_ring = no	
+	}
+}

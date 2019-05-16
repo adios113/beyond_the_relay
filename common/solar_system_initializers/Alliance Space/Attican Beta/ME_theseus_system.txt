@@ -1,0 +1,85 @@
+theseus_system = {
+	name = "Theseus"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "theseus_hyperlane"
+    }
+
+    flags = {
+        theseus_system
+    }
+
+    planet = {
+		name = "Theseus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Sytau"
+		class = "pc_molten"
+		orbit_distance = 40
+		orbit_angle = 110
+		size = 18
+		has_ring = no
+	}
+		
+	planet = {
+		name =  "Feros"
+		class = "pc_tundra"
+		orbit_distance = 30
+		orbit_angle = 20
+		size = 18
+		has_ring = no
+		
+		moon = {
+			name = "Vardet"
+			class = "pc_barren"
+			size = 6
+			orbit_distance = 7
+			orbit_angle = 120
+			has_ring = no
+		}
+		
+		moon = {
+			name = "Orcan"
+			class = "pc_barren"
+			size = 12
+			orbit_distance = 4
+			orbit_angle = 180
+			has_ring = no
+		}
+	}	
+	
+	planet = {
+		name =  "Sharring"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 30
+		size = 24
+		has_ring = yes
+	}
+		
+	planet = {
+		name =  "Quana"
+		class = "pc_barren_cold"
+		orbit_distance = 15
+		orbit_angle = 190
+		size = 19
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Logan"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 90
+		size = 24
+		has_ring = no
+	}	
+
+}

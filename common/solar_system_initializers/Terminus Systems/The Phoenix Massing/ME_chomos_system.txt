@@ -1,0 +1,39 @@
+chomos_system = {
+	name = "Chomos"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "chomos_hyperlane"
+    }
+
+    flags = {
+        chomos_system
+    }
+
+    planet = {
+		name = "Chomos"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Trigestis"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 30
+		size = 28
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Lattesh"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = 90
+		size = 14
+		has_ring = no	
+	}
+}

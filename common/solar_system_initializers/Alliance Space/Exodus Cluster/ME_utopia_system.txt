@@ -1,0 +1,66 @@
+utopia_system = {
+	name = "Utopia"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "utopia_relay_system"
+    }
+
+    flags = {
+        utopia_system
+    }
+
+    planet = {
+		name = "Utopia"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Arcadia"
+		class = "pc_molten"
+		orbit_distance = 50
+		orbit_angle = 120
+		size = 21
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Eden Prime"
+		class = "pc_gaia"
+		orbit_distance = 25
+		orbit_angle = 30
+		size = 23
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Zion"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = 60
+		size = 27
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Nirvana"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -250
+		size = 14
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Xanadu"
+		class = "pc_barren_cold"
+		orbit_distance = 10
+		orbit_angle = -80
+		size = 10
+		has_ring = no
+	}	
+}

@@ -1,0 +1,83 @@
+gagarin_system = {
+	name = "Gagarin"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "gagarin_relay_system"
+    }
+
+    flags = {
+        gagarin_system
+    }
+ 
+    planet = {
+		name = "Gagarin"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 34
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Junthor"
+		class = "pc_continental"
+		orbit_distance = 50
+		orbit_angle = { min = 1 max = 350 }
+		size = 20
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Junthor"
+		class = "pc_continental"
+		orbit_distance = 50
+		orbit_angle = { min = 90 max = 350 }
+		size = 20
+        has_ring = no
+        
+        moon = {
+			name = "Altair"
+			class = "pc_barren_cold"
+			orbit_distance = 5
+			orbit_angle = { min = 1 max = 350 }
+			size = 5
+		}
+    }
+    
+    planet = {
+		name = "Pressha"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = { min = 1 max = 350 }
+		size = 24
+        has_ring = no
+    }
+
+    planet = {
+		name = "Rayingri"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 15
+        has_ring = no
+    }
+
+    planet = {
+		name = "Sogelrus"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = { min = 1 max = 350 }
+		size = 13
+        has_ring = no
+    }
+
+    planet = {
+		name = "Antirumgon"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = { min = 1 max = 350 }
+		size = 13
+        has_ring = no
+    }
+}

@@ -1,0 +1,71 @@
+amada_system = {
+	name = "Amada"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "amada_hyperlane"
+    }
+
+    flags = {
+        amada_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 20
+    }
+
+    planet = {
+		name = "Amada"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Takkan"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = -150
+		size = 12
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Karora"
+		class = "pc_molten"
+		orbit_distance = 10
+		orbit_angle = 150
+		size = 8
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Eingana"
+		class = "pc_tropical"
+		orbit_distance = 50
+		orbit_angle = 140
+		size = 14
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Alchera"
+		class = "pc_barren_cold"
+		orbit_distance = 100
+		orbit_angle = -90
+		size = 22
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Anjea"
+		class = "pc_gas_giant"
+		orbit_distance = 100
+		orbit_angle = -20
+		size = 24
+		has_ring = no	
+	}
+}

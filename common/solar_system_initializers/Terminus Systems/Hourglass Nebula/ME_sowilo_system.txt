@@ -1,0 +1,75 @@
+sowilo_system = {
+	name = "Sowilo"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "sowilo_hyperlane"
+    }
+
+    flags = {
+        sowilo_system
+    }
+
+    planet = {
+		name = "Sowilo"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Uruz"
+		class = "pc_molten"
+		orbit_distance = 10
+		orbit_angle = -45
+		size = 19
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Kenaz"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = 180
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Hagalaz"
+		class = "pc_tundra"
+		orbit_distance = 30
+		orbit_angle = -90
+		size = 15
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Ansuz"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = -80
+		size = 18
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Thurisaz"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -120
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Isa"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 60
+		size = 17
+		has_ring = no
+	}	
+}

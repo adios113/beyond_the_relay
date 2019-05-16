@@ -1,0 +1,55 @@
+osun_system = {
+	name = "Osun"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "osun_relay_system"
+    }
+
+    flags = {
+        osun_system
+    }
+    planet = {
+		name = "Osun"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+	}
+
+	planet = {
+		name = "Orunmila"
+		class = "pc_gas_giant"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 34
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Erinle"
+		class = "pc_tropical"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+	}
+	planet = {
+		name = "Aganju"
+		class = "pc_barren_cold"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+	}
+	planet = {
+		name = "Olokun"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		change_orbit = 8
+	}
+
+}

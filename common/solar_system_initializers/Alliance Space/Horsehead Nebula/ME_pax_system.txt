@@ -1,0 +1,58 @@
+pax_system = {
+	name = "Pax"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "pax_relay_system"
+    }
+
+    flags = {
+        pax_system
+    }
+
+    planet = {
+		name = "Pax"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Svarog"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		size = 22
+		has_ring = no
+		orbit_angle = -60
+	}
+	
+	planet = {
+		name = "Noveria"
+		class = "pc_arctic"
+		orbit_distance = 30
+		size = 15
+		has_ring = no
+		orbit_angle = -60
+	}
+	
+	planet = {
+		name = "Morana"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		size = 11
+		has_ring = no
+		orbit_angle = 50
+	}
+	
+	planet = {
+		name = "Veles"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		size = 13
+		has_ring = no
+		orbit_angle = -100
+	}
+
+}

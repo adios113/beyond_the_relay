@@ -1,0 +1,76 @@
+antaeus_system = {
+	name = "Antaeus"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "antaeus_relay_system"
+    }
+
+    flags = {
+        antaeus_system
+    }
+
+    planet = {
+		name = "Antaeus"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Ageko"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = 40
+		size = 16
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Edmos"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = 200
+		size = 23
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Ploba"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -60
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Trebin"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 120
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Vemal"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 180
+		size = 25
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Hunidor"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = 100
+		size = 19
+		has_ring = no
+	}	
+
+}

@@ -1,0 +1,58 @@
+pelion_system = {
+	name = "Pelion"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "pelion_relay_system"
+    }
+
+    flags = {
+        pelion_system
+    }
+
+    planet = {
+		name = "Pelion"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 28
+		has_ring = no
+	}
+
+	planet = {
+		name = "Zosteros"
+		class = "pc_toxic"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 29
+		has_ring = no
+    }
+    
+	planet = {
+		name = "Sthenia"
+		class = "pc_savannah"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		has_ring = no
+    }
+    
+	planet = {
+		name = "Trategos"
+		class = "pc_frozen"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		has_ring = no
+    }
+    
+	planet = {
+		name = "Aitis"
+		class = "pc_barren_cold"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+	}
+
+}

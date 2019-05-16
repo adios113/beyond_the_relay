@@ -1,0 +1,85 @@
+herschel_system = {
+	name = "Herschel"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "herschel_hyperlane"
+    }
+
+    flags = {
+        herschel_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 160
+    }
+
+    planet = {
+		name = "Herschel"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+    }
+
+    planet = {
+		name = "Tungel"
+		class = "pc_toxic"
+		orbit_distance = 80
+		orbit_angle = { min = 1 max = 350 }
+		size = 23
+		has_ring = no
+    }
+
+    planet = {
+		name = "Matol"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 12
+		has_ring = no
+    }
+
+    planet = {
+		name = "Clugon"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 28
+        has_ring = no
+        moon = {
+			name = "Ander"
+			class = "pc_barren"
+			orbit_distance = 4
+			orbit_angle = { min = 1 max = 350 }
+			size = 3
+        }
+        moon = {
+			name = "Pignia"
+			class = "pc_barren"
+			orbit_distance = 6
+			orbit_angle = { min = 1 max = 350 }
+			size = 6
+		}
+    }
+
+    planet = {
+		name = "Hito"
+		class = "pc_asteroid"
+		orbit_distance = 20
+		orbit_angle = { min = 1 max = 350 }
+		size = 24
+		has_ring = no
+    }
+
+    planet = {
+		name = "Clobaka"
+		class = "pc_tundra"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 16
+		has_ring = yes
+    }
+}

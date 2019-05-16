@@ -1,0 +1,63 @@
+caspian_system = {
+	name = "Caspian"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "caspian_relay_system"
+    }
+
+    flags = {
+        caspian_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 60
+    }
+
+    planet = {
+		name = "Caspian"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Clotanca"
+		class = "pc_barren"
+		orbit_distance = 80
+		orbit_angle = 70
+		size = 18
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Farnuri"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = -70
+		size = 14
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Almarcrux"
+		class = "pc_toxic"
+		orbit_distance = 30
+		orbit_angle = -210
+		size = 12
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Antida"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -45
+		size = 30
+		has_ring = no
+	}
+
+}

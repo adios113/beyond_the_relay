@@ -1,0 +1,48 @@
+nith_system = {
+	name = "Nith"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "nith_hyperlane"
+    }
+
+    flags = {
+        nith_system
+    }
+
+    planet = {
+		name = "Nith"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 60
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Mantum"
+		class = "pc_molten"
+		orbit_distance = 70
+		orbit_angle = 1
+		size = 14
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Tula"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = 70
+		size = 25
+		has_ring = no	
+	}
+	
+	planet = {
+		name =  "Vard"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = 120
+		size = 23
+		has_ring = no	
+	}
+}

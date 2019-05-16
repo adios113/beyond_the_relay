@@ -1,0 +1,62 @@
+untrel_system = {
+	name = "Untrel"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "untrel_hyperlane"
+    }
+
+    flags = {
+        untrel_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 90
+    }
+
+    planet = {
+		name = "Untrel"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Ezka"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = -130
+		size = 15
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Klos"
+		class = "pc_barren"
+		orbit_distance = 20
+		orbit_angle = -30
+		size = 10
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Adek"
+		class = "pc_tropical"
+		orbit_distance = 30
+		orbit_angle = -70
+		size = 13
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Uza"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -90
+		size = 27
+		has_ring = no
+	}
+}

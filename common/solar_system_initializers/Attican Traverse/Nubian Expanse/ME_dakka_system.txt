@@ -1,0 +1,65 @@
+dakka_system = {
+	name = "Dakka"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "dakka_relay_system"
+    }
+
+    flags = {
+        dakka_system
+    }
+
+    planet = {
+		name = "Dakka"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Bannik"
+		class = "pc_toxic"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+	}
+	planet = {
+		name = "Pragia"
+		class = "pc_tropical"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+	}
+	planet = {
+		name = "Alkonost"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Gamayun"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 25
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Zirnitra"
+		class = "pc_barren_cold"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 6
+		has_ring = no
+	}
+
+}

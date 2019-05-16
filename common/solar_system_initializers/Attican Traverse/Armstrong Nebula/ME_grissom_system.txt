@@ -1,0 +1,60 @@
+grissom_system = {
+	name = "Grissom"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "grissom_hyperlane"
+    }
+
+    flags = {
+        grissom_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 185
+    }
+
+    planet = {
+		name = "Grissom"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 37
+		has_ring = no
+	}
+
+	planet = {
+		name = "Benda"
+		class = "pc_molten"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+	}
+	planet = {
+		name = "Zaherux"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+	}
+	planet = {
+		name = "Notanban"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 37
+		change_orbit = 5
+		has_ring = no
+		moon = {
+			name = "Solcrum"
+			class = "pc_barren_cold"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 12
+		}
+	}
+
+}

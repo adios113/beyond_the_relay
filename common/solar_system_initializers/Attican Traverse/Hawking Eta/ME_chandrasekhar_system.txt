@@ -1,0 +1,39 @@
+chandrasekhar_system = {
+	name = "Chandrasekhar"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "chandrasekhar_relay_system"
+    }
+
+    flags = {
+        chandrasekhar_system
+    }
+
+    planet = {
+		name = "Chandrasekhar"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Teshub"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+	
+	planet = {
+		name = "Hebat"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 102
+		size = 30
+		has_ring = no
+	}
+}

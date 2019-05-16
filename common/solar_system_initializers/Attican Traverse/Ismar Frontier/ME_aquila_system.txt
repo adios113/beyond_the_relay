@@ -1,0 +1,66 @@
+aquila_system = {
+	name = "Aquila"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "aquila_relay_system"
+    }
+
+    flags = {
+        aquila_system
+    }
+
+    planet = {
+		name = "Aquila"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Lepini"
+		class = "pc_gas_giant"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 27
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Vecchio"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+	}
+	planet = {
+		name = "Volturno"
+		class = "pc_arctic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		has_ring = no
+	}
+	planet = {
+		name = "Metaponto"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 35
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Pollino"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

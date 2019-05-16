@@ -1,0 +1,40 @@
+paz_system = {
+	name = "Paz"
+	class = "sc_a"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "paz_hyperlane"
+    }
+
+    flags = {
+        paz_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 120
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 140
+    }
+
+    planet = {
+		name = "Paz"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Garvug"
+		class = "pc_arctic"
+		orbit_distance = 100
+		orbit_angle = 120
+		size = 17
+		has_ring = no
+	}	
+}

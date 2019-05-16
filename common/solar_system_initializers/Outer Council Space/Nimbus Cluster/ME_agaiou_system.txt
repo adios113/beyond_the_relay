@@ -1,0 +1,48 @@
+agaiou_system = {
+	name = "Agaiou"
+	class = "sc_f"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "agaiou_hyperlane"
+    }
+
+    flags = {
+        agaiou_system
+    }
+
+    planet = {
+		name = "Agaiou"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+    }
+
+    planet = {
+		name = "Hali"
+		class = "pc_m_star"
+		orbit_distance = 10
+		orbit_angle = { min = 1 max = 350 }
+		size = 25
+		has_ring = no
+    }
+
+    planet = {
+		name = "Carcosa"
+		class = "pc_desert"
+		orbit_distance = 30
+		orbit_angle = { min = 1 max = 350 }
+		size = 15
+		has_ring = no
+    }
+
+    planet = {
+		name = "Neargas"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = { min = 1 max = 350 }
+		size = 8
+		has_ring = no
+    }
+}

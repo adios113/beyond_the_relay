@@ -1,0 +1,64 @@
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = systems_alliance
+        } 
+    }
+	format = "format.systems_alliance"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "S S V"
+}
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = asari_republics        
+        } 
+    }
+	format = "format.asari_republics"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "A R S"
+}
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = elcor_empire
+        } 
+    }
+	format = "format.elcor_empire"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "D D F"
+}
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = turian_hierarchy
+        } 
+    }
+	format = "format.turian_hierarchy"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "P F S"
+}
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = salarian_union
+        } 
+    }
+	format = "format.salarian_union"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "S N V"
+}

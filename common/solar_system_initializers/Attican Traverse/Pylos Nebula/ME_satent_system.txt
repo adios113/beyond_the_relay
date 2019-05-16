@@ -1,0 +1,66 @@
+satent_system = {
+	name = "Satent"
+	class = "sc_m"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "satent_hyperlane"
+    }
+
+    flags = {
+        satent_system
+    }
+
+    planet = {
+		name = "Satent"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Rescel"
+		class = "pc_gas_giant"
+		orbit_distance = 25
+		orbit_angle = 30
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Raisaris"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 10
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Anedia"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -150
+		size = 10
+		has_ring = no
+    }	
+    
+	planet = {
+		name =  "Boro"
+		class = "pc_toxic"
+		orbit_distance = 60
+		orbit_angle = 150
+		size = 22
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Nataisa"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = -90
+		size = 23
+		has_ring = no
+	}
+}	

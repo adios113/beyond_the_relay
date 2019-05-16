@@ -1,0 +1,89 @@
+faryar_system = {
+	name = "Faryar"
+	class = "sc_g"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "faryar_hyperlane"
+    }
+
+    flags = {
+        faryar_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 260
+    }
+
+    planet = {
+		name = "Faryar"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Quarem"
+		class = "pc_molten"
+		orbit_distance = 20
+		orbit_angle = 10
+		size = 12
+		has_ring = no
+	}	
+
+	planet = {
+		name =  "Daratar"
+		class = "pc_tundra"
+		orbit_distance = 40
+		orbit_angle = -170
+		size = 13
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Tunfigel"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -100
+		size = 20
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Nephros"
+		class = "pc_gas_giant"
+		orbit_distance = 40
+		orbit_angle = -170
+		size = 24
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Alingon"
+		class = "pc_barren_cold"
+		orbit_distance = 70
+		orbit_angle = 95
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Wenrum"
+		class = "pc_barren_cold"
+		orbit_distance = 30
+		orbit_angle = 160
+		size = 6
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Antictra"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -120
+		size = 15
+		has_ring = no
+	}	
+}

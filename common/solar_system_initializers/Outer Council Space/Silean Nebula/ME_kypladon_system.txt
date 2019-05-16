@@ -1,0 +1,62 @@
+kypladon_system = {
+	name = "Kypladon"
+	class = "sc_k"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "kypladon_relay_system"
+    }
+
+    flags = {
+        kypladon_system
+    }
+
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 150
+    }
+
+    planet = {
+		name = "Kypladon"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 24
+		has_ring = no
+	}
+
+	planet = {
+		name = "Tropai"
+		class = "pc_barren_cold"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 8
+		has_ring = no
+	}
+	planet = {
+		name = "Hanalei"
+		class = "pc_toxic"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		has_ring = no
+	}
+	planet = {
+		name = "Cyone"
+		class = "pc_continental"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+	}
+	planet = {
+		name = "Katebolo"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 30
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

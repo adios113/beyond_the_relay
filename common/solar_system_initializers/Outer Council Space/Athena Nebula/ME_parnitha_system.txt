@@ -1,0 +1,94 @@
+parnitha_system = {
+	name = "Parnitha"
+	class = "sc_k"
+	max_instances = 1
+	usage = custom_empire
+    init_effect = {
+		save_global_event_target_as = "parnitha_relay_system"
+		generate_home_system_resources = yes
+    }
+
+    flags = {
+        parnitha_system
+    }
+
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 185
+    }
+    
+    planet = {
+		name = "Parnitha"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Kurinth"
+		class = "pc_toxic"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 18
+		has_ring = no
+		moon = {
+			name = "Lucen"
+			class = "pc_barren_cold"
+			orbit_distance = 12
+			orbit_angle = { min = 90 max = 270 }
+			size = 8
+		}
+	}
+	planet = {
+		name = "Thessia"
+		class = "pc_continental"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 22
+		starting_planet = yes
+		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+			generate_empire_home_planet = yes
+		}
+	}
+	planet = {
+		name = "Piares"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+	}
+	planet = {
+		name = "Janiri"
+		class = "pc_gas_giant"
+		orbit_distance = 90
+		orbit_angle = { min = 90 max = 270 }
+		size = 32
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Athame"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 39
+		change_orbit = 5
+		has_ring = no
+	}
+	planet = {
+		name = "Tevura"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		change_orbit = 5
+		has_ring = no
+	}
+
+}

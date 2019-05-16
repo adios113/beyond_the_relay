@@ -1,0 +1,80 @@
+dirada_system = {
+	name = "Dirada"
+	class = "sc_b"
+	max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "dirada_hyperlane"
+    }
+
+    flags = {
+        dirada_system
+    }
+
+    asteroid_belt = { 
+        type = rocky_asteroid_belt
+        radius = 20
+    }
+
+    planet = {
+		name = "Dirada"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+	}
+	
+	planet = {
+		name =  "Siano"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = 135
+		size = 12
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Thenusi"
+		class = "pc_barren_cold"
+		orbit_distance = 20
+		orbit_angle = 135
+		size = 15
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Canalus"
+		class = "pc_barren_cold"
+		orbit_distance = 40
+		orbit_angle = -110
+		size = 12
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Zeth"
+		class = "pc_gas_giant"
+		orbit_distance = 30
+		orbit_angle = -50
+		size = 28
+		has_ring = no
+	}	
+	
+	planet = {
+		name =  "Sineus"
+		class = "pc_gas_giant"
+		orbit_distance = 20
+		orbit_angle = -60
+		size = 28
+		has_ring = yes
+	}	
+	
+	planet = {
+		name =  "Vioresa"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = -45
+		size = 22
+		has_ring = no
+	}	
+}
