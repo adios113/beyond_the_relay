@@ -2,8 +2,10 @@ harsa_system = {
 	name = "Harsa"
 	class = "sc_g"
 	max_instances = 1
+	usage = custom_empire
     init_effect = {
-        save_global_event_target_as = "harsa_relay_system"
+		save_global_event_target_as = "harsa_relay_system"
+		generate_home_system_resources = yes
     }
 
     flags = {
@@ -38,9 +40,13 @@ harsa_system = {
 		class = "pc_tropical"
 		orbit_distance = 40
 		orbit_angle = 120
+		starting_planet = yes
 		size = 15
 		has_ring = no
-		
+		init_effect = {
+			prevent_anomaly = yes
+			generate_empire_home_planet = yes
+		}
 		flags = { planet_karshan }
 	}
 	

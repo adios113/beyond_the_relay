@@ -62,3 +62,29 @@ empire_name_format = {
 	noun = "[This.GetSpeciesName]"
     prefix_format = "S N V"
 }
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = batarian_hegemony
+        } 
+    }
+	format = "format.batarian_hegemony"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = "B S N"
+}
+
+empire_name_format = {
+	random_weight = { 
+        factor = 0 
+        modifier = { 
+            add = 10000 
+            has_country_flag = geth_consensus
+        } 
+    }
+	format = "format.geth_consensus"
+	noun = "[This.GetSpeciesName]"
+    prefix_format = ""
+}

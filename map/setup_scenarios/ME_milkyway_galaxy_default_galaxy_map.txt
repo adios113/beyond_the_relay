@@ -166,7 +166,7 @@ static_galaxy_scenario = {
 		system = { id = "26" name = "Bahak" position = { x = { min = -124 max = -124 } y =  { min =  462 max =  462 } } initializer = bahak_system }
 		
 		##KITE'S NEST
-		system = { id = "27" name = "Harsa" position = { x = { min = -192 max = -192 } y =  { min =  402 max =  402 } } initializer = harsa_system }
+		system = { id = "27" name = "Harsa" position = { x = { min = -192 max = -192 } y =  { min =  402 max =  402 } } initializer = harsa_system spawn_weight = { base = 0 modifier = { add = 100000 has_country_flag = batarian_hegemony } } }
 			system = { id = "102" name = "Indris" position = { x = { min = -199 max = -199 } y =  { min =  395 max =  395 } } initializer = indris_system }
 			system = { id = "103" name = "Untrel" position = { x = { min = -198 max = -198 } y =  { min =  405 max =  405 } } initializer = untrel_system }
 			system = { id = "104" name = "Vular" position = { x = { min = -180 max = -180 } y =  { min =  408 max =  408 } } initializer = vular_system }

@@ -44,3 +44,21 @@
   PRESCRIPTED_species_adjective_SalarianUnion:0 "Salarian"
   PRESCRIPTED_adjective_SalarianUnion:0 "Salarian"
   PRESCRIPTED_ruler_name_SalarianUnion:0 "Dalatrass"
+
+  ##BATARIAN HEGEMONY
+  format.batarian_hegemony:0 "Batarian Hegemony"
+  PRESCRIPTED_ship_prefix_BatarianHegemony:0 "SNV"
+  PRESCRIPTED_species_name_BatarianHegemony:0 "Batarian"
+  PRESCRIPTED_species_plural_BatarianHegemony:0 "Batarians"
+  PRESCRIPTED_species_adjective_BatarianHegemony:0 "Batarian"
+  PRESCRIPTED_adjective_BatarianHegemony:0 "Batarian"
+  PRESCRIPTED_ruler_name_BatarianHegemony:0 "Prime Administrator"
+
+  ##GETH CONSENSUS
+  format.geth_consensus:0 "Geth Consensus"
+  PRESCRIPTED_ship_prefix_GethConsensus:0 ""
+  PRESCRIPTED_species_name_GethConsensus:0 "Geth"
+  PRESCRIPTED_species_plural_GethConsensus:0 "Geths"
+  PRESCRIPTED_species_adjective_GethConsensus:0 "Geth"
+  PRESCRIPTED_adjective_GethConsensus:0 "Geth"
+  PRESCRIPTED_ruler_name_GethConsensus:0 "Geth Network"
