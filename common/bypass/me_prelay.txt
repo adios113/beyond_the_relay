@@ -1,5 +1,5 @@
 me_prelay = {
-	name = ME_PRIMARY_RELAY
+	name = ME_PRIMARY_RELAY ## localisation/english/l_english.yml
 	is_pathfind = yes
 	uses_action = no
 	requires_exploration = yes
@@ -11,8 +11,8 @@ me_prelay = {
 	icon_frame = 12
 	remember_instances = yes
 	animation_time = 1
-	galactic_map_tooltip_header=ME_PRIMARY_RELAY_GALACTIC
-	galactic_map_tooltip_desc=ME_PRIMARY_RELAY_DESC
+	galactic_map_tooltip_header=ME_PRIMARY_RELAY_GALACTIC ## localisation/english/l_english.yml
+	galactic_map_tooltip_desc=ME_PRIMARY_RELAY_DESC ## localisation/english/l_english.yml
 	connection_type = one_to_one
 	ftl_ship_effect = "wormhole_ftl_ship_effect_entity"
 	ftl_bypass_effect = "wormhole_ftl_bypass_effect_entity"
@@ -26,7 +26,7 @@ me_prelay = {
 	
 	country_can_use = {
 		custom_tooltip = {
-			fail_text = NATURAL_WORMHOLE_COUNTRY_CANNOT_USE
+			fail_text = NATURAL_WORMHOLE_COUNTRY_CANNOT_USE ## localisation/english/l_english.yml
 			# Wormhole can be used if...
 			OR = {
 				# System has no owner
