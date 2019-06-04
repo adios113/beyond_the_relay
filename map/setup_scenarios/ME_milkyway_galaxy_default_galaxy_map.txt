@@ -312,5 +312,390 @@ static_galaxy_scenario = {
 	#nebula = { name = "Rosetta Nebula" position = { x = -144 y = -453 } radius = 15 }
 	#nebula = { name = "Titan Nebula" position = { x = 60 y = -462 } radius = 15 }
 	
+	
+		##LOCAL HYPERLANE CONNECTIONS
+		##TERMINUS SYSTEMS
+		##
+		##
+		## OMEGA NEBULA LOCAL
+		add_hyperlane = { from = "1" to = "53" } 
+		add_hyperlane = { from = "1" to = "52" } 
+		add_hyperlane = { from = "1" to = "49" } 
+		add_hyperlane = { from = "1" to = "50" } 
+		add_hyperlane = { from = "1" to = "51" } 
+
+		add_hyperlane = { from = "53" to = "52" }
+		add_hyperlane = { from = "53" to = "49" }
+		add_hyperlane = { from = "53" to = "50" }
+		add_hyperlane = { from = "53" to = "51" }
+
+		add_hyperlane = { from = "52" to = "51" }
+		add_hyperlane = { from = "52" to = "50" }
+		add_hyperlane = { from = "52" to = "49" }
+		
+		add_hyperlane = { from = "50" to = "51" }
+		add_hyperlane = { from = "50" to = "49" }
+
+		add_hyperlane = { from = "49" to = "51" }
+		
+
+		##CRESCENT NEBULA
+		add_hyperlane = { from = "9" to = "69" } 
+		add_hyperlane = { from = "9" to = "70" } 
+		add_hyperlane = { from = "9" to = "71" } 
+
+		add_hyperlane = { from = "69" to = "70" }
+		add_hyperlane = { from = "69" to = "71" }
+
+		add_hyperlane = { from = "70" to = "71" }
+
+		##FAR RIM
+		add_hyperlane = { from = "5" to = "60" } 
+
+		##HOURGLASS NEBULA
+		add_hyperlane = { from = "7" to = "64" } 
+		add_hyperlane = { from = "7" to = "63" } 
+		add_hyperlane = { from = "7" to = "65" } 
+
+		add_hyperlane = { from = "63" to = "64" }
+		add_hyperlane = { from = "63" to = "65" }
+
+		add_hyperlane = { from = "64" to = "65" }
+
+		##ROSETTA NEBULA
+		add_hyperlane = { from = "3" to = "58" } 
+		add_hyperlane = { from = "3" to = "59" } 
+		
+		add_hyperlane = { from = "58" to = "59" } 
+
+		##SIGURDS CRADLE	
+		add_hyperlane = { from = "2" to = "54" } 
+		add_hyperlane = { from = "2" to = "55" } 
+		add_hyperlane = { from = "2" to = "56" } 
+		add_hyperlane = { from = "2" to = "57" } 
+
+		add_hyperlane = { from = "54" to = "55" } 
+		add_hyperlane = { from = "54" to = "56" } 
+		add_hyperlane = { from = "54" to = "57" } 
+
+		add_hyperlane = { from = "55" to = "56" } 
+		add_hyperlane = { from = "55" to = "57"} 
+
+		add_hyperlane = { from = "56" to = "57" } 
+
+		##THE PHOENIX MASSING
+		add_hyperlane = { from = "11" to = "72" } 
+		add_hyperlane = { from = "11" to = "73" } 
+		add_hyperlane = { from = "11" to = "74" } 
+		add_hyperlane = { from = "11" to = "75" } 
+
+		add_hyperlane = { from = "72" to = "73" } 
+		add_hyperlane = { from = "72" to = "74" } 
+		add_hyperlane = { from = "72" to = "75" } 
+		
+		add_hyperlane = { from = "73" to = "74" } 
+		add_hyperlane = { from = "73" to = "75" } 
+
+		add_hyperlane = { from = "74" to = "75" } 
+
+		#THE SHRIKE ABYSSAL
+		add_hyperlane = { from = "8" to = "66" } 
+		add_hyperlane = { from = "8" to = "67" } 
+		add_hyperlane = { from = "8" to = "68" } 
+
+		add_hyperlane = { from = "66" to = "67" } 
+		add_hyperlane = { from = "66" to = "68" } 
+
+		add_hyperlane = { from = "67" to = "68" } 
+
+		##TITAN NEBULA
+
+		##VALLHALLAN THRESHOLD
+		add_hyperlane = { from = "6" to = "61" } 
+		add_hyperlane = { from = "6" to = "62" } 
+
+		add_hyperlane = { from = "61" to = "62" } 
+
+		##OUTER COUNCIL SPACE
+		##
+		##
+		##ATHENA NEBULA
+		add_hyperlane = { from = "14" to = "81" } 
+		add_hyperlane = { from = "14" to = "82" } 
+		add_hyperlane = { from = "14" to = "83" } 
+		add_hyperlane = { from = "14" to = "84" } 
+
+		add_hyperlane = { from = "81" to = "82" } 
+		add_hyperlane = { from = "81" to = "83" } 
+		add_hyperlane = { from = "81" to = "84" } 
+
+		add_hyperlane = { from = "82" to = "83" } 
+		add_hyperlane = { from = "82" to = "84" } 
+
+		add_hyperlane = { from = "83" to = "84" } 
+
+		##MINOS WASTELAND
+		add_hyperlane = { from = "12" to = "76" } 
+		add_hyperlane = { from = "12" to = "77" } 
+
+		add_hyperlane = { from = "76" to = "77" } 
+
+		##NIMBUS CLUSTER
+		add_hyperlane = { from = "13" to = "78" } 
+		add_hyperlane = { from = "13" to = "79" } 
+		add_hyperlane = { from = "13" to = "80" } 
+
+		add_hyperlane = { from = "78" to = "79" } 
+		add_hyperlane = { from = "78" to = "80" } 
+
+		add_hyperlane = { from = "79" to = "80" } 
+
+		##SERPENT NEBULA
+		add_hyperlane = { from = "15" to = "85" } 
+
+		##SILEAN NEBULA
+		add_hyperlane = { from = "16" to = "86" } 
+		add_hyperlane = { from = "16" to = "87" } 
+		add_hyperlane = { from = "16" to = "88" } 
+		add_hyperlane = { from = "16" to = "89" } 
+
+		add_hyperlane = { from = "86" to = "87" } 
+		add_hyperlane = { from = "86" to = "88" } 
+		add_hyperlane = { from = "86" to = "89" } 
+
+		add_hyperlane = { from = "87" to = "88" } 
+		add_hyperlane = { from = "87" to = "89" } 
+
+		add_hyperlane = { from = "88" to = "89" } 
+
+
+
+
+		##INNER COUNCIL SPACE
+		##
+		##
+		##AETHON CLUSTER
+		add_hyperlane = { from = "20" to = "94" } 
+		add_hyperlane = { from = "20" to = "95" } 
+		add_hyperlane = { from = "20" to = "96" } 
+
+		add_hyperlane = { from = "94" to = "95" } 
+		add_hyperlane = { from = "94" to = "96" } 
+
+		add_hyperlane = { from = "95" to = "96" } 
+
+		##ANNON BASIN
+
+		##APIEN CREST
+		add_hyperlane = { from = "19" to = "92" } 
+		add_hyperlane = { from = "19" to = "93" } 
+
+		add_hyperlane = { from = "92" to = "93" } 
+
+		##KROGAN DMZ
+		add_hyperlane = { from = "17" to = "90" } 
+		add_hyperlane = { from = "17" to = "91" } 
+
+		add_hyperlane = { from = "90" to = "91" } 
+
+		##ALLIANCE SPACE
+		##
+		##
+		##ARCTURUS STREAM
+		add_hyperlane = { from = "22" to = "97" } 
+
+		##ARGOS RHO
+		add_hyperlane = { from = "34" to = "118" } 
+		add_hyperlane = { from = "34" to = "119" } 
+
+		add_hyperlane = { from = "118" to = "119" } 
+
+		##ARTEMIS TAU
+		add_hyperlane = { from = "28" to = "105" } 
+		add_hyperlane = { from = "28" to = "106" } 
+		add_hyperlane = { from = "28" to = "107" } 
+
+		add_hyperlane = { from = "105" to = "106" } 
+		add_hyperlane = { from = "105" to = "107" } 
+
+		add_hyperlane = { from = "106" to = "107" }
+		
+		##ATTICAN BETA
+		add_hyperlane = { from = "32" to = "115" } 
+
+		##EXODUS CLUSTER
+		add_hyperlane = { from = "24" to = "101" } 
+
+		##GEMINI SIGMA
+		add_hyperlane = { from = "31" to = "114" } 
+
+		##HADES GAMMA
+		add_hyperlane = { from = "29" to = "108" } 
+		add_hyperlane = { from = "29" to = "109" } 
+		add_hyperlane = { from = "29" to = "110" } 
+		add_hyperlane = { from = "29" to = "111" } 
+
+		add_hyperlane = { from = "108" to = "109" }
+		add_hyperlane = { from = "108" to = "110" }
+		add_hyperlane = { from = "108" to = "111" }
+
+		add_hyperlane = { from = "109" to = "110" }
+		add_hyperlane = { from = "109" to = "111" }
+
+		add_hyperlane = { from = "110" to = "111" }
+
+		##HORSEHEAD NEBULA
+		add_hyperlane = { from = "23" to = "98" } 
+		add_hyperlane = { from = "23" to = "99" } 
+		add_hyperlane = { from = "23" to = "100" } 
+
+		add_hyperlane = { from = "98" to = "99" }
+		add_hyperlane = { from = "98" to = "100" }
+
+		add_hyperlane = { from = "99" to = "100" }
+
+		##KITE'S NEST
+		add_hyperlane = { from = "27" to = "102" } 
+		add_hyperlane = { from = "27" to = "103" } 
+		add_hyperlane = { from = "27" to = "104" } 
+
+		add_hyperlane = { from = "102" to = "103" }
+		add_hyperlane = { from = "102" to = "104" }
+
+		add_hyperlane = { from = "103" to = "104" }
+
+		##LOCAL CLUSTER
+
+		##MAROON SEE
+		add_hyperlane = { from = "33" to = "116" } 
+		add_hyperlane = { from = "33" to = "117" } 
+
+		add_hyperlane = { from = "116" to = "117" }
+
+		##PETRA NEBULA
+
+		##VIPER NEBULA
+
+		##VOYAGER CLUSTER
+		add_hyperlane = { from = "30" to = "112" } 
+		add_hyperlane = { from = "30" to = "113" } 
+
+		add_hyperlane = { from = "112" to = "113" }
+
+		##ATTICAN TRAVERSE
+		##
+		##
+		##ARMSTRONG NEBULA
+		add_hyperlane = { from = "35" to = "120" } 
+		add_hyperlane = { from = "35" to = "121" } 
+		add_hyperlane = { from = "35" to = "122" } 
+		add_hyperlane = { from = "35" to = "123" } 
+
+		add_hyperlane = { from = "120" to = "121" }
+		add_hyperlane = { from = "120" to = "122" }
+		add_hyperlane = { from = "120" to = "123" }
+
+		add_hyperlane = { from = "121" to = "122" }
+		add_hyperlane = { from = "121" to = "123" }
+
+		add_hyperlane = { from = "122" to = "123" }
+
+		##CALESTON RIFT
+		add_hyperlane = { from = "43" to = "132" } 
+		add_hyperlane = { from = "43" to = "133" } 
+		add_hyperlane = { from = "43" to = "134" } 
+		add_hyperlane = { from = "43" to = "135" } 
+
+		add_hyperlane = { from = "132" to = "133" }
+		add_hyperlane = { from = "132" to = "134" }
+		add_hyperlane = { from = "132" to = "135" }
+
+		add_hyperlane = { from = "133" to = "134" }
+		add_hyperlane = { from = "133" to = "135" }
+
+		add_hyperlane = { from = "134" to = "135" }
+
+		##EAGLE NEBULA
+		add_hyperlane = { from = "47" to = "144" } 
+		add_hyperlane = { from = "47" to = "145" } 
+		add_hyperlane = { from = "47" to = "146" } 
+		add_hyperlane = { from = "47" to = "147" } 
+
+		add_hyperlane = { from = "144" to = "145" }
+		add_hyperlane = { from = "144" to = "146" }
+		add_hyperlane = { from = "144" to = "147" }
+
+		add_hyperlane = { from = "145" to = "146" }
+		add_hyperlane = { from = "145" to = "147" }
+
+		add_hyperlane = { from = "146" to = "147" }
+
+		##HADES NEXUS
+		add_hyperlane = { from = "42" to = "129" } 
+		add_hyperlane = { from = "42" to = "130" } 
+		add_hyperlane = { from = "42" to = "131" } 
+
+		add_hyperlane = { from = "129" to = "130" }
+		add_hyperlane = { from = "129" to = "131" }
+
+		add_hyperlane = { from = "130" to = "131" }
+
+		##HAWKING ETA
+		add_hyperlane = { from = "44" to = "136" } 
+		add_hyperlane = { from = "44" to = "137" } 
+		add_hyperlane = { from = "44" to = "138" } 
+		add_hyperlane = { from = "44" to = "139" } 
+
+		add_hyperlane = { from = "136" to = "137" }
+		add_hyperlane = { from = "136" to = "138" }
+		add_hyperlane = { from = "136" to = "139" }
+
+		add_hyperlane = { from = "137" to = "138" }
+		add_hyperlane = { from = "137" to = "139" }
+
+		add_hyperlane = { from = "138" to = "139" }
+
+		##ISMAR FRONTIER
+		add_hyperlane = { from = "48" to = "148" } 
+		add_hyperlane = { from = "48" to = "149" } 
+
+		add_hyperlane = { from = "148" to = "149" }
+
+		##KEPLER VERGE
+		add_hyperlane = { from = "37" to = "126" } 
+
+		##NINMAH CLUSTER
+		add_hyperlane = { from = "40" to = "128" } 
+
+		##NUBIAN EXPANSE
+		add_hyperlane = { from = "36" to = "124" } 
+		add_hyperlane = { from = "36" to = "125" } 
+
+		add_hyperlane = { from = "124" to = "125" }
+
+		##PANGEA EXPANSE
+
+		##PYLOS NEBULA
+		add_hyperlane = { from = "45" to = "140" } 
+		add_hyperlane = { from = "45" to = "141" } 
+		add_hyperlane = { from = "45" to = "142" } 
+		add_hyperlane = { from = "45" to = "143" } 
+
+		add_hyperlane = { from = "140" to = "141" }
+		add_hyperlane = { from = "140" to = "142" }
+		add_hyperlane = { from = "140" to = "143" }
+
+		add_hyperlane = { from = "141" to = "142" }
+		add_hyperlane = { from = "141" to = "143" }
+
+		add_hyperlane = { from = "142" to = "143" }
+
+		##SENTRY OMEGA
+
+		##SHADOW SEA
+
+		##STYX THETA
+		add_hyperlane = { from = "39" to = "127" } 
+	
 
 }
