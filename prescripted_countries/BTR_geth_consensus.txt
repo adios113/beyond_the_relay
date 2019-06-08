@@ -1,0 +1,76 @@
+
+##GETH CONSENSUS
+GethConsensus = {
+	name = "GethConsensus"
+	spawn_enabled = always 
+	
+	name_list = "MACHINE3"
+	ship_prefix = "PRESCRIPTED_ship_prefix_GethConsensus"
+	
+	species_name = "PRESCRIPTED_species_name_GethConsensus"
+	species_plural = "PRESCRIPTED_species_plural_GethConsensus"
+	species_adjective = "PRESCRIPTED_species_adjective_GethConsensus"
+	species_class = "MACHINE"
+	species_bio = ""
+	portrait = "sd_mam_robot"
+	adjective = "PRESCRIPTED_adjective_GethConsensus"
+	
+	authority="auth_machine_intelligence"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_unitary_cohesion"
+	}
+	government="gov_machine_servitor"
+
+	ethic="ethic_gestalt_consciousness"
+	trait="trait_machine_unit"
+	trait="trait_robot_efficient_processors"
+	trait="trait_robot_double_jointed"
+	trait="trait_robot_repurposed_hardware"
+	trait="trait_robot_luxurious"
+	
+	flags={ 
+		geth_consensus
+	}
+
+	planet_name = "Rannoch"
+	initializer = "tikkun_system"
+	planet_class = "pc_arid"
+	system_name = "Tikkun"
+	
+	room="machine_room"
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+	
+	empire_flag={
+		icon={
+			category="BTR_flags"
+			file="BTR_Geth01.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_GethConsensus"
+		gender = male
+		portrait="geth_legion"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Geth"
+	}
+}
+
+
+
+
+

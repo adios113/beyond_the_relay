@@ -1,0 +1,245 @@
+portraits = {
+	rep1_fix = {	entity = "portrait_reptilian_01_entity"	clothes_selector = "reptilian_slender_clothes_01" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/reptilian/reptilian_slender_01_turqoise.dds"
+			"gfx/models/portraits/reptilian/reptilian_slender_01_blue.dds"
+			"gfx/models/portraits/reptilian/reptilian_slender_01_purple.dds"
+			"gfx/models/portraits/reptilian/reptilian_slender_01_white.dds"
+			"gfx/models/portraits/reptilian/reptilian_slender_01_black.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	rep1 = {
+		default = salarian_2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					rep1_fix
+					salarian_1	#dark grey
+					salarian_2	#red
+					salarian_3	#blue grey
+					salarian_4	#green
+					salarian_5	#light grey				
+				}
+			}
+		
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					salarian_1
+					salarian_2
+					salarian_3
+					salarian_4
+					salarian_5
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					rep1_fix
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					salarian_1
+					salarian_2
+					salarian_3
+					salarian_4
+					salarian_5
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					rep1_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					salarian_1
+					salarian_2
+					salarian_3
+					salarian_4
+					salarian_5
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					rep1_fix
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					salarian_1
+					salarian_2
+					salarian_3
+					salarian_4
+					salarian_5
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Salarian"
+						is_species = "Neo-Salarian" 
+						is_species = "Post-Salarian" 
+						is_species = "Super-Salarian" 
+						is_species = "Ultra-Salarian" 
+						is_species = "Meta-Salarian" 
+						is_species = "Trans-Salarian" 
+						is_species = "High Salarian" 
+						is_species = "Salarian Superior"
+						is_species = "Salarian Variatus"
+						is_species = "Salarian Mutatis"
+						is_species = "Salarian Clarus"
+						is_species = "Salarian Illustratum"
+					}
+				}
+				portraits = {
+					rep1_fix
+				}
+			}
+		}
+	}
+}

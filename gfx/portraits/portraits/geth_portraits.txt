@@ -1,0 +1,116 @@
+portraits = {
+	sd_mam_robot_fix = {
+		entity = "portrait_mammalian_synthetic_dawn_01_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_mammalian_greetings"
+		character_textures = {
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_mammalian.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_mammalian_yellow.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_mammalian_turqoise.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_mammalian_green.dds"
+		}
+	}
+}	
+
+portrait_groups = {
+	sd_mam_robot = {
+		default = geth
+		game_setup = { #will run with a limited country scope. species and government is set but the country does NOT actually exist
+			add = {
+				portraits = {
+					sd_mam_robot_fix
+					geth
+					geth_legion
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					is_species = "Geth"
+				}
+				portraits = {
+					geth
+				}
+			}
+			add = {
+				trigger = { 
+					NOT = { 
+						is_species = "Geth"
+					}
+				}
+				portraits = {
+					sd_mam_robot_fix
+				}
+			}
+		}
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					is_species = "Geth"
+				}
+				portraits = {
+					geth
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { 
+						is_species = "Geth"
+					}
+				}
+				portraits = {
+					sd_mam_robot_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					is_species = "Geth"
+				}
+				portraits = {
+					geth
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { 
+						is_species = "Geth"
+					}
+				}
+				portraits = {
+					sd_mam_robot_fix
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					is_species = "Geth"
+				}
+				portraits = {
+					geth
+					geth_legion
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { 
+						is_species = "Geth"
+					}
+				}
+				portraits = {
+					sd_mam_robot_fix
+				}
+			}
+		}		
+	}		
+}

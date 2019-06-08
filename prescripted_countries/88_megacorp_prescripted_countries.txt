@@ -1,1 +1,1 @@
-### EMPTY
+##Hiding Vanilla Empires from the empire selection menu.

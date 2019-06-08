@@ -1,0 +1,219 @@
+portraits = {
+	art17_fix = {	entity = "portrait_arthropoid_17_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_blue.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_teal.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_green.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_olive.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_yellow.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_orange.dds"
+					"gfx/models/portraits/arthropoid/arthropoid_massive_17_red.dds"
+			}
+	}
+}
+
+portrait_groups = {
+	art17 {
+		default = rachni
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					art17_fix
+					rachni
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					rachni
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					art17_fix
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					rachni
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					art17_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					rachni
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					art17_fix
+				}
+			}
+		}
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					rachni
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Rachni"
+						is_species = "Neo-Rachni" 
+						is_species = "Post-Rachni" 
+						is_species = "Super-Rachni" 
+						is_species = "Ultra-Rachni" 
+						is_species = "Meta-Rachni" 
+						is_species = "Trans-Rachni" 
+						is_species = "High Rachni" 
+						is_species = "Rachni Superior"
+						is_species = "Rachni Variatus"
+						is_species = "Rachni Mutatis"
+						is_species = "Rachni Clarus"
+						is_species = "Rachni Illustratum"
+					}
+				}
+				portraits = {
+					art17_fix
+				}
+			}
+		}
+	}
+}

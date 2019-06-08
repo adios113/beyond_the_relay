@@ -1,0 +1,81 @@
+#########################
+##ASARI REPUBLICS (Asari)
+#########################
+AsariRepublics = {
+    name = "AsariRepublics"
+    spawn_enabled = always
+    ignore_portrait_duplication = yes
+   
+    name_list = "MAM1"
+    ship_prefix = "PRESCRIPTED_ship_prefix_AsariRepublics"
+   
+    species_name = "PRESCRIPTED_species_name_AsariRepublics"
+    species_plural = "PRESCRIPTED_species_plural_AsariRepublics"
+    species_adjective = "PRESCRIPTED_species_adjective_AsariRepublics"
+    species_class = "HUM"
+    portrait = "humanoid_03"
+    adjective = "PRESCRIPTED_adjective_AsariRepublics"
+   
+    authority = "auth_democratic"
+    government = "gov_theocratic_republic"
+    ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_spiritualist"
+    civics={
+        "civic_free_haven"
+        "civic_parliamentary_system"
+    }
+   
+    trait = "trait_slow_breeders"
+	trait = "trait_slow_learners"
+	trait = "trait_charismatic"
+    trait = "trait_venerable"
+    trait = "trait_decadent"
+   
+   
+    initializer = "parnitha_system"
+    planet_name = "Thessia"
+    planet_class = "pc_continental"
+    system_name = "Parnitha"
+  
+   
+   
+    flags={
+        asari_republics
+        custom_start_screen
+    }
+   
+   
+    room = "personality_federation_builders_room"
+    graphical_culture = "humanoid_01"
+    city_graphical_culture = "humanoid_01"
+   
+    empire_flag={
+        icon={
+            category="BTR_flags"
+            file="BTR_Asari01.dds"
+        }
+        background={
+            category="backgrounds"
+            file="00_solid.dds"
+        }
+        colors={
+            "burgundy"
+            "light_blue"
+            "null"
+            "null"
+        }
+    }
+   
+    ruler={
+		gender = female
+		name = "PRESCRIPTED_ruler_name_AsariRepublics"
+		portrait = "asari-republic_1"
+		texture = 2
+		hair= 0
+		clothes= 50
+		ruler_title="Matriarch"
+		ruler_title_female="Matriarch"
+        heir_title =""
+		heir_title_female =""
+	}
+}

@@ -1,6 +1,7 @@
-﻿name="Mass Effect: Milky Way"
-path="mod/me_milkyway"
+name="Mass Effect: Beyond the Relay"
+path="mod/beyondtherelay"
 tags={
+	"Total Conversion"
 	"Galaxy Generation"
 }
-supported_version="2.2.*"
+supported_version="2.3.*"

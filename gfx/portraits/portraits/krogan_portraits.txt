@@ -1,0 +1,329 @@
+portraits = {
+	rep14_fix = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/reptilian/reptilian_massive_14_yellow.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_14_green_yellow.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_14_green.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_14_black.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_14_brown.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_14_red.dds"
+		}				
+	}
+}
+
+portrait_groups = {
+	rep14 {
+		default = krogan_wrex
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rep14_fix
+					krogan_wrex
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rep14_fix
+					krogan_female
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_wrex
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_wrex
+					krogan_female
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_wrex
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+		}
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_wrex
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					OR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					krogan_female
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOR = {
+						is_species = "Krogan"
+						is_species = "Neo-Krogan" 
+						is_species = "Post-Krogan" 
+						is_species = "Super-Krogan" 
+						is_species = "Ultra-Krogan" 
+						is_species = "Meta-Krogan" 
+						is_species = "Trans-Krogan" 
+						is_species = "High Krogan" 
+						is_species = "Krogan Superior"
+						is_species = "Krogan Variatus"
+						is_species = "Krogan Mutatis"
+						is_species = "Krogan Clarus"
+						is_species = "Krogan Illustratum"
+					}
+				}
+				portraits = {
+					rep14_fix
+				}
+			}
+		}
+	}
+}

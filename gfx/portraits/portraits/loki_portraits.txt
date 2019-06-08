@@ -1,0 +1,132 @@
+portraits = {
+	# Humanoid
+	sd_hum_robot_fix = {
+		entity = "portrait_humanoid_synthetic_dawn_01_entity"	clothes_selector = "no_texture"	hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"
+		character_textures = {
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_humanoid.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_humanoid_orange.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_humanoid_red.dds"
+			"gfx/models/portraits/synthetic_dawn/synthetic_dawn_portrait_humanoid_black.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	sd_hum_robot {
+		default = loki
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					sd_hum_robot_fix
+					loki
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					is_species = "LOKI Mech"
+				}
+				portraits = {
+					loki
+				}
+			}
+			add = {
+				trigger = { 
+					NOT = { 
+						is_species = "LOKI Mech"
+					}
+				}
+				portraits = {
+					sd_hum_robot_fix
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					loki
+				}
+			}
+			add = {
+				trigger = { 
+					NOR = { 
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					sd_hum_robot_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					loki
+				}
+			}
+			add = {
+				trigger = {
+					NOR = { 
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					sd_hum_robot_fix
+				}
+			}
+		}
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					loki
+				}
+			}
+			add = {
+				trigger = {
+					NOR = { 
+						is_species = "LOKI Mech"
+						owner = { has_country_flag = "me_alliance" }
+						owner = { has_country_flag = "me_cerberus" }
+					}
+				}
+				portraits = {
+					sd_hum_robot_fix
+				}
+			}
+		}
+	}
+}

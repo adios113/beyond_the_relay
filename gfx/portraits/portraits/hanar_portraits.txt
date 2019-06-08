@@ -1,0 +1,221 @@
+portraits = {
+	mol7_fix = {	entity = "portrait_molluscoid_07_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "molluscoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_blue_pink.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_blue_red.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_blue_orange.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_black_orange.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_black_red.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_black_pink.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_black_purple.dds"
+					"gfx/models/portraits/molluscoid/molluscoid_normal_07_black_blue.dds"
+			}
+	}
+}
+
+portrait_groups = {
+	mol7 {
+		default = hanar
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					mol7_fix
+					hanar
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					hanar
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					mol7_fix
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					hanar
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					mol7_fix
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					hanar
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					mol7_fix
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					hanar
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Hanar"
+						is_species = "Neo-Hanar" 
+						is_species = "Post-Hanar" 
+						is_species = "Super-Hanar" 
+						is_species = "Ultra-Hanar" 
+						is_species = "Meta-Hanar" 
+						is_species = "Trans-Hanar" 
+						is_species = "High Hanar" 
+						is_species = "Hanar Superior"
+						is_species = "Hanar Variatus"
+						is_species = "Hanar Mutatis"
+						is_species = "Hanar Clarus"
+						is_species = "Hanar Illustratum"
+					}
+				}
+				portraits = {
+					mol7_fix
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,271 @@
+portraits = {
+}
+
+portrait_groups = {
+	humanoid_02 {
+		default = batarian
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					humanoid_02_male_01
+					batarian
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					humanoid_02_female_01
+					batarian
+				}
+			}
+
+		}		
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					batarian
+				}
+			}
+			add = {
+				trigger = { 
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_02_female_01
+					humanoid_02_male_01
+				}
+			}
+		}		
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					batarian
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_02_female_01
+					humanoid_02_male_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					batarian
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+					gender = female
+				}
+				portraits = {
+					humanoid_02_female_01
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+					gender = male
+				}
+				portraits = {
+					humanoid_02_male_01
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+				}
+				portraits = {
+					batarian
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+					gender = female
+				}
+				portraits = {
+					humanoid_02_female_01
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Batarian"
+						is_species = "Neo-Batarian" 
+						is_species = "Post-Batarian" 
+						is_species = "Super-Batarian" 
+						is_species = "Ultra-Batarian" 
+						is_species = "Meta-Batarian" 
+						is_species = "Trans-Batarian" 
+						is_species = "High Batarian" 
+						is_species = "Batarian Superior"
+						is_species = "Batarian Variatus"
+						is_species = "Batarian Mutatis"
+						is_species = "Batarian Clarus"
+						is_species = "Batarian Illustratum"
+					}
+					gender = male
+				}
+				portraits = {
+					humanoid_02_male_01
+				}
+			}
+		}
+	}
+}

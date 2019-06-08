@@ -1,0 +1,103 @@
+## Sahrabarik System (RELAY SYSTEM)
+## OMEGA 4 Relay
+## Mass Relay
+
+@base_moon_distance = 10
+
+
+skepsis_system = {
+    name = "Skepsis"						
+    class = sc_g
+    max_instances = 1
+    init_effect = {
+        save_global_event_target_as = "skepsis_relay_system"
+    }
+
+    flags = {
+        skepsis_system
+    }
+
+
+    planet = {
+		name = "Skepsis"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Wallace"
+		class = "pc_gas_giant" ##Change to HOT gas giant
+		orbit_distance = 30
+		orbit_angle = 270
+		size = 20
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Darwin"
+		class = "pc_barren" ## Change to blue gas giant
+		orbit_distance = 40
+		orbit_angle = 50
+		size = 25
+		has_ring = no
+    }
+    
+    planet = {
+		name = "Watson"
+		class = "pc_tropical" ##Change to Lush
+		orbit_distance = 60
+		orbit_angle = 60
+		size = 18
+		has_ring = no
+    
+        moon = {
+			name = "Franklin"
+			class = "pc_barren_cold"
+			size = 6
+			orbit_distance = 10
+			orbit_angle = 0
+			has_ring = no
+		}
+    
+    
+    }
+
+    planet = {
+		name = "Crick"
+		class = "pc_barren_cold" 
+		orbit_distance = 60
+		orbit_angle = 180
+		size = 16
+		has_ring = no
+    }
+
+    planet = {
+		name = "Pauling"
+		class = "pc_gas_giant" 
+		orbit_distance = 60
+		orbit_angle = 0
+		size = 22
+		has_ring = no
+    }
+
+    planet = {
+		name = "Keimowitz"
+		class = "pc_frozen" 
+		orbit_distance = 60
+		orbit_angle = 260
+		size = 40
+        has_ring = no
+        
+        moon = {
+			name = "Noa"
+			class = "pc_barren_cold"
+			size = 8
+			orbit_distance = 10
+			orbit_angle = 0
+			has_ring = no
+		}
+    }    
+}

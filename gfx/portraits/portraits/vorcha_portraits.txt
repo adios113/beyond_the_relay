@@ -1,0 +1,246 @@
+portraits = {
+	rep15_01 = {	entity = "portrait_reptilian_15_entity"	clothes_selector = "reptilian_massive_clothes_01" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/reptilian/reptilian_massive_15_red.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_15_orange.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_15_yellow.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_15_white.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_15_brown.dds"
+			"gfx/models/portraits/reptilian/reptilian_massive_15_black.dds"
+		}
+	}
+	
+}
+
+portrait_groups = {
+	rep15 {
+		default = vorcha
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					rep15_01
+					vorcha
+					vorcha_black
+					vorcha_blue
+					vorcha_green
+					vorcha_red
+					vorcha_yellow
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					vorcha
+					vorcha_black
+					vorcha_blue
+					vorcha_green
+					vorcha_red
+					vorcha_yellow
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					rep15_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					vorcha
+					vorcha_black
+					vorcha_blue
+					vorcha_green
+					vorcha_red
+					vorcha_yellow
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					rep15_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					vorcha
+					vorcha_black
+					vorcha_blue
+					vorcha_green
+					vorcha_red
+					vorcha_yellow
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					rep15_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					vorcha
+					vorcha_black
+					vorcha_blue
+					vorcha_green
+					vorcha_red
+					vorcha_yellow
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Vorcha"
+						is_species = "Neo-Vorcha" 
+						is_species = "Post-Vorcha" 
+						is_species = "Super-Vorcha" 
+						is_species = "Ultra-Vorcha" 
+						is_species = "Meta-Vorcha" 
+						is_species = "Trans-Vorcha" 
+						is_species = "High Vorcha" 
+						is_species = "Vorcha Superior"
+						is_species = "Vorcha Variatus"
+						is_species = "Vorcha Mutatis"
+						is_species = "Vorcha Clarus"
+						is_species = "Vorcha Illustratum"
+					}
+				}
+				portraits = {
+					rep15_01
+				}
+			}
+		}
+	}
+}

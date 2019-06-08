@@ -1,0 +1,310 @@
+portraits = {
+	rep8_fix = {	entity = "portrait_reptilian_08_entity"	clothes_selector = "reptilian_normal_clothes_01" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/reptilian/reptilian_normal_08_beige.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_beige.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_brown.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_brown.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_red.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_black.dds"
+			"gfx/models/portraits/reptilian/reptilian_normal_08_white.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	rep8 = {
+		default = turian_2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					rep8_fix
+					turian_1
+					turian_2	
+					turian_3
+				}
+			}
+			
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					rep8_fix
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4
+				}
+			}		
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_1
+					turian_2	
+					turian_3			
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					rep8_fix					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_1
+					turian_2	
+					turian_3			
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4			
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					rep8_fix					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_1
+					turian_2	
+					turian_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4					
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					rep8_fix				
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_1
+					turian_2	
+					turian_3
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					OR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					turian_female_1
+					turian_female_2
+					turian_female_3
+					turian_female_4					
+				}
+			}
+			add = {
+				trigger = {
+					NOR = {
+						is_species = "Turian"
+						is_species = "Neo-Turian" 
+						is_species = "Post-Turian" 
+						is_species = "Super-Turian" 
+						is_species = "Ultra-Turian" 
+						is_species = "Meta-Turian" 
+						is_species = "Trans-Turian" 
+						is_species = "High Turian" 
+						is_species = "Turian Superior"
+						is_species = "Turian Variatus"
+						is_species = "Turian Mutatis"
+						is_species = "Turian Clarus"
+						is_species = "Turian Illustratum"
+					}
+				}
+				portraits = {
+					rep8_fix				
+				}
+			}
+		}
+	}
+}

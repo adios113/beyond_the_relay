@@ -1,3 +1,0 @@
-namespace = ME_onaction
-
-##Transfer system ownership after building a starbase in a system

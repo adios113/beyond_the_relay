@@ -1,0 +1,79 @@
+############################
+##COURTS OF DEKUUNA (Elcor)
+############################
+ElcorEmpire = {
+    name = "ElcorEmpire"
+    spawn_enabled = always
+    ignore_portrait_duplication=yes
+   
+    name_list = "HUM1"
+    ship_prefix = "PRESCRIPTED_ship_prefix_ElcorEmpire"
+   
+    species_name = "PRESCRIPTED_species_name_ElcorEmpire"
+    species_plural = "PRESCRIPTED_species_plural_ElcorEmpire"
+    species_adjective = "PRESCRIPTED_species_adjective_ElcorEmpire"
+    species_class = "MAM"
+    portrait = "mam8"
+    adjective = "PRESCRIPTED_adjective_ElcorEmpire"
+   
+    authority="auth_oligarchic"
+    government="gov_irenic_bureaucracy"
+    ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_pacifist"
+    civics={
+		"civic_agrarian_idyll"
+		"civic_aristocratic_elite"
+	}
+   
+    trait="trait_slow_learners"
+	trait="trait_very_strong"
+	trait="trait_sedentary"
+	trait="trait_solitary"
+	trait="trait_conformists"
+   
+   
+    initializer = "phontes_system"
+    planet_name = "Dekuuna"
+    planet_class = "pc_continental"
+    system_name = "Phontes"
+   
+   
+   
+    flags={
+        elcor_empire
+        custom_start_screen
+    }
+   
+   
+    room="personality_harmonious_hierarchy_room"
+    graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+   
+    empire_flag={
+        icon={
+            category="BTR_flags"
+            file="BTR_Elcor01.dds"
+        }
+        background={
+            category="backgrounds"
+            file="00_solid.dds"
+        }
+        colors={
+            "black"
+            "grey"
+            "null"
+            "null"
+        }
+    }
+   
+    ruler = {
+        name = "PRESCRIPTED_ruler_name_ElcorEmpire"
+        gender = male
+        portrait="elcor_male"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="High Elder"
+		ruler_title_female="High Elder"
+    }
+}

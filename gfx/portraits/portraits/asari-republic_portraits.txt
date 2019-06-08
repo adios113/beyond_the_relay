@@ -1,0 +1,311 @@
+portraits = {
+}
+
+portrait_groups = {
+	humanoid_03 = {
+		default = asari-republic_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does NOT actually exist
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					humanoid_03_female_01
+					asari-republic_1	#blue
+#					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+#					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+#					asari-republic_7	#pale mauve
+#					asari-republic_8	#green
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					humanoid_03_male_01
+				}
+			}
+		
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					asari-republic_1	#blue
+#					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+#					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+#					asari-republic_7	#pale mauve
+#					asari-republic_8	#green
+				}
+			}
+			add = {
+				trigger = {
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_female_01
+					humanoid_03_male_01
+				}
+			}
+		}
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					asari-republic_1	#blue
+#					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+#					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+#					asari-republic_7	#pale mauve
+#					asari-republic_8	#green
+				}
+			}
+			add = {
+				trigger = {
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_female_01
+					humanoid_03_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_male_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					asari-republic_1	#blue
+#					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+#					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+#					asari-republic_7	#pale mauve
+#					asari-republic_8	#green
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					NOR = { 
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					humanoid_03_male_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						is_species = "Asari"
+						is_species = "Neo-Asari" 
+						is_species = "Post-Asari" 
+						is_species = "Super-Asari" 
+						is_species = "Ultra-Asari" 
+						is_species = "Meta-Asari" 
+						is_species = "Trans-Asari" 
+						is_species = "High Asari" 
+						is_species = "Asari Superior"
+						is_species = "Asari Variatus"
+						is_species = "Asari Mutatis"
+						is_species = "Asari Clarus"
+						is_species = "Asari Illustratum"
+					}
+				}
+				portraits = {
+					asari-republic_1	#blue
+#					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+#					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+#					asari-republic_7	#pale mauve
+#					asari-republic_8	#green
+				}
+			}
+		}		
+	}		
+}

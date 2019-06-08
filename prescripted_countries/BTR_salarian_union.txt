@@ -1,0 +1,86 @@
+###########################
+##CANON MASS EFFECT EMPIRES
+###########################
+#
+#
+#
+#
+#
+##SALARIAN EMPIRE
+SalarianUnion = {
+	name = "SalarianUnion"
+	spawn_enabled = always 
+	ignore_portrait_duplication=yes
+	
+	name_list = "REP1"
+	ship_prefix = "PRESCRIPTED_ship_prefix_SalarianUnion"
+	
+	species_name = "PRESCRIPTED_species_name_SalarianUnion"
+	species_plural = "PRESCRIPTED_species_plural_SalarianUnion"
+	species_adjective = "PRESCRIPTED_species_adjective_SalarianUnion"
+	species_class = "REP"
+	species_bio = ""
+	portrait = "rep1"
+	adjective = "PRESCRIPTED_adjective_SalarianUnion"
+	
+	authority="auth_dictatorial"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_shadow_council"
+	}
+	government="gov_totalitarian_regime"
+
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_intelligent"
+	trait="trait_natural_sociologists"
+	trait="trait_quick_learners"
+	trait="trait_deviants"
+	trait="trait_fleeting"
+	
+	flags={ 
+		salarian_union
+	}
+
+	planet_name = "Sur'Kesh"
+	initializer = "pranas_system"
+	planet_class = "pc_tropical"
+	system_name = "Pranas"
+	
+	room="personality_erudite_explorers_room"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+	
+	empire_flag={
+		icon={
+			category="BTR_flags"
+			file="BTR_Salarians01.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_green"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_SalarianUnion"
+		gender = female
+		portrait = "salarian_1"
+		texture = 1
+		hair = 0
+		clothes = 13
+		ruler_title="Dalatrass"
+		ruler_title_female="Dalatrass"
+	}
+}
+
+
+
+
+

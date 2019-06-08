@@ -1,0 +1,583 @@
+portraits = {
+# Asari
+	asari-republic_1 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_1" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_1.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1R.dds"
+		}
+	}
+	asari-republic_2 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_2" greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_2.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2R.dds"
+		}
+	}
+	asari-republic_3 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_3" greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_3.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3R.dds"
+		}
+	}
+	asari-republic_4 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_4" greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_4.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4R.dds"
+		}
+	}
+	asari-republic_5 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_5" greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_5.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5R.dds"
+		}
+	}
+	asari-republic_6 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_6" greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_6.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6R.dds"
+		}
+	}
+	asari-republic_7 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_7" greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_7.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7R.dds"
+		}
+	}
+	asari-republic_8 = { entity = "portrait_human_female_05_entity" clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "asari-republic_hair_8" greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_8.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8R.dds"
+		}
+	}
+	
+# Batarian
+	batarian 	= {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_g_male"	
+		character_textures = {
+			"gfx/models/portraits/batari/batarian_1_new.dds"
+			"gfx/models/portraits/batari/batarian_2_new.dds"
+			"gfx/models/portraits/batari/batarian_3_new.dds"
+			"gfx/models/portraits/batari/batarian_4_new.dds"
+			"gfx/models/portraits/batari/batarian_5_new.dds"
+		}
+	}
+	
+# Collector
+	collector = {	entity = "portrait_reptilian_11_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/collector/collector_reptilian_massive_11.dds"
+		}
+	}
+	
+# Drell
+	drell_male 	= {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_d_male"	
+		character_textures = {
+			"gfx/models/portraits/drell/drell_male_body_01.dds"
+			"gfx/models/portraits/drell/drell_male_body_02_new.dds"
+			"gfx/models/portraits/drell/drell_male_body_03_new.dds"
+			"gfx/models/portraits/drell/drell_male_body_04_new.dds"
+			"gfx/models/portraits/drell/drell_male_body_05_new.dds"
+		}
+	}
+
+	drell_female = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_d_female"	
+		character_textures = {
+			"gfx/models/portraits/drell/drell_female_body_01.dds"
+			"gfx/models/portraits/drell/drell_female_body_02_new.dds"
+			"gfx/models/portraits/drell/drell_female_body_03_new.dds"
+			"gfx/models/portraits/drell/drell_female_body_04_new.dds"
+			"gfx/models/portraits/drell/drell_female_body_05_new.dds"
+		}
+	}
+	
+# Elcor
+	elcor_male = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_j_male"	
+		character_textures = {
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_2.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_3.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_4.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_5.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_6.dds"
+		}
+	}
+	
+	elcor_female = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_j_female"	
+		character_textures = {
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_2.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_3.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_4.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_5.dds"
+			"gfx/models/portraits/elcor/elcor_reptilian_massive_14_new_6.dds"
+		}
+	}
+	
+# Geth
+	geth = {	entity = "portrait_geth_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+				"gfx/models/portraits/geth/geth_black.dds"
+				"gfx/models/portraits/geth/geth_grey.dds"
+				"gfx/models/portraits/geth/geth_white.dds"
+				"gfx/models/portraits/geth/geth_red.dds"
+		}
+	}
+		
+	geth_legion = {	entity = "portrait_geth_entity" clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_human_greetings" 
+		character_textures = {
+				"gfx/models/portraits/geth/geth_legion_ver3.dds"
+		}
+	}
+	
+# Hanar
+	hanar 	= {	entity = "portrait_fungoid_12_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"	
+		character_textures = {
+			"gfx/models/portraits/hanar/hanar_fungoid_12.dds"
+		}
+	}
+	
+# Krogan
+	krogan_wrex = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_2.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_3.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_4.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_5.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_6.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_7.dds"
+		}
+	}
+	
+	krogan_female = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_pink.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_green.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_black.dds"
+		}
+	}
+	
+# LOKI Mechs
+	loki = {	entity = "portrait_robot_01_dontblink_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "robot_human_greetings"	
+		character_textures = {
+			"gfx/models/portraits/loki/loki_robot_colour_tuned.dds"
+		}
+	}
+	
+# Quarians
+	quarian_female_01 = {	entity = "portrait_quarian_female_01_entity"	clothes_selector = "quarian_female_clothes_01" hair_selector = "quarian_female_hair_01"	greeting_sound = "humanoid_female_greeting_b"
+		character_textures = { 
+			"gfx/models/portraits/quarian/quarian_female_body_01.dds" 
+		}
+	}
+	
+	quarian_male_01 = {	entity = "portrait_quarian_male_01_entity"	clothes_selector = "quarian_male_clothes_01" hair_selector = "quarian_male_hair_01"	greeting_sound = "humanoid_male_greeting_b" 
+		character_textures = { 
+			"gfx/models/portraits/quarian/quarian_male_body_01.dds"
+		}
+	}
+	
+# Rachni
+	rachni = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "arthropoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/rachni/rachni_reptilian_massive_14_new.dds"
+			"gfx/models/portraits/rachni/rachni_reptilian_massive_14_new_2.dds"
+			"gfx/models/portraits/rachni/rachni_reptilian_massive_14_new_3.dds"
+		}
+	}
+	
+
+#Salarian
+	salarian_1 = { entity = "portrait_salarian_01_entity"   clothes_selector = "salarian_clothes_01"    hair_selector = "salarian_no_hair"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_1.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1c.dds"
+		}
+   }
+
+	salarian_2 = { entity = "portrait_salarian_01_entity"   clothes_selector = "salarian_clothes_01"    hair_selector = "salarian_no_hair"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_2.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2c.dds"
+		}
+   }
+   
+	salarian_3 = { entity = "portrait_salarian_01_entity"   clothes_selector = "salarian_clothes_01"    hair_selector = "salarian_no_hair"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_3.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3c.dds"
+		}
+   }
+
+	salarian_4 = { entity = "portrait_salarian_01_entity"   clothes_selector = "salarian_clothes_01"    hair_selector = "salarian_no_hair"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_4.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4c.dds"
+		}
+   }     
+
+   	salarian_5 = { entity = "portrait_salarian_01_entity"   clothes_selector = "salarian_clothes_01"    hair_selector = "salarian_no_hair"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_5.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5c.dds"
+		}
+	}
+	
+# Thorian Creeper
+	creeper	= {	entity = "humanoid_02_male_01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "reptilian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/thorian/creeper_humanoid_02_male_body_01.dds"
+		}
+	}
+	
+#turian
+	turian_1 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_male_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_body_1.dds"
+			 "gfx/models/portraits/turian/turian_body_1a.dds"
+			 "gfx/models/portraits/turian/turian_body_1b.dds"
+			 "gfx/models/portraits/turian/turian_body_1c.dds"
+		}
+   }
+
+	turian_2 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_male_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_body_2.dds"
+			 "gfx/models/portraits/turian/turian_body_2a.dds"
+			 "gfx/models/portraits/turian/turian_body_2b.dds"
+			 "gfx/models/portraits/turian/turian_body_2c.dds"
+		}
+   } 
+   
+	turian_3 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_male_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_body_3.dds"
+			 "gfx/models/portraits/turian/turian_body_3a.dds"
+			 "gfx/models/portraits/turian/turian_body_3b.dds"
+			 "gfx/models/portraits/turian/turian_body_3c.dds"
+			 "gfx/models/portraits/turian/turian_body_3d.dds"
+		}
+   }
+
+	turian_female_1 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_female_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_female_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_female_body_1.dds"
+			 "gfx/models/portraits/turian/turian_female_body_1a.dds"
+			 "gfx/models/portraits/turian/turian_female_body_1b.dds"
+			 "gfx/models/portraits/turian/turian_female_body_1c.dds"
+			 "gfx/models/portraits/turian/turian_female_body_1d.dds"
+		}
+   }
+
+	turian_female_2 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_female_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_female_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_female_body_2.dds"
+			 "gfx/models/portraits/turian/turian_female_body_2a.dds"
+			 "gfx/models/portraits/turian/turian_female_body_2b.dds"
+			 "gfx/models/portraits/turian/turian_female_body_2c.dds"
+			 "gfx/models/portraits/turian/turian_female_body_2d.dds"
+		}
+   }
+
+	turian_female_3 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_female_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_female_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_female_body_3.dds"
+			 "gfx/models/portraits/turian/turian_female_body_3a.dds"
+			 "gfx/models/portraits/turian/turian_female_body_3b.dds"
+			 "gfx/models/portraits/turian/turian_female_body_3c.dds"
+			 "gfx/models/portraits/turian/turian_female_body_3d.dds"
+		}
+   }  
+
+	turian_female_4 = { entity = "portrait_turian_01_entity"   clothes_selector = "turian_female_clothes_01"    hair_selector = "turian_no_hair"   greeting_sound = "humanoid_female_greeting_a"
+		 character_textures = {
+			 "gfx/models/portraits/turian/turian_female_body_4.dds"
+			 "gfx/models/portraits/turian/turian_female_body_4a.dds"
+			 "gfx/models/portraits/turian/turian_female_body_4b.dds"
+			 "gfx/models/portraits/turian/turian_female_body_4c.dds"
+		}
+   }
+  
+# Volus
+	volus_male = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_f_male"	
+		character_textures = {
+			"gfx/models/portraits/volus/volus_reptilian_massive_14.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_blue.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_green.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_purple.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_red.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_yellow.dds"
+		}
+	}
+	
+	volus_female = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_f_female"	
+		character_textures = {
+			"gfx/models/portraits/volus/volus_reptilian_massive_14.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_blue.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_green.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_purple.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_red.dds"
+			"gfx/models/portraits/volus/volus_reptilian_massive_14_yellow.dds"
+		}
+	}
+	
+	volus_biotic_god = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_f_male"	
+		character_textures = {
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_redeyes.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_yelloweyes.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_blueeyes.dds"
+		}
+	}
+	
+	volus_biotic_goddess = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "humanoid_portrait_f_female"	
+		character_textures = {
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_redeyes.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_yelloweyes.dds"
+			"gfx/models/portraits/volus/volus_biotic_god_reptilian_massive_14_blueeyes.dds"
+		}
+	}
+	
+# Vorcha
+	vorcha = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default_black.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default_blue.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default_green.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default_red.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_default_yellow.dds"
+		}
+	}
+	
+	vorcha_black = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_default.dds"
+#			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_black.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_blue.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_green.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_red.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_black_yellow.dds"
+		}
+	}
+	
+	vorcha_blue = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_default.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_black.dds"
+#			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_blue.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_green.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_red.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_blue_yellow.dds"
+		}
+	}
+
+	vorcha_green = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_default.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_black.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_blue.dds"
+#			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_green.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_red.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_green_yellow.dds"
+		}
+	}
+
+	vorcha_red = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_default.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_black.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_blue.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_green.dds"
+#			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_red.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_red_yellow.dds"
+		}
+	}
+	
+	vorcha_yellow = {	entity = "portrait_reptilian_14_entity"	clothes_selector = "no_texture" hair_selector = "no_texture" 
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_default.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_black.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_blue.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_green.dds"
+			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_red.dds"
+#			"gfx/models/portraits/vorcha/vorcha_reptilian_massive_14_yellow_yellow.dds"
+		}
+	}
+
+# Yahg
+	yahg = {	entity = "portrait_reptilian_14_dontmove_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "molluscoid_01_greetings"	
+		character_textures = {
+			"gfx/models/portraits/yahg/yahg_reptilian_massive_14.dds"
+		}
+	}
+	
+# Illusive Man
+	illusive_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03" character_textures = {
+			"gfx/models/portraits/cerberus/illusive_female_body_01.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_01_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_01_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_01_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_01_violet_eyes.dds"
+	}}
+	illusive_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04" character_textures = {
+			"gfx/models/portraits/cerberus/illusive_female_body_02.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_02_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_02_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_02_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_02_violet_eyes.dds"
+	}}
+	illusive_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "human_female_and_asari_clothes_01" hair_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_05" character_textures = {
+			"gfx/models/portraits/cerberus/illusive_female_body_03.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_03_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_03_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_03_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_03_violet_eyes.dds"
+	}}	
+	illusive_female_04 = {	entity = "portrait_human_female_04_entity"			clothes_selector = "human_female_and_asari_clothes_01" 	hair_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01" character_textures = {
+			"gfx/models/portraits/cerberus/illusive_female_body_04.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_04_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_04_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_04_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_04_violet_eyes.dds"
+	}}
+	illusive_female_05 = {	entity = "portrait_human_female_05_entity"			clothes_selector = "human_female_and_asari_clothes_01" 	hair_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_02" character_textures = {
+			"gfx/models/portraits/cerberus/illusive_female_body_05.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_05_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_05_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_05_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_female_body_05_violet_eyes.dds"
+	}}
+	illusive_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03"  character_textures = {
+			"gfx/models/portraits/cerberus/illusive_male_body_01.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_01_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_01_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_01_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_01_violet_eyes.dds"
+	}}	
+	illusive_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_02"	greeting_sound = "human_male_greetings_04"   character_textures = {
+			"gfx/models/portraits/cerberus/illusive_male_body_02.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_02_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_02_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_02_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_02_violet_eyes.dds"
+	}}
+	illusive_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" hair_selector = "human_male_hair_03"	greeting_sound = "human_male_greetings_05"   character_textures = {
+			"gfx/models/portraits/cerberus/illusive_male_body_03.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_03_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_03_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_03_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_03_violet_eyes.dds"
+	}}		
+	illusive_male_04 = {	entity = "portrait_human_male_04_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "human_male_hair_04"	greeting_sound = "human_male_greetings_01"   character_textures = {
+			"gfx/models/portraits/cerberus/illusive_male_body_04.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_04_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_04_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_04_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_04_violet_eyes.dds"
+	}}
+	illusive_male_05 = {	entity = "portrait_human_male_05_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	hair_selector = "human_male_hair_05"	greeting_sound = "human_male_greetings_02"   character_textures = {
+			"gfx/models/portraits/cerberus/illusive_male_body_05.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_05_red_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_05_yellow_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_05_green_eyes.dds"
+			"gfx/models/portraits/cerberus/illusive_male_body_05_violet_eyes.dds"
+	}}
+
+# Husk
+	husk 	= {	entity = "humanoid_02_male_01_entity"	clothes_selector = "no_texture" hair_selector = "no_texture"	greeting_sound = "reptilian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/husk/husk_humanoid_02_male_body.dds"
+		}
+	}
+	
+# Angara
+	angara_male = { entity = "humanoid_04_male_01_entity" clothes_selector = "angara_male_clothes_01" hair_selector = "no_texture" greeting_sound = "humanoid_portrait_a_male" character_textures = {
+			"gfx/models/portraits/angara/angara_humanoid_04_male_01.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_male_01_blue.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_male_01_purple.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_male_01_red.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_male_01_yellow.dds"
+	}}
+	
+	angara_female = { entity = "humanoid_04_female_01_entity" clothes_selector = "angara_female_clothes_01" hair_selector = "no_texture" greeting_sound = "humanoid_portrait_a_female" character_textures = {
+			"gfx/models/portraits/angara/angara_humanoid_04_female_01.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_female_01_blue.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_female_01_purple.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_female_01_red.dds"
+			"gfx/models/portraits/angara/angara_humanoid_04_female_01_yellow.dds"
+	}}
+	
+# Kett
+	kett_ascendant_male = { entity = "humanoid_04_male_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "humanoid_portrait_h_male" character_textures = {
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_red.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_blue.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_purple.dds"
+	}}
+	
+	kett_ascendant_female = { entity = "humanoid_04_male_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "humanoid_portrait_h_female" character_textures = {
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_red.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_blue.dds"
+			"gfx/models/portraits/kett/kett_ascendant_humanoid_04_male_01_purple.dds"
+	}}
+}

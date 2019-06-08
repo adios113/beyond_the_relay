@@ -1,0 +1,79 @@
+#########################
+##BATARIAN HEGEMONY (Batarians)
+#########################
+BatarianHegemony = {
+    name = "BatarianHegemony"
+    spawn_enabled = always
+    ignore_portrait_duplication=yes
+   
+    name_list = "MOL3"
+    ship_prefix = "PRESCRIPTED_ship_prefix_BatarianHegemony"
+   
+    species_name = "PRESCRIPTED_species_name_BatarianHegemony"
+    species_plural = "PRESCRIPTED_species_plural_BatarianHegemony"
+    species_adjective = "PRESCRIPTED_species_adjective_BatarianHegemony"
+    species_class = "HUM"
+    portrait = "humanoid_2"
+    adjective = "PRESCRIPTED_adjective_BatarianHegemony"
+   
+    authority="auth_dictatorial"
+    government="gov_constitutional_dictatorship"
+    ethic = "ethic_xenophile"
+    ethic = "ethic_fanatic_egalitarian"
+    civics={
+		"civic_corvee_system"
+		"civic_slaver_guilds"
+	}
+   
+    trait="trait_adaptive"
+	trait="trait_quick_learners"
+	trait="trait_repugnant"
+	trait="trait_conformists"
+	trait="trait_decadent"
+   
+   
+    initializer = "harsa_system"
+    planet_name = "Khar'shan"
+    planet_class = "pc_continental"
+    system_name = "Harsa"
+  
+   
+   
+    flags={
+        batarian_hegemony
+        custom_start_screen
+    }
+   
+   
+    room="personality_slaving_despots_room"
+    graphical_culture="molluscoid_01"
+	city_graphical_culture="humanoid_01"
+   
+    empire_flag={
+        icon={
+            category="BTR_flags"
+            file="BTR_Batarians01.dds"
+        }
+        background={
+            category="backgrounds"
+            file="00_solid.dds"
+        }
+        colors={
+            "beige"
+            "dark_brown"
+            "null"
+            "null"
+        }
+    }
+   
+    ruler = {
+        name = "PRESCRIPTED_ruler_name_BatarianHegemony"
+        gender = female
+        portrait="batarian"
+		texture=0
+		hair=0
+		clothes=18
+		ruler_title="Minister"
+		ruler_title_female="Minister"
+    }
+}
