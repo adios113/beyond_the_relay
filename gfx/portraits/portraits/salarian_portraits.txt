@@ -1,31 +1,101 @@
+##############################################################
+### SALARIAN UNION
+### SALARIAN PORTRAITS
+### BEYOND THE RELAY MOD
+### CREDITS: VJ, joshua.yathin.yu
+##############################################################
+
 portraits = {
-	rep1_fix = {	entity = "portrait_reptilian_01_entity"	clothes_selector = "reptilian_slender_clothes_01" hair_selector = "no_texture" 
-		greeting_sound = "reptilian_01_greetings"
-		character_textures = {
-			"gfx/models/portraits/reptilian/reptilian_slender_01_turqoise.dds"
-			"gfx/models/portraits/reptilian/reptilian_slender_01_blue.dds"
-			"gfx/models/portraits/reptilian/reptilian_slender_01_purple.dds"
-			"gfx/models/portraits/reptilian/reptilian_slender_01_white.dds"
-			"gfx/models/portraits/reptilian/reptilian_slender_01_black.dds"
+
+    salarian_portrait_01 = { 
+        entity = "portrait_salarian_01_entity"   
+        clothes_selector = "salarian_clothes_01"   
+        hair_selector = "salarian_no_hair"   
+        greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_1.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_1c.dds"
+		}
+   }
+
+	salarian_portrait_02 = { 
+        entity = "portrait_salarian_01_entity"   
+        clothes_selector = "salarian_clothes_01"   
+        hair_selector = "salarian_no_hair"   
+        greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_2.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_2c.dds"
+		}
+   }
+   
+	salarian_portrait_03 = { 
+        entity = "portrait_salarian_01_entity"   
+        clothes_selector = "salarian_clothes_01"    
+        hair_selector = "salarian_no_hair"   
+        greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_3.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_3c.dds"
+		}
+   }
+
+	salarian_portrait_04 = { 
+        entity = "portrait_salarian_01_entity"   
+        clothes_selector = "salarian_clothes_01"    
+        hair_selector = "salarian_no_hair"   
+        greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_4.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_4c.dds"
+		}
+   }     
+
+   	salarian_portrait_05 = { 
+           entity = "portrait_salarian_01_entity"   
+           clothes_selector = "salarian_clothes_01"    
+           hair_selector = "salarian_no_hair"   
+           greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/salarian/salarian_body_5.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5a.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5b.dds"
+			 "gfx/models/portraits/salarian/salarian_body_5c.dds"
 		}
 	}
 }
 
 portrait_groups = {
-	rep1 = {
-		default = salarian_2
+	salarian = {
+		default = salarian_portrait_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
 			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
 				portraits = {
-					rep1_fix
-					salarian_1	#dark grey
-					salarian_2	#red
-					salarian_3	#blue grey
-					salarian_4	#green
-					salarian_5	#light grey				
 				}
 			}
-		
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					salarian_portrait_01
+					salarian_portrait_02
+					salarian_portrait_03
+					salarian_portrait_04
+					salarian_portrait_05
+				}
+			}
 			#set = {
 			#	trigger = { ... }
 			#	portraits = { ... }
@@ -36,51 +106,12 @@ portrait_groups = {
 		#species scope
 		species = { #generic portrait for a species
 			add = {
-				trigger = {
-					OR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
-				}
 				portraits = {
-					salarian_1
-					salarian_2
-					salarian_3
-					salarian_4
-					salarian_5
-				}
-			}
-			add = {
-				trigger = {
-					NOR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
-				}
-				portraits = {
-					rep1_fix
+					salarian_portrait_01
+					salarian_portrait_02
+					salarian_portrait_03
+					salarian_portrait_04
+					salarian_portrait_05
 				}
 			}
 		}		
@@ -88,51 +119,12 @@ portrait_groups = {
 		#pop scope
 		pop = { #for a specific pop
 			add = {
-				trigger = {
-					OR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
-				}
 				portraits = {
-					salarian_1
-					salarian_2
-					salarian_3
-					salarian_4
-					salarian_5
-				}
-			}
-			add = {
-				trigger = {
-					NOR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
-				}
-				portraits = {
-					rep1_fix
+					salarian_portrait_01
+					salarian_portrait_02
+					salarian_portrait_03
+					salarian_portrait_04
+					salarian_portrait_05
 				}
 			}
 		}
@@ -141,50 +133,22 @@ portrait_groups = {
 		leader = { #scientists, generals, admirals, governor
 			add = {
 				trigger = {
-					OR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
+					gender = female
 				}
 				portraits = {
-					salarian_1
-					salarian_2
-					salarian_3
-					salarian_4
-					salarian_5
+					salarian_portrait_01
+					salarian_portrait_02
+					salarian_portrait_03
+					salarian_portrait_04
+					salarian_portrait_05
 				}
 			}
 			add = {
 				trigger = {
-					NOR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
+					gender = male
 				}
 				portraits = {
-					rep1_fix
+					
 				}
 			}
 		}
@@ -194,50 +158,22 @@ portrait_groups = {
 		ruler = {
 			add = {
 				trigger = {
-					OR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
+					gender = female
 				}
 				portraits = {
-					salarian_1
-					salarian_2
-					salarian_3
-					salarian_4
-					salarian_5
+					salarian_portrait_01
+					salarian_portrait_02
+					salarian_portrait_03
+					salarian_portrait_04
+					salarian_portrait_05
 				}
 			}
 			add = {
 				trigger = {
-					NOR = {
-						is_species = "Salarian"
-						is_species = "Neo-Salarian" 
-						is_species = "Post-Salarian" 
-						is_species = "Super-Salarian" 
-						is_species = "Ultra-Salarian" 
-						is_species = "Meta-Salarian" 
-						is_species = "Trans-Salarian" 
-						is_species = "High Salarian" 
-						is_species = "Salarian Superior"
-						is_species = "Salarian Variatus"
-						is_species = "Salarian Mutatis"
-						is_species = "Salarian Clarus"
-						is_species = "Salarian Illustratum"
-					}
+					gender = male
 				}
 				portraits = {
-					rep1_fix
+					
 				}
 			}
 		}

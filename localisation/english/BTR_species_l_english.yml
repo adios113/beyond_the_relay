@@ -1,0 +1,79 @@
+﻿################
+##
+## SPECIES NAME TRANSLATIONS
+##
+################
+
+l_english:
+
+## ALLIANCE
+  ALL:0 "Human"
+  ALL_desc:0 "Alliance Humans"
+  ALL_plural:0 "Humans"
+  ALL_insult_01:0 "enemy"
+  ALL_insult_plural_01:0 "enemies"
+  ALL_compliment_01:0 "friend"
+  ALL_compliment_plural_01:0 "friends"
+  ALL_spawn:0 "child"
+  ALL_spawn_plural:0 "children"
+  ALL_sound_01:0 "laughing"
+  ALL_sound_02:0 "yelling"
+  ALL_sound_03:0 "whispering"
+  ALL_sound_04:0 "screaming"
+  ALL_sound_05:0 "singing"
+  ALL_organ:0 "brain"
+  ALL_mouth:0 "mouth"
+ 
+ ## ASARI
+  ASR:0 "Asari"
+  ASR_desc:0 "Asari"
+  ASR_plural:0 "Asari"
+  ASR_insult_01:0 "enemy"
+  ASR_insult_plural_01:0 "enemies"
+  ASR_compliment_01:0 "friend"
+  ASR_compliment_plural_01:0 "friends"
+  ASR_spawn:0 "child"
+  ASR_spawn_plural:0 "children"
+  ASR_sound_01:0 "laughing"
+  ASR_sound_02:0 "yelling"
+  ASR_sound_03:0 "whispering"
+  ASR_sound_04:0 "screaming"
+  ASR_sound_05:0 "singing"
+  ASR_organ:0 "brain"
+  ASR_mouth:0 "mouth"
+
+## TURIAN
+  TUR:0 "Turian"
+  TUR_desc:0 "Turian"
+  TUR_plural:0 "Turians"
+  TUR_insult_01:0 "enemy"
+  TUR_insult_plural_01:0 "enemies"
+  TUR_compliment_01:0 "friend"
+  TUR_compliment_plural_01:0 "friends"
+  TUR_spawn:0 "child"
+  TUR_spawn_plural:0 "children"
+  TUR_sound_01:0 "laughing"
+  TUR_sound_02:0 "yelling"
+  TUR_sound_03:0 "whispering"
+  TUR_sound_04:0 "screaming"
+  TUR_sound_05:0 "singing"
+  TUR_organ:0 "brain"
+  TUR_mouth:0 "mouth"
+  
+## SALARIANS
+  SAL:0 "Salarian"
+  SAL_desc:0 "Salarian"
+  SAL_plural:0 "Salarians"
+  SAL_insult_01:0 "enemy"
+  SAL_insult_plural_01:0 "enemies"
+  SAL_compliment_01:0 "friend"
+  SAL_compliment_plural_01:0 "friends"
+  SAL_spawn:0 "child"
+  SAL_spawn_plural:0 "children"
+  SAL_sound_01:0 "laughing"
+  SAL_sound_02:0 "yelling"
+  SAL_sound_03:0 "whispering"
+  SAL_sound_04:0 "screaming"
+  SAL_sound_05:0 "singing"
+  SAL_organ:0 "brain"
+  SAL_mouth:0 "mouth"

@@ -18,9 +18,9 @@ SalarianUnion = {
 	species_name = "PRESCRIPTED_species_name_SalarianUnion"
 	species_plural = "PRESCRIPTED_species_plural_SalarianUnion"
 	species_adjective = "PRESCRIPTED_species_adjective_SalarianUnion"
-	species_class = "REP"
+	species_class = "SAL"
 	species_bio = ""
-	portrait = "rep1"
+	portrait = "salarian"
 	adjective = "PRESCRIPTED_adjective_SalarianUnion"
 	
 	authority="auth_dictatorial"
@@ -71,12 +71,14 @@ SalarianUnion = {
 	ruler = {
 		name = "PRESCRIPTED_ruler_name_SalarianUnion"
 		gender = female
-		portrait = "salarian_1"
+		portrait = "salarian_portrait_01"
 		texture = 1
 		hair = 0
 		clothes = 13
 		ruler_title="Dalatrass"
 		ruler_title_female="Dalatrass"
+		heir_title =""
+		heir_title_female =""
 	}
 }
 

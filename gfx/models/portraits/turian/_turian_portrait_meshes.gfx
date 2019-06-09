@@ -17,7 +17,7 @@ objectTypes = {
 		animation = { id = "sad2"	type = "human_female_04_sad_2_animation" }
 	}	
 	
-		pdxmesh = {
+	pdxmesh = {
 		name = "portrait_turian_leader_mesh"
 		file = "gfx/models/portraits/humanoid/humanoid_05_female_01.mesh"
 		scale = 1.0
@@ -26,9 +26,5 @@ objectTypes = {
 		animation = { id = "idle2"	type = "human_female_04_happy_2_animation" }
 		animation = { id = "sad"	type = "human_female_04_sad_animation" }
 		animation = { id = "sad2"	type = "human_female_04_sad_2_animation" }
-		}
-
-	
-	
-	
+	}	
 }

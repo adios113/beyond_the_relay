@@ -18,9 +18,9 @@ TurianHierarchy = {
 	species_name = "PRESCRIPTED_species_name_TurianHierarchy"
 	species_plural = "PRESCRIPTED_species_plural_TurianHierarchy"
 	species_adjective = "PRESCRIPTED_species_adjective_TurianHierarchy"
-	species_class = "REP"
+	species_class = "TUR"
 	species_bio = ""
-	portrait = "rep8"
+	portrait = "turian"
 	adjective = "PRESCRIPTED_adjective_TurianHierarchy"
 	
 	authority = "auth_democratic"
@@ -71,12 +71,14 @@ TurianHierarchy = {
 	ruler = {
 		name = "PRESCRIPTED_ruler_name_TurianHierarchy"
 		gender = male
-		portrait="turian_2"
+		portrait="turian_male_02"
 		texture=0
 		hair=0
 		clothes=4
 		ruler_title="Primarch"
 		ruler_title_female="Primarch"
+		heir_title =""
+		heir_title_female =""
 	}
 }
 
