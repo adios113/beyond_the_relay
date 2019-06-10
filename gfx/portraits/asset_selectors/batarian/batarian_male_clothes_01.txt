@@ -1,0 +1,186 @@
+# This is a template which multiple species can use. 
+
+batarian_male_clothes_01 = {
+	default = "gfx/models/portraits/human/human_male_clothes_ruler.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/human/human_male_clothes_ruler.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_ruler.dds"
+				"gfx/models/portraits/human/human_male_clothes_governor.dds"
+				"gfx/models/portraits/human/human_male_clothes_scientist.dds"
+				"gfx/models/portraits/human/human_male_clothes_general.dds"
+				"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+				"gfx/models/portraits/human/human_male_clothes_ruler2.dds"
+				"gfx/models/portraits/human/human_male_clothes_royal.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_admiral.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_governor.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_scientist.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_general.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_3.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_4.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_5.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_6.dds"
+			}
+		}
+		
+		#random = {
+		#	trigger = { always = yes }
+		#	list = {
+		#		"gfx/models/portraits/human/human_male_clothes_scientist.dds"
+		#		"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+		#		"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+		#		"gfx/models/portraits/human/human_male_clothes_governor.dds"
+		#	}
+		#}
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/human/human_male_clothes_ruler.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_ruler.dds"
+				"gfx/models/portraits/human/human_male_clothes_governor.dds"
+				"gfx/models/portraits/human/human_male_clothes_scientist.dds"
+				"gfx/models/portraits/human/human_male_clothes_general.dds"
+				"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+				"gfx/models/portraits/human/human_male_clothes_ruler2.dds"
+				"gfx/models/portraits/human/human_male_clothes_royal.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_governor.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_scientist.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_6.dds"
+			}
+		}
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/human/human_male_clothes_ruler.dds"
+
+		random = {
+			trigger = {
+				OR = {
+					is_pop_category = worker
+					is_pop_category = simple_drone
+					is_pop_category = slave
+				}
+				NOR = {
+					is_pop_category = pre_sapients
+					has_job = soldier
+					has_job = patrol_drone
+					has_job = warrior_drone
+				}
+			}
+			list = {
+				"gfx/models/portraits/alliance/alliance_male_outfit_scientist.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_trellis_2.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_civilian_6.dds"
+			}
+		}
+				
+		random = {
+			trigger = {
+				OR = {
+					is_pop_category = specialist
+					is_pop_category = complex_drone
+				}
+				NOR = {
+					is_pop_category = pre_sapients
+					has_job = enforcer
+					has_job = telepath
+					has_job = duelist
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_scientist.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_governor.dds"
+			}
+		}		
+		random = {
+			trigger = {
+				is_pop_category = ruler				
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_ruler.dds"
+				"gfx/models/portraits/human/human_male_clothes_ruler2.dds"
+				"gfx/models/portraits/human/human_male_clothes_royal.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_governor.dds"
+			}
+		}
+		
+		random = {
+			trigger = {
+				OR = {
+					has_job = soldier
+					has_job = patrol_drone
+					has_job = warrior_drone
+					has_job = enforcer
+					has_job = telepath
+					has_job = duelist
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_general.dds"
+				"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor.dds"
+				"gfx/models/portraits/alliance/alliance_male_outfit_armor_2.dds"
+			}
+		}
+	}
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+	
+		random = {
+			trigger = {
+				leader_class = scientist
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_scientist.dds"
+			}
+		}
+		random = {
+			trigger = {
+				leader_class = general
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_general.dds"
+			}
+		}
+		random = {
+			trigger = {
+				leader_class = admiral
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_admiral.dds"
+			}
+		}
+		random = {
+			trigger = {
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_governor.dds"
+			}
+		}
+	}
+}
+
+human_male_hair_1 = { 
+	default = "gfx/models/portraits/human/human_male_hair_blonde_style_03_and_beard_light_style_01.dds"
+}

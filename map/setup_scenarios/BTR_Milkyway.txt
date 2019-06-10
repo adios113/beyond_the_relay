@@ -8,9 +8,10 @@
 static_galaxy_scenario = {
 
 	name = "BTR: Milky Way"                             ## Name of the Galaxy.
+	default = yes
 	priority = 0                                        ## Making sure the map is first on the list as default.
-    num_empires = { min = 7 max = 7 }                   ## Making sure no other extra empires spawn.
-    num_empire_default = 7                              ## Number of Empires on the map.
+    num_empires = { min = 1 max = 7 }                   ## Making sure no other extra empires spawn.
+    num_empire_default = 1                              ## Number of Empires on the map.
 	advanced_empire_default = 0                         ## Removing advanced Empires from the map.
 	core_radius = 30                                    ## Galaxy Inner Core Radius.
 	fallen_empire_default = 0                           ## Preventing Fallen Empires from spawning on the map.  

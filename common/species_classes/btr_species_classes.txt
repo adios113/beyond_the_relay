@@ -20,3 +20,7 @@ ALL = { archetype = BIOLOGICAL randomized = no portraits = { "alliance" } graphi
 ASR = { archetype = BIOLOGICAL randomized = no portraits = { "asari" } graphical_culture = mammalian_01 move_pop_sound_effect = "moving_pop_confirmation" }
 TUR = { archetype = BIOLOGICAL randomized = no portraits = { "turian" } graphical_culture = mammalian_01 move_pop_sound_effect = "moving_pop_confirmation" }
 SAL = { archetype = BIOLOGICAL randomized = no portraits = { "salarian" } graphical_culture = mammalian_01 move_pop_sound_effect = "moving_pop_confirmation" }
+ELC = { archetype = BIOLOGICAL randomized = no portraits = { "elcor" } graphical_culture = mammalian_01 move_pop_sound_effect = "moving_pop_confirmation" }
+BTR = { archetype = BIOLOGICAL randomized = no portraits = { "batarian" } graphical_culture = mammalian_01 move_pop_sound_effect = "moving_pop_confirmation" }
+GTH = { archetype = MACHINE playable = { host_has_dlc = "Synthetic Dawn Story Pack" } randomized = no portraits = { "geth" } graphical_culture = mammalian_01 move_pop_sound_effect = "robot_pops_move" }
+

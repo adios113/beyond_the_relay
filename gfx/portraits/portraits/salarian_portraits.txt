@@ -77,25 +77,15 @@ portrait_groups = {
 	salarian = {
 		default = salarian_portrait_01
 		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
-			add = {
-				trigger = {
-					ruler = { gender = male }
-				}
-				portraits = {
-				}
+		add = {
+			portraits = {
+				salarian_portrait_01
+				salarian_portrait_02
+				salarian_portrait_03
+				salarian_portrait_04
+				salarian_portrait_05					
 			}
-			add = {
-				trigger = {
-					ruler = { gender = female }
-				}
-				portraits = {
-					salarian_portrait_01
-					salarian_portrait_02
-					salarian_portrait_03
-					salarian_portrait_04
-					salarian_portrait_05
-				}
-			}
+		}
 			#set = {
 			#	trigger = { ... }
 			#	portraits = { ... }
@@ -132,23 +122,12 @@ portrait_groups = {
 		#leader scope
 		leader = { #scientists, generals, admirals, governor
 			add = {
-				trigger = {
-					gender = female
-				}
 				portraits = {
 					salarian_portrait_01
 					salarian_portrait_02
 					salarian_portrait_03
 					salarian_portrait_04
-					salarian_portrait_05
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					
+					salarian_portrait_05					
 				}
 			}
 		}
@@ -157,23 +136,12 @@ portrait_groups = {
 		#leader scope 
 		ruler = {
 			add = {
-				trigger = {
-					gender = female
-				}
 				portraits = {
 					salarian_portrait_01
 					salarian_portrait_02
 					salarian_portrait_03
 					salarian_portrait_04
-					salarian_portrait_05
-				}
-			}
-			add = {
-				trigger = {
-					gender = male
-				}
-				portraits = {
-					
+					salarian_portrait_05					
 				}
 			}
 		}

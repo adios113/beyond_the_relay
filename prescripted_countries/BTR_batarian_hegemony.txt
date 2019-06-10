@@ -12,14 +12,14 @@ BatarianHegemony = {
     species_name = "PRESCRIPTED_species_name_BatarianHegemony"
     species_plural = "PRESCRIPTED_species_plural_BatarianHegemony"
     species_adjective = "PRESCRIPTED_species_adjective_BatarianHegemony"
-    species_class = "HUM"
-    portrait = "humanoid_2"
+    species_class = "BTR"
+    portrait = "batarian"
     adjective = "PRESCRIPTED_adjective_BatarianHegemony"
    
     authority="auth_dictatorial"
     government="gov_constitutional_dictatorship"
-    ethic = "ethic_xenophile"
-    ethic = "ethic_fanatic_egalitarian"
+    ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophobe"
     civics={
 		"civic_corvee_system"
 		"civic_slaver_guilds"
@@ -69,10 +69,10 @@ BatarianHegemony = {
     ruler = {
         name = "PRESCRIPTED_ruler_name_BatarianHegemony"
         gender = female
-        portrait="batarian"
+        portrait="batarian_portrait_01"
 		texture=0
 		hair=0
-		clothes=18
+		clothes=3
 		ruler_title="Minister"
 		ruler_title_female="Minister"
     }
