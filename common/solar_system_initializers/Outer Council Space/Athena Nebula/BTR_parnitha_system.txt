@@ -52,8 +52,49 @@ parnitha_system = {
 		has_ring = no
 		init_effect = {
 			prevent_anomaly = yes
-			generate_empire_home_planet = yes
-		}
+			set_global_flag = asari_spawned
+			if = {
+				limit = { NOT = { any_country = { has_country_flag = asari_republics } } }
+				create_species = { 
+				    name = "PRESCRIPTED_species_name_AsariRepublics" 
+				    class = ASR 
+				    portrait = asari 
+				    homeworld = THIS 
+					namelist = "HUMAN1"
+				    traits = { 
+						trait = "trait_slow_learners"
+						trait = "trait_charismatic"
+						trait = "trait_venerable"
+						trait = "trait_decadent"
+				        ideal_planet_class = "pc_continental" 
+					} 
+				}
+				last_created_species = { save_global_event_target_as = asariSpecies }
+				create_country = {
+					name = "AsariRepublics"
+					ship_prefix = "PRESCRIPTED_ship_prefix_AsariRepublics"
+					type = default
+					ignore_initial_colony_error = yes
+					civics = { civic = "civic_free_haven" civic = "civic_parliamentary_system" }
+					authority = auth_democratic
+					name_list = "HUMAN1"
+					ethos = { ethic = "ethic_fanatic_egalitarian" ethic = "ethic_xenophile" }
+					species = event_target:asariSpecies
+					flag = {
+						icon = { category = "BTR_flags" file = "BTR_Asari01.dds" }
+						background = { category = "backgrounds" file = "00_solid.dds" }
+						colors = { "blue" "blue" "null" "null" }
+					}
+					effect = {
+						set_graphical_culture = mammalian_01
+						set_country_flag = asari_republic
+						set_country_flag = custom_start_screen
+						save_global_event_target_as = asari_republic
+					}
+				}
+				create_colony = { owner = event_target:asari_republic species = event_target:asariSpecies ethos = owner }
+			}
+			set_capital = yes
 	}
 	planet = {
 		name = "Piares"
