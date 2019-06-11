@@ -1,0 +1,8 @@
+########################
+### BEYOND THE RELAY
+### SCRIPTED EFFECTS
+### EMPIRE INITIALIZATION
+### AUTHOR: ADRIANO
+########################
+
+btr_generate_capital = {
