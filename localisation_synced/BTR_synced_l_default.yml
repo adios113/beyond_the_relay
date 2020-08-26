@@ -65,16 +65,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
-  ##
+  ## AI EMPIRE SPAWN
   NAME_Earth:0 "Earth"
   NAME_earth:0 "Earth"
-  NAME_alliance:0 "Systems Alliance"
+  NAME_systems_alliance:0 "Systems Alliance"
+
+  NAME_Rannoch:0 "Rannoch"
+  NAME_rannoch:0 "Rannoch"
+  NAME_geth_consensus:0 "Geth Consensus"
+
+  NAME_Palaven:0 "Rannoch"
+  NAME_palaven:0 "Rannoch"
+  NAME_turian_hierarchy:0 "Turian Hierarchy"

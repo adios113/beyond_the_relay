@@ -39,10 +39,73 @@ trebia_system = {
 	planet = {
 		name = "Palaven"
 		class = "pc_continental"
+		starting_planet = yes
 		orbit_distance = 35
 		orbit_angle = { min = 90 max = 270 }
 		size = 21
 		has_ring = no
+		flags = { planet_palaven }
+		init_effect = {
+			prevent_anomaly = yes
+			set_capital = yes
+			if = { 
+				limit = {
+					NOT = { 
+						any_country = { 
+							has_country_flag = turian_hierarchy  
+						}
+					}	
+				}
+				create_species = {
+					name = "Turian"
+					namelist = "HUMAN1"
+					class = TUR
+					portrait = turian
+					homeworld = THIS
+					traits = {
+						trait = "trait_adaptive"
+						trait = "trait_nomadic"
+						trait = "trait_wasteful"
+						ideal_planet_class = "pc_continental"
+					}
+				}
+				last_created_species = { save_global_event_target_as = turianSpecies }
+				create_country = {
+					name = "NAME_turian_hierarchy"
+					type = default
+					ignore_initial_colony_error = yes
+					civics = { civic = civic_beacon_of_liberty civic = civic_idealistic_foundation }
+					authority = auth_democratic
+					name_list = "HUMAN1"
+					ethos = { ethic = "ethic_xenophile" ethic = "ethic_fanatic_egalitarian" }
+					species = event_target:turianSpecies
+					flag = {
+						icon = { category = "BTR_flags" file = "BTR_Turians01.dds" }
+						background = { category = "backgrounds" file = "00_solid.dds" }
+						colors = { "blue" "blue" "null" "null" }
+					}
+					ship_prefix = "THS"
+					effect = {
+						set_graphical_culture = mammalian_01
+						set_country_flag = turian_hierarchy
+						save_global_event_target_as = turian_hierarchy
+					}
+				}
+				set_owner =event_target:turian_hierarchy
+			}
+			
+			random_country = {
+				limit = { has_country_flag = turian_hierarchy }
+				save_global_event_target_as = turian_hierarchy
+				species = { save_global_event_target_as = turianSpecies }
+			}
+			set_owner = event_target:turian_hierarchy
+			generate_start_pops = yes
+			generate_start_buildings_and_districts = yes
+			btr_spawn_starbase = yes
+			set_name = "Palaven"	
+		}
+		
 		moon = {
 			name = "Menae"
 			class = "pc_barren_cold"

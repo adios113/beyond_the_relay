@@ -36,9 +36,71 @@ planet = {
 		starting_planet = yes
 		size = 20
 		has_ring = no
+		deposit_blockers = none
+		flags = { planet_tikkun }
 		init_effect = {
 			prevent_anomaly = yes
-			generate_empire_home_planet = yes
+			## clear_deposits = yes (generate_earth_deposits already does that)
+			generate_earth_deposits_and_blockers = yes
+			set_capital = yes
+			if = { 
+				limit = {
+					NOT = { 
+						any_country = { 
+							has_country_flag = geth_consensus  
+						}
+					}	
+				}
+				create_species = {
+					name = "Geth"
+					namelist = "HUMAN1"
+					class = GTH
+					portrait = sd_mam_robot
+					homeworld = THIS
+					traits = {
+						trait="trait_machine_unit"
+						trait="trait_robot_efficient_processors"
+						trait="trait_robot_double_jointed"
+						trait="trait_robot_repurposed_hardware"
+						trait="trait_robot_luxurious"
+						ideal_planet_class = "pc_arid"
+					}
+				}
+				last_created_species = { save_global_event_target_as = gethSpecies }
+				create_country = {
+					name = "NAME_geth_consensus"
+					type = default
+					ignore_initial_colony_error = yes
+					civics = { civic = civic_machine_ota_updates civic = civic_machine_unitary_cohesion }
+					authority = auth_machine_intelligence
+					name_list = "HUMAN1"
+					ethos = { ethic = "ethic_gestalt_consciousness" }
+					species = event_target:gethSpecies
+					flag = {
+						icon = { category = "BTR_flags" file = "BTR_Geth01.dds" }
+						background = { category = "backgrounds" file = "00_solid.dds" }
+						colors = { "dark_teal" "black" "null" "null" }
+					}
+					ship_prefix = ""
+					effect = {
+						set_graphical_culture = humanoid_01
+						set_country_flag = geth_consensus
+						save_global_event_target_as = geth_consensus
+					}
+				}
+				set_owner =event_target:geth_consensus
+			}
+			
+			random_country = {
+				limit = { has_country_flag = geth_consensus }
+				save_global_event_target_as = geth_consensus
+				species = { save_global_event_target_as = gethSpecies }
+			}
+			set_owner = event_target:geth_consensus
+			generate_start_pops = yes
+			generate_start_buildings_and_districts = yes
+			btr_spawn_starbase = yes
+			set_name = "Rannoch"	
 		}
 	}	
 	

@@ -13,7 +13,7 @@ static_galaxy_scenario = {
     num_empires = { min = 1 max = 7 }                   ## Making sure no other extra empires spawn.
     num_empire_default = 1                              ## Number of Empires on the map.
 	advanced_empire_default = 0                         ## Removing advanced Empires from the map.
-	core_radius = 30                                    ## Galaxy Inner Core Radius.
+	core_radius = 150	                                ## Galaxy Inner Core Radius.
 	fallen_empire_default = 0                           ## Preventing Fallen Empires from spawning on the map.  
     fallen_empire_max = 0                               ## Same as above.
     random_hyperlanes = no                              ## Disabling hyperlanes randomisation (Only specified hyperlanes will spawn).
@@ -33,7 +33,7 @@ static_galaxy_scenario = {
 
 
     ##GALACTIC CORE
-	system = { id = "0" name = "Tartarus Debris Field" position = { x = { min = 0 max = 0 } y =  { min = 0 max = 0 } } initializer = tartarus_core }
+	system = { id = "0" name = "Tartarus Debris Field" position = { x = { min = 0.005 max = 0.005 } y =  { min = 0.005 max = 0.005 } } initializer = tartarus_core }
 		
 		
 	##OMEGA NEBULA

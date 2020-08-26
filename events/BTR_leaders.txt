@@ -1,0 +1,35 @@
+######################
+### LEADER SPAWN FOR EMPIRES
+### BEYOND THE RELAY
+### ADRIAN DELLA CORTE
+######################
+
+namespace = btr_leaders
+
+
+country_event = {
+
+    id = btr_leaders.10
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { is_country_type = default }
+	immediate = {
+        if = {
+			limit = { 
+                has_country_flag = systems_alliance 
+                exists = event_target:allianceSpecies 
+            }
+            create_leader = {
+                class = ruler
+                species = event_target:allianceSpecies
+                name = "Amul Shastri"
+                gender = male
+                set_age = 33
+                skill = 3
+                traits = {
+                    trait = trait_ruler_from_the_ranks
+                }
+            }
+        }
+    }
+}

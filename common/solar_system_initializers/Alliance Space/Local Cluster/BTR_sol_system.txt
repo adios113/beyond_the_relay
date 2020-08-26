@@ -76,65 +76,65 @@ sol_system = {
 		
 		init_effect = {
 			prevent_anomaly = yes
-			set_global_flag = alliance_spawned
-			if = {
-				limit = { NOT = { any_country = { has_country_flag = systems_alliance } } }
-				create_species = { 
-				    name = "PRESCRIPTED_species_name_SystemsAlliance" 
-				    class = ALL 
-				    portrait = alliance 
-				    homeworld = THIS 
+			## clear_deposits = yes (generate_earth_deposits already does that)
+			generate_earth_deposits_and_blockers = yes
+			set_capital = yes
+			if = { 
+				limit = {
+					NOT = { 
+						any_country = { 
+							has_country_flag = systems_alliance  
+						}
+					}	
+				}
+				create_species = {
+					name = "Human"
 					namelist = "HUMAN1"
-				    traits = { 
+					class = ALL
+					portrait = alliance
+					homeworld = THIS
+					traits = {
 						trait = "trait_adaptive"
 						trait = "trait_nomadic"
 						trait = "trait_wasteful"
-				        ideal_planet_class = "pc_continental" 
-					} 
+						ideal_planet_class = "pc_continental"
+					}
 				}
-				last_created_species = { save_global_event_target_as = humanSpecies }
+				last_created_species = { save_global_event_target_as = allianceSpecies }
 				create_country = {
-					name = "NAME_alliance"
-					ship_prefix = "SSV"
+					name = "NAME_systems_alliance"
 					type = default
 					ignore_initial_colony_error = yes
-					civics = { civic = "civic_beacon_of_liberty" civic = "civic_idealistic_foundation" }
+					civics = { civic = civic_beacon_of_liberty civic = civic_idealistic_foundation }
 					authority = auth_democratic
 					name_list = "HUMAN1"
-					ethos = { ethic = "ethic_fanatic_egalitarian" ethic = "ethic_xenophile" }
-					species = event_target:humanSpecies
+					ethos = { ethic = "ethic_xenophile" ethic = "ethic_fanatic_egalitarian" }
+					species = event_target:allianceSpecies
 					flag = {
 						icon = { category = "BTR_flags" file = "BTR_Alliance01.dds" }
 						background = { category = "backgrounds" file = "00_solid.dds" }
 						colors = { "blue" "blue" "null" "null" }
 					}
-					ruler={
-						name="PRESCRIPTED_ruler_name_SystemsAlliance"
-						gender=male
-						portrait="alliance_male_01"
-						texture=0
-						hair=6
-						clothes=2
-						ruler_title="Prime Minister"
-						ruler_title_female="Prime Minister"
-						heir_title =""
-						heir_title_female =""
-					}
+					ship_prefix = "SSV"
 					effect = {
 						set_graphical_culture = mammalian_01
 						set_country_flag = systems_alliance
-						set_country_flag = custom_start_screen
 						save_global_event_target_as = systems_alliance
 					}
 				}
-				create_colony = { owner = event_target:systems_alliance species = event_target:humanSpecies ethos = owner }
+				set_owner =event_target:systems_alliance
 			}
-			set_capital = yes
+			
+			random_country = {
+				limit = { has_country_flag = systems_alliance }
+				save_global_event_target_as = systems_alliance
+				species = { save_global_event_target_as = allianceSpecies }
+			}
 			set_owner = event_target:systems_alliance
-			clear_deposits = yes
-			generate_earth_deposits_and_blockers = yes 
-			generate_start_buildings_and_districts = yes
 			generate_start_pops = yes
+			generate_start_buildings_and_districts = yes
+			btr_spawn_starbase = yes
+			set_name = "Earth"	
 		}
 
 		moon = {

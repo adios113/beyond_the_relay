@@ -7,7 +7,7 @@
 
 
 portraits = { 
-																# The name of the portrait, common/species_classes pointing towards it.
+																
 		alliance_female_01 = { 
 			entity = "portrait_human_female_01_entity" 
 			clothes_selector = "alliance_female_clothes_01" 
